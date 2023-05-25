@@ -1,0 +1,17 @@
+{
+    "options": [
+        {
+            "value": "Sample API 1",
+            "label": "Sample API 1"
+        },
+        {
+            "value": "Sample API 2",
+            "label": "Sample API 2"
+        },
+        {
+            "value": "Sample API 3",
+            "label": "Sample API 3"
+        }
+    ]
+}
+

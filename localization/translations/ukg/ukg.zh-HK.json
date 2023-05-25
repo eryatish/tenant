@@ -1,0 +1,771 @@
+{
+  "BANNER": {
+    "IMPORTANT": {
+      "description": "Aria-label for default important icon",
+      "message": "重要"
+    },
+    "INFO": {
+      "description": "Aria-label for default info icon",
+      "message": "資訊"
+    },
+    "SUCCESS": {
+      "description": "Aria-label for default success icon",
+      "message": "成功"
+    },
+    "WARNING": {
+      "description": "Aria-label for default warning icon",
+      "message": "警告"
+    }
+  },
+  "CALENDAR": {
+    "CURRENT_DAY": {
+      "description": "Text for tooltip shown when a user hovers over the calendar day which is the same as 'Today'",
+      "message": "目前日期"
+    },
+    "END_DATE_ARIA_LABEL": {
+      "description": "Aria label details for selected end date",
+      "message": "，結束日期"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Label for the calendar month",
+      "message": "月"
+    },
+    "MONTH_SELECTOR_TOOLTIP": {
+      "description": "Text for tooltip shown when a user hovers over the control used to select the month, within the datepicker component/control",
+      "message": "選擇月份"
+    },
+    "NEXT_MONTH_ARIA_LABEL": {
+      "description": "Label for the calendar next month",
+      "message": "下個月，{{monthYear}}"
+    },
+    "PREVIOUS_MONTH_ARIA_LABEL": {
+      "description": "Label for the calendar previous month",
+      "message": "上個月，{{monthYear}}"
+    },
+    "SELECTED_ARIA_LABEL": {
+      "description": "Aria label details for selected date",
+      "message": "，已選擇"
+    },
+    "SELECTED_DAY": {
+      "description": "Text for tooltip shown when a user hovers over the calenday which has been selected/choosen",
+      "message": "已選日期"
+    },
+    "START_DATE_ARIA_LABEL": {
+      "description": "Aria label details for selected start date",
+      "message": "，開始日期"
+    },
+    "WEEK_NUMBER": {
+      "description": "Week number calendar header",
+      "message": "週數",
+      "message_abbr": "週"
+    },
+    "WEEK_NUMBER_LABEL": {
+      "description": "Week number label",
+      "message": "第 {{number}} 週"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Label for the calendar year",
+      "message": "年"
+    },
+    "YEAR_SELECTOR_TOOLTIP": {
+      "description": "Text for tooltip shown when a user hovers over the control used to select the year, within the datepicker component/control",
+      "message": "選擇年份"
+    }
+  },
+  "CAROUSEL": {
+    "FIRST_SLIDE_MESSAGE": {
+      "description": "Text inserted into live aria region when reaching first slide",
+      "message": "此乃第一張投影片"
+    },
+    "LAST_SLIDE_MESSAGE": {
+      "description": "Text inserted into live aria region when reaching last slide",
+      "message": "此乃最後一張投影片"
+    },
+    "NEXT_SLIDE_MESSAGE": {
+      "description": "Aria label for next slide navigation button",
+      "message": "下一張投影片"
+    },
+    "PAGE_CHANGE": {
+      "description": "Text to be read when changing pages by navigation, {{index}} is replaced with exact number of slides",
+      "message": "目前是第 {{index}} 張投影片"
+    },
+    "PAGINATION_BULLET_MESSAGE": {
+      "description": "Aria label of each pagination bullet element. {{index}} is replaced with exact number of slides",
+      "message": "前往第 {{index}} 張投影片"
+    },
+    "PAGINATION_LABEL": {
+      "description": "Aria label for whole pagination element, {{count}} is replaced with exact number of slides",
+      "message_one": "此乃第 {{count}} 張投影片",
+      "message_other": "共有 {{count}} 張投影片"
+    },
+    "PREV_SLIDE_MESSAGE": {
+      "description": "Aria label for previous slide navigation button",
+      "message": "上一張投影片"
+    }
+  },
+  "CHECKBOX": {
+    "ARIA_LABEL": {
+      "description": "Aria label for checkbox icon",
+      "message": "剔選方格圖示"
+    }
+  },
+  "CHECKBOXGROUP": {
+    "ERROR": {
+      "description": "The text 'Required Selection' in checkbox-group",
+      "message": "必須選擇"
+    }
+  },
+  "DATA_TABLE": {
+    "DESELECT_ALL": {
+      "description": "Dropdown options when multiple pages - deselect",
+      "message": "取消全選"
+    },
+    "SELECTION_LABEL": {
+      "description": "Set the text in the selected label at header",
+      "message": " 已選擇"
+    },
+    "SELECT_ALL": {
+      "description": "Dropdown options when multiple pages - all",
+      "message": "全選"
+    },
+    "SELECT_ALL_ON_PAGE": {
+      "description": "Dropdown options when multiple pages - all on page",
+      "message": "此頁全選"
+    }
+  },
+  "DATE_INPUT_TEXT": {
+    "DAY_ARIA_LABEL": {
+      "description": "Label for the day input text",
+      "message": " 日"
+    },
+    "INPUT_ARIA_LABEL": {
+      "description": "Label for the date input text",
+      "message": "日期輸入"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Label for the month input text",
+      "message": "月"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Label for the year input text",
+      "message": "年"
+    }
+  },
+  "DATE_PICKER": {
+    "CLEAR_LABEL": {
+      "description": "Label for the date picker clear button",
+      "message": "清除"
+    },
+    "DATE_LABEL": {
+      "description": "Label for the date input in date picker",
+      "message": "日期"
+    },
+    "DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker date",
+      "message": "日期必須包含日子和月份。"
+    },
+    "DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker date",
+      "message": "日期必須包含日子和年份。"
+    },
+    "DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker start date",
+      "message": "日期必須包含日子。"
+    },
+    "DONE_DATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when a date is selected",
+      "message": "，所選日期為 {{date}}"
+    },
+    "DONE_ENDDATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when an end date is selected",
+      "message": "，所選結束日期為 {{date}}"
+    },
+    "DONE_LABEL": {
+      "description": "Label for the done button in date range picker",
+      "message": "完成"
+    },
+    "DONE_NO_DATE_LABEL": {
+      "description": "Label for the date picker's done button when no date is selected",
+      "message": "，未選擇日期"
+    },
+    "DONE_STARTDATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when a start date is selected",
+      "message": "，所選開始日期為 {{date}}"
+    },
+    "END_DATE_LABEL": {
+      "description": "Label for the end date in date range picker",
+      "message": "結束日期"
+    },
+    "INVALID_DATE": {
+      "description": "Error for when date is invalid",
+      "message": "日期必須為真實日期。"
+    },
+    "INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker start date",
+      "message": "日期年份必須為 4 位數。"
+    },
+    "MISSING_VALUE": {
+      "description": "Error for when date is msising",
+      "message": "日期必填。"
+    },
+    "MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker date",
+      "message": "日期必須包含月份和年份。"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Label for the date picker month",
+      "message": "月"
+    },
+    "MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker date",
+      "message": "日期必須包含月份。"
+    },
+    "MONTH_NAVIGATION_ARIA_LABEL": {
+      "description": "Label for the date picker month navigation toolbar button group",
+      "message": "月份導航按鈕組"
+    },
+    "MONTH_YEAR_ARIA_LABEL": {
+      "description": "Label for the date picker month and year toolbar button group",
+      "message": "月份和年份按鈕組"
+    },
+    "OPEN_CALENDAR": {
+      "description": "Label for the date picker's button",
+      "message": "選擇日期"
+    },
+    "START_DATE_LABEL": {
+      "description": "Label for the start date in date range picker",
+      "message": "開始日期"
+    },
+    "TODAY_LABEL": {
+      "description": "Label for the Today button in date range picker",
+      "message": "今天"
+    },
+    "TODAY_TOOLTIP": {
+      "description": "Text for tooltip shown when the user hovers over the button, which will switch the datepicker to displaying the month with today's date in it",
+      "message": "跳至今天"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Label for the date picker year",
+      "message": "年"
+    },
+    "YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker date",
+      "message": "日期必須包含年份。"
+    }
+  },
+  "DATE_RANGE_PICKER": {
+    "END_DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker end date",
+      "message": "結束日期必須包含日子和月份。"
+    },
+    "END_DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker end date",
+      "message": "結束日期必須包含日子和年份。"
+    },
+    "END_DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker end date",
+      "message": "結束日期必須包含日子。"
+    },
+    "END_END_DATE_BEFORE_START_DATE": {
+      "description": "Error message for when the selected end date is before the selected start date",
+      "message": "結束日期必須與 {{- start_date}} 相同或更晚。"
+    },
+    "END_INPUT_ARIA_LABEL": {
+      "description": "Label for the date range picker end date",
+      "message": "結束日期"
+    },
+    "END_INVALID_DATE": {
+      "description": "Error message for invalid date format on the date range picker end date",
+      "message": "結束日期必須為真實日期。"
+    },
+    "END_INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker end date",
+      "message": "結束日期年份必須為 4 位數。"
+    },
+    "END_MISSING_VALUE": {
+      "description": "Error message for when the end date is missing a required value",
+      "message": "結束日期必填"
+    },
+    "END_MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker end date",
+      "message": "結束日期必須包含月份和年份。"
+    },
+    "END_MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker end date",
+      "message": "結束日期必須包含月份。"
+    },
+    "END_YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker end date",
+      "message": "結束日期必須包含年份。"
+    },
+    "OPEN_CALENDAR": {
+      "description": "Label for the date range picker's button",
+      "message": "選擇日期範圍"
+    },
+    "START_DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker start date",
+      "message": "開始日期必須包含日子和月份。"
+    },
+    "START_DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker start date",
+      "message": "開始日期必須包含日子和年份。"
+    },
+    "START_DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker start date",
+      "message": "開始日期必須包含日子。"
+    },
+    "START_INPUT_ARIA_LABEL": {
+      "description": "Label for the date range picker start date",
+      "message": "開始日期"
+    },
+    "START_INVALID_DATE": {
+      "description": "Error message for invalid date format on the date range picker start date",
+      "message": "開始日期必須為真實日期。"
+    },
+    "START_INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker start date",
+      "message": "開始日期年份必須為 4 位數。"
+    },
+    "START_MISSING_VALUE": {
+      "description": "Error message for when the start date is missing a required value",
+      "message": "開始日期必填"
+    },
+    "START_MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker start date",
+      "message": "開始日期必須包含月份和年份。"
+    },
+    "START_MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker start date",
+      "message": "開始日期必須包含月份。"
+    },
+    "START_YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker start date",
+      "message": "開始日期必須包含年份。"
+    }
+  },
+  "DIALOG": {
+    "CLOSE_BUTTON_TEXT": {
+      "description": "Tool tip text for close button on Header",
+      "message": "關閉"
+    }
+  },
+  "DOCUMENT_VIEWER": {
+    "CONTENT": {
+      "description": "Aria label for the content area",
+      "message": "文件內容"
+    },
+    "DOWNLOAD_LABEL": {
+      "description": "Aria label for the download button",
+      "message": "下載"
+    },
+    "EXTENDED_DESCRIPTION": {
+      "description": "Label to guide screen reader users towards extended description",
+      "message": "下方展開說明"
+    },
+    "FOCUSED_PAGE_NUMBER_LABEL": {
+      "description": "Aria label for the focused page number input",
+      "message": "目前頁面"
+    },
+    "FULL_SCREEN_LABEL": {
+      "description": "Aria label for the full screen button",
+      "message": "全螢幕"
+    },
+    "NEXT_PAGE_LABEL": {
+      "description": "Aria label for the next page button",
+      "message": "下一頁"
+    },
+    "OF": {
+      "description": "Preposition between focused page number input and total number of pages",
+      "message": "/"
+    },
+    "PAGE": {
+      "description": "Word for page in alternative text",
+      "message": "頁碼"
+    },
+    "PREV_PAGE_LABEL": {
+      "description": "Aria label for the previous page button",
+      "message": "上一頁"
+    },
+    "PRINT_LABEL": {
+      "description": "Aria label for the print button",
+      "message": "列印"
+    },
+    "SEND_LABEL": {
+      "description": "Aria label for the send button",
+      "message": "傳送"
+    },
+    "SIDEBAR_LABEL": {
+      "description": "Aria label for the toggle button of the document's thumbnails list",
+      "message": "切換文件縮略圖清單"
+    },
+    "SUMMARY": {
+      "description": "Aria label for the sidebar toolbar",
+      "message": "文件摘要"
+    },
+    "ZOOM_IN_LABEL": {
+      "description": "Aria label for the zoom in button",
+      "message": "放大"
+    },
+    "ZOOM_LEVEL_LABEL": {
+      "description": "Aria label for the zoom level select",
+      "message": "縮放等級"
+    },
+    "ZOOM_OUT_LABEL": {
+      "description": "Aria label for the zoom out button",
+      "message": "縮小"
+    }
+  },
+  "DROPZONE": {
+    "BROWSE_FILES": {
+      "a11y_one": "瀏覽檔案，{{count}} 個檔案",
+      "a11y_other": "瀏覽檔案，{{count}} 個檔案",
+      "a11y_zero": "瀏覽檔案",
+      "description": "Browse files button label ",
+      "message": "瀏覽檔案"
+    },
+    "DISABLED": {
+      "description": "Label for the disabled icon",
+      "message": "已停用"
+    },
+    "DRAG_AND_DROP": {
+      "description": "Invit to drag and drop or [browse a file]",
+      "message": "拖放或"
+    },
+    "DROP_FILES": {
+      "description": "Invit to drop files",
+      "message": "拖放檔案"
+    },
+    "FILES_ADDED": {
+      "description": "Vocalised message when several files are added",
+      "message": "{{count}} 個檔案已新增。"
+    },
+    "FILES_CLEARED": {
+      "description": "Vocalized message when files are cleared",
+      "message": "檔案已清除"
+    },
+    "FILE_ADDED": {
+      "description": "Vocalised message when a file is added",
+      "message": "{{file}} 已新增。"
+    },
+    "READ_ONLY": {
+      "description": "Label for the read only icon",
+      "message": "唯讀"
+    }
+  },
+  "FILE_SIZE_UNITS": {
+    "BIT_UNIT": {
+      "description": "Bit unit for file size",
+      "message_one": "位元",
+      "message_other": "位元"
+    },
+    "BYTE_UNIT": {
+      "description": "Byte unit for file size",
+      "message_one": "字節",
+      "message_other": "字節"
+    },
+    "GB_UNIT": {
+      "description": "Gigabyte unit for file size",
+      "message_abbr": "GB",
+      "message_label_one": "千兆字節",
+      "message_label_other": "千兆字節",
+      "message_one": "千兆字節",
+      "message_other": "千兆字節"
+    },
+    "KB_UNIT": {
+      "description": "Kilobyte unit for file size",
+      "message_abbr": "KB",
+      "message_label_one": "千字節",
+      "message_label_other": "千字節",
+      "message_one": "千字節",
+      "message_other": "千字節"
+    },
+    "MB_UNIT": {
+      "description": "Megabyte unit for file size",
+      "message_abbr": "MB",
+      "message_label_one": "兆字節",
+      "message_label_other": "兆字節",
+      "message_one": "兆字節",
+      "message_other": "兆字節"
+    }
+  },
+  "INPUT": {
+    "DONE_BUTTON_LABEL": {
+      "description": "Label for input done",
+      "message": "完成"
+    },
+    "TODAY_BUTTON_LABEL": {
+      "description": "Label for input today label",
+      "message": "今天"
+    }
+  },
+  "MENU_CONTAINER": {
+    "OPTIONS_STRING": {
+      "description": "Options string to display number of options in menu.",
+      "message_one": "{{count}} 個選項",
+      "message_other": "{{count}} 個選項"
+    },
+    "POPOVER_LABEL": {
+      "message": "建議"
+    }
+  },
+  "NAVIGATION": {
+    "ALPHABETICAL_SORTING": {
+      "description": "Aria Label for alphabetical sorting",
+      "message": "按字母順序排序"
+    },
+    "ARIA_LABEL": {
+      "description": "Aria Label for main navigation drawer",
+      "message": "側邊選單"
+    },
+    "BACK_BUTTON_TEXT": {
+      "description": "Tool tip text for back button on Header",
+      "message": "返回"
+    },
+    "BUTTON_TEXT": {
+      "description": "Tool tip text for menu button",
+      "message": "側邊導航選單"
+    },
+    "CLOSE_BUTTON_TEXT": {
+      "description": "Tool tip text for close button on Header",
+      "message": "關閉"
+    },
+    "CLOSE_NAVIGATION": {
+      "description": "Close the navigation drawer",
+      "message": "關閉選單"
+    },
+    "COLLAPSE_NAVIGATION": {
+      "description": "Collapse all accordion items in the navigation menu",
+      "message": "全部收起"
+    },
+    "COMPACT_VIEW_NAVIGATION": {
+      "description": "layout option for the menu compact view",
+      "message": "精簡檢視"
+    },
+    "DEFAULT_SORTING": {
+      "description": "Aria Label for default sorting",
+      "message": "預設排序"
+    },
+    "EXPAND_NAVIGATION": {
+      "description": "Expand all accordion items in the navigation menu",
+      "message": "全部擴展"
+    },
+    "HOVER_OFF_NAVIGATION": {
+      "description": "hover option for navigation tabs (off)",
+      "message": "關閉懸浮索引標籤"
+    },
+    "HOVER_ON_NAVIGATION": {
+      "description": "hover option for navigation tabs (on)",
+      "message": "開啟懸浮索引標籤"
+    },
+    "NAVIGATION_ITEMS": {
+      "description": "label for the options menu to modify the navigation items",
+      "message": "選單項目"
+    },
+    "NAVIGATION_LAYOUT": {
+      "description": "label for the options menu to modify the navigation layout",
+      "message": "選單版面佈置"
+    },
+    "NAVIGATION_OPTIONS": {
+      "description": "the options menu for the side navigation",
+      "message": "選單選項"
+    },
+    "PIN_NAVIGATION": {
+      "description": "Pin the navigation menu",
+      "message": "釘選"
+    },
+    "STANDARD_VIEW_NAVIGATION": {
+      "description": "layout option for the menu standard view",
+      "message": "標準檢視"
+    },
+    "UNPIN_NAVIGATION": {
+      "description": "UnPin the navigation menu",
+      "message": "取消釘選"
+    }
+  },
+  "PAGINATOR": {
+    "ARIALABEL": {
+      "description": "paginator",
+      "message": "分頁器"
+    },
+    "FIRST_PAGE": {
+      "description": "the aria label for the first page button",
+      "message": "第一頁"
+    },
+    "LAST_PAGE": {
+      "description": "the aria label for the last page button",
+      "message": "最後一頁"
+    },
+    "MENU_ARIALABEL": {
+      "description": "paginator menu",
+      "message": "分頁器選單"
+    },
+    "NEXT_PAGE": {
+      "description": "the aria label for the next page button",
+      "message": "下一頁"
+    },
+    "OF": {
+      "description": "the text 'of' in paginator",
+      "message": "/"
+    },
+    "PAGE_MENU_ARIALABEL": {
+      "description": "page menu",
+      "message": "頁面選單"
+    },
+    "PAGE_OF": {
+      "description": "the text 'Page {currentPage} of {totalPages}' in paginator",
+      "message": "第 {{currentPage}} 頁，共 {{totalPages}} 頁"
+    },
+    "PER_PAGE": {
+      "description": "the text 'per page' in paginator",
+      "message": "每頁"
+    },
+    "PREV_PAGE": {
+      "description": "the aria label for the previous page button",
+      "message": "上一頁"
+    },
+    "ROW_OPTIONS": {
+      "description": "the aria label for the row options button",
+      "message": "列選項"
+    },
+    "SHOWING_ALL": {
+      "description": "the text 'Showing all' in paginator",
+      "message": "顯示全部"
+    },
+    "TOTAL_ITEMS": {
+      "description": "the text '{{totalItems}} items' in paginator",
+      "message": "{{totalItems}} {{itemsLabel}}"
+    }
+  },
+  "PROGRESS_LINEAR": {
+    "CANCEL": {
+      "description": "Label for progress linear cancel done",
+      "message": "取消"
+    }
+  },
+  "RADIOGROUP": {
+    "ERROR": {
+      "description": "The text 'Required Selection' in radio-group",
+      "message": "必須選擇"
+    }
+  },
+  "SEARCH": {
+    "CLEAR": {
+      "description": "Clear button and tooltip",
+      "message": "清除"
+    },
+    "PLACEHOLDER": {
+      "description": "Placeholder for search component",
+      "message": "搜尋"
+    }
+  },
+  "SEARCHBAR": {
+    "SEARCH": {
+      "description": "Placeholder text for searchbar",
+      "message": "搜尋"
+    }
+  },
+  "SELECT": {
+    "CANCEL_STRING": {
+      "description": "Select label for cancel button",
+      "message": "取消"
+    },
+    "MULTI_OVERFLOW": {
+      "description": "Message to display next to the count of selected items. This is used when the select control is selecting multiple options and there is not enough room to display all of the selections",
+      "message": "已選擇"
+    },
+    "NO_OPTIONS_STRING": {
+      "description": "Live region string for when no options are found on select or menu",
+      "message": "找不到選項。"
+    },
+    "OK_STRING": {
+      "description": "Select label for OK button",
+      "message": "完成"
+    },
+    "SEARCH_ARIA_LABEL": {
+      "description": "Label for search input",
+      "message": "在下方選項清單中搜尋"
+    }
+  },
+  "SKIP_TO_MAIN": {
+    "TEXT": {
+      "description": "skip to main button text",
+      "message": "略過至主要內容"
+    }
+  },
+  "TASK_DRAWER": {
+    "APPLY_BUTTON_ARIA_LABEL": {
+      "description": "Aria label for task drawer apply button",
+      "message": "應用"
+    },
+    "APPLY_BUTTON_TEXT": {
+      "description": "Label for task drawer apply button",
+      "message": "應用"
+    },
+    "RESET_BUTTON_ARIA_LABEL": {
+      "description": "Aria label for task drawer reset button",
+      "message": "重設"
+    },
+    "RESET_BUTTON_TEXT": {
+      "description": "Label for task drawer reset button",
+      "message": "重設"
+    }
+  },
+  "TOOLBAR": {
+    "BUTTON_GROUP_LABEL": {
+      "description": "Button group label for toolbar",
+      "message": "工具欄按鈕組"
+    },
+    "TOOLTIP_TEXT": {
+      "description": "Toolbar responsive button group overflow menu tooltip text",
+      "message": "更多"
+    }
+  },
+  "TREE": {
+    "LINK_INDICATOR": {
+      "description": "Label to mark if a tree item is a link for screenreader users",
+      "message": "（連結）"
+    }
+  },
+  "UPLOAD": {
+    "CLEAR": {
+      "a11y": "清除：{{file}}",
+      "description": "Clear button label and tooltip",
+      "message": "清除"
+    },
+    "DELETE": {
+      "a11y": "刪除：{{file}}",
+      "description": "Delete button label and tooltip",
+      "message": "刪除"
+    },
+    "FILE_PROGRESSING": {
+      "description": "Progressing message",
+      "message": "進行中！"
+    },
+    "FILE_TOO_BIG": {
+      "description": "Message to signal is bigger than the maximum limit size",
+      "message": "所選檔案必須小於 {{count}} {{- unit}}"
+    },
+    "FILE_TYPE_ERROR": {
+      "description": "Message to signal the file type is not allowed",
+      "message": "檔案類型 {{type}} 不獲允許。所選檔案必須為：{{accept}}。"
+    },
+    "MAX_NUMBER_OF_FILES_PASSED": {
+      "description": "Error message to signal the maximum number of file have been passed",
+      "message_one": "僅可選擇最多 {{count}} 個檔案。",
+      "message_other": "僅可選擇最多 {{count}} 個檔案。"
+    },
+    "MAX_NUMBER_OF_FILES_REACHED": {
+      "description": "Message to signal the maximum number of file is reached",
+      "message": "已達到檔案數量上限"
+    },
+    "RETRY": {
+      "a11y": "重試：{{file}}",
+      "description": "Retry button label and tooltip",
+      "message": "重試"
+    },
+    "UPLOAD_FAIL": {
+      "description": "Message to signal a fail during upload",
+      "message": "無法處理所選檔案，按重試按鈕再試一次。"
+    }
+  }
+}

@@ -1,0 +1,792 @@
+{
+  "BANNER": {
+    "IMPORTANT": {
+      "description": "Aria-label for default important icon",
+      "message": "Important"
+    },
+    "INFO": {
+      "description": "Aria-label for default info icon",
+      "message": "Information"
+    },
+    "SUCCESS": {
+      "description": "Aria-label for default success icon",
+      "message": "Success"
+    },
+    "WARNING": {
+      "description": "Aria-label for default warning icon",
+      "message": "Warning"
+    }
+  },
+  "CALENDAR": {
+    "CURRENT_DAY": {
+      "description": "Text for tooltip shown when a user hovers over the calendar day which is the same as 'Today'",
+      "message": "Current day"
+    },
+    "END_DATE_ARIA_LABEL": {
+      "description": "Aria label details for selected end date",
+      "message": ", end date"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Label for the calendar month",
+      "message": "Month"
+    },
+    "MONTH_SELECTOR_TOOLTIP": {
+      "description": "Text for tooltip shown when a user hovers over the control used to select the month, within the datepicker component/control",
+      "message": "Choose month"
+    },
+    "NEXT_MONTH_ARIA_LABEL": {
+      "description": "Label for the next calendar month",
+      "message": "Next month"
+    },
+    "PREVIOUS_MONTH_ARIA_LABEL": {
+      "description": "Label for the previous calendar month",
+      "message": "Previous month"
+    },
+    "SELECTED_ARIA_LABEL": {
+      "description": "Aria label details for selected date",
+      "message": ", selected"
+    },
+    "SELECTED_DAY": {
+      "description": "Text for tooltip shown when a user hovers over the calenday which has been selected/choosen",
+      "message": "Selected day"
+    },
+    "START_DATE_ARIA_LABEL": {
+      "description": "Aria label details for selected start date",
+      "message": ", start date"
+    },
+    "WEEK_NUMBER": {
+      "description": "Week number calendar header",
+      "message": "Week number",
+      "message_abbr": "W"
+    },
+    "WEEK_NUMBER_LABEL": {
+      "description": "Week number label",
+      "message": "Week {{number}}"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Label for the calendar month",
+      "message": "Year"
+    },
+    "YEAR_SELECTOR_TOOLTIP": {
+      "description": "Text for tooltip shown when a user hovers over the control used to select the year, within the datepicker component/control",
+      "message": "Choose year"
+    }
+  },
+  "CAROUSEL": {
+    "FIRST_SLIDE_MESSAGE": {
+      "description": "Text inserted into live aria region when reaching first slide",
+      "message": "This is the first slide"
+    },
+    "LAST_SLIDE_MESSAGE": {
+      "description": "Text inserted into live aria region when reaching last slide",
+      "message": "This is the last slide"
+    },
+    "NEXT_SLIDE_MESSAGE": {
+      "description": "Aria label for next slide navigation button",
+      "message": "Next slide"
+    },
+    "PAGE_CHANGE": {
+      "description": "Text to be read when changing pages by navigation, {{index}} is replaced with exact number of slides",
+      "message": "Currently on slide {{index}}"
+    },
+    "PAGINATION_BULLET_MESSAGE": {
+      "description": "Aria label of each pagination bullet element. {{index}} is replaced with exact number of slides",
+      "message": "Go to slide {{index}}"
+    },
+    "PAGINATION_LABEL": {
+      "description": "Aria label used to tell users using assistive technology which slide they are on and how many slides exist in the control",
+      "message": "There are {{index}} number of slides",
+      "message_one": "There is {{count}} slide",
+      "message_other": "There are {{count}} slides"
+    },
+    "PREV_SLIDE_MESSAGE": {
+      "description": "Aria label for previous slide navigation button",
+      "message": "Previous slide"
+    },
+    "description": "You can use a carousel in scenarios such as slideshows, galleries, onboarding flows, and presentations."
+  },
+  "CHECKBOX": {
+    "ARIA_LABEL": {
+      "description": "Aria label for checkbox icon",
+      "message": "Checkbox icon"
+    }
+  },
+  "CHECKBOXGROUP": {
+    "ERROR": {
+      "description": "The text 'Required selection' in checkbox-group",
+      "message": "Required selection"
+    }
+  },
+  "DATA_TABLE": {
+    "DESELECT_ALL": {
+      "description": "Dropdown options when multiple pages – deselect",
+      "message": "Deselect all"
+    },
+    "SELECTION_LABEL": {
+      "description": "Set the text in the selected label at header",
+      "message": "Selected"
+    },
+    "SELECT_ALL": {
+      "description": "Dropdown options when multiple pages – all",
+      "message": "Select all"
+    },
+    "SELECT_ALL_ON_PAGE": {
+      "description": "Dropdown options when multiple pages – all on page",
+      "message": "Select all on this page"
+    }
+  },
+  "DATE_INPUT_TEXT": {
+    "DAY_ARIA_LABEL": {
+      "description": "Label for the day input text",
+      "message": "Day"
+    },
+    "INPUT_ARIA_LABEL": {
+      "description": "Label for the date input text",
+      "message": "Date input"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Label for the month input text",
+      "message": "Month"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Label for the year input text",
+      "message": "Year"
+    }
+  },
+  "DATE_PICKER": {
+    "CLEAR_LABEL": {
+      "description": "Label for the date picker clear button",
+      "message": "Clear"
+    },
+    "DATE_LABEL": {
+      "description": "Label for the date input in date picker",
+      "message": "Date"
+    },
+    "DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker date",
+      "message": "The date must include a day and a month."
+    },
+    "DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker date",
+      "message": "The date must include a day and a year."
+    },
+    "DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker start date",
+      "message": "The date must include a day."
+    },
+    "DONE_DATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when a date is selected. Appends to the label for the button. Example 'Done, selected date is 01/01/2000'",
+      "message": ", date selected is {{date}}"
+    },
+    "DONE_ENDDATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when an end date is selected. Appends to the label for the button. Example 'Done, selected start date is January 15, 2020, selected end date is January 25, 2020'",
+      "message": ", selected end date is {{date}}"
+    },
+    "DONE_LABEL": {
+      "description": "Label for the done button in date range picker",
+      "message": "Done"
+    },
+    "DONE_NO_DATE_LABEL": {
+      "description": "Label for the date picker's done button when no date is selected. Example 'Done, no date selected'",
+      "message": ", no date selected"
+    },
+    "DONE_STARTDATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when a start date is selected. Example 'Done, selected start date is January 15, 2020",
+      "message": ", selected start date is {{date}}"
+    },
+    "END_DATE_LABEL": {
+      "description": "Label for the end date in date range picker",
+      "message": "End Date"
+    },
+    "INVALID_DATE": {
+      "description": "Error for when date is invalid. Happens when the given date is out of range or formatted incorrectly.",
+      "message": "The date must be a valid date."
+    },
+    "INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker start date",
+      "message": "The date year must have 4 digits."
+    },
+    "MISSING_VALUE": {
+      "description": "Error for when date is missing. Appears if user attempts to submit without entering a date.",
+      "message": "The date is required."
+    },
+    "MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker date",
+      "message": "The date must include a month and a year."
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Label for the date picker month",
+      "message": "Month"
+    },
+    "MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker date",
+      "message": "The date must include a month."
+    },
+    "MONTH_NAVIGATION_ARIA_LABEL": {
+      "description": "Label for the date picker month navigation toolbar button group. This group contains the select controls allowing the user to navigate to either the previous or next month within the date picker",
+      "message": "Month navigation button group"
+    },
+    "MONTH_YEAR_ARIA_LABEL": {
+      "description": "Label for the date picker month toolbar button group. This group contains the select controls allowing the user to change the month or year within the date picker",
+      "message": "Month and year button group"
+    },
+    "NEXT_MONTH_ARIA_LABEL": {
+      "description": "Label for the date picker next month",
+      "message": "Next month"
+    },
+    "OPEN_CALENDAR": {
+      "description": "Label for the date picker's button. This is shown as an calendar icon.",
+      "message": "Choose date"
+    },
+    "PREVIOUS_MONTH_ARIA_LABEL": {
+      "description": "Label for the date picker previous month",
+      "message": "Previous month"
+    },
+    "START_DATE_LABEL": {
+      "description": "Label for the start date in date range picker",
+      "message": "Start Date"
+    },
+    "TODAY_LABEL": {
+      "description": "Label for the Today button in date range picker",
+      "message": "Today"
+    },
+    "TODAY_TOOLTIP": {
+      "description": "Text for tooltip shown when the user hovers over the button, which will switch the datepicker to displaying the month with today's date in it",
+      "message": "Jump to today"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Label for the date picker year",
+      "message": "Year"
+    },
+    "YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker date",
+      "message": "The date must include a year."
+    }
+  },
+  "DATE_RANGE_PICKER": {
+    "END_DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker end date. Similar to other date picker messaging",
+      "message": "The end date must include a day and a month."
+    },
+    "END_DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker end date. Similar to other date picker messaging",
+      "message": "The end date must include a day and a year."
+    },
+    "END_DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker end date. Similar to other date picker messaging",
+      "message": "The end date must include a day."
+    },
+    "END_END_DATE_BEFORE_START_DATE": {
+      "description": "Error message for when the selected end date is before the selected start date",
+      "message": "The end date must be the same as or later than {{- start_date}}."
+    },
+    "END_INPUT_ARIA_LABEL": {
+      "description": "Label for the date range picker end date",
+      "message": "End date"
+    },
+    "END_INVALID_DATE": {
+      "description": "Error message for invalid date format on the date range picker end date. Similar to other date picker messaging",
+      "message": "The end date must be a real date."
+    },
+    "END_INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker end date. Similar to other date picker messaging",
+      "message": "The end date year must have 4 digits."
+    },
+    "END_MISSING_VALUE": {
+      "description": "Error message for when the end date is missing a required value. This type of message is used for any required field.",
+      "message": "End date is required"
+    },
+    "END_MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker end date. Similar to other date picker messaging",
+      "message": "The end date must include a month and a year."
+    },
+    "END_MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker end date. Similar to other date picker messaging",
+      "message": "The end date must include a month."
+    },
+    "END_YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker end date. Similar to other date picker messaging",
+      "message": "The end date must include a year."
+    },
+    "OPEN_CALENDAR": {
+      "description": "Label for the date range picker's button. Similar to the label for the single date picker open button.",
+      "message": "Choose date range"
+    },
+    "START_DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker start date. Similar to other date picker messaging",
+      "message": "The start date must include a day and a month."
+    },
+    "START_DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker start date. Similar to other date picker messaging",
+      "message": "The start date must include a day and a year."
+    },
+    "START_DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker start date. Similar to other date picker messaging",
+      "message": "The start date must include a day."
+    },
+    "START_INPUT_ARIA_LABEL": {
+      "description": "Label for the date range picker starting date",
+      "message": "Starting date"
+    },
+    "START_INVALID_DATE": {
+      "description": "Error message for invalid date format on the date range picker start date. Similar to other date picker messaging",
+      "message": "The start date must be a real date."
+    },
+    "START_INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker start date. Similar to other date picker messaging",
+      "message": "The start date year must have 4 digits."
+    },
+    "START_MISSING_VALUE": {
+      "description": "Error message for when the start date is missing a required value. Similar to other date picker messaging",
+      "message": "Start date is required"
+    },
+    "START_MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker start date. Similar to other date picker messaging",
+      "message": "The start date must include a month and a year."
+    },
+    "START_MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker start date. Similar to other date picker messaging",
+      "message": "The start date must include a month."
+    },
+    "START_YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker start date. Similar to other date picker messaging",
+      "message": "The start date must include a year."
+    }
+  },
+  "DIALOG": {
+    "CLOSE_BUTTON_TEXT": {
+      "description": "Tool tip text for close button on Header",
+      "message": "Close"
+    }
+  },
+  "DOCUMENT_VIEWER": {
+    "CONTENT": {
+      "description": "Aria label for the content area",
+      "message": "Document content"
+    },
+    "DOWNLOAD_LABEL": {
+      "description": "Aria label for the download button",
+      "message": "Download"
+    },
+    "EXTENDED_DESCRIPTION": {
+      "description": "Label to guide screen reader users towards extended description",
+      "message": "Extended description below"
+    },
+    "FOCUSED_PAGE_NUMBER_LABEL": {
+      "description": "Aria label for the focused page number input",
+      "message": "Current page"
+    },
+    "FULL_SCREEN_LABEL": {
+      "description": "Aria label for the full screen button",
+      "message": "Full screen"
+    },
+    "NEXT_PAGE_LABEL": {
+      "description": "Aria label for the next page button",
+      "message": "Next page"
+    },
+    "OF": {
+      "description": "Preposition between focused page number input and total number of pages",
+      "message": "of"
+    },
+    "PAGE": {
+      "description": "Word for page in alternative text",
+      "message": "Page"
+    },
+    "PREV_PAGE_LABEL": {
+      "description": "Aria label for the previous page button",
+      "message": "Previous page"
+    },
+    "PRINT_LABEL": {
+      "description": "Aria label for the print button",
+      "message": "Print"
+    },
+    "SEND_LABEL": {
+      "description": "Aria label for the send button",
+      "message": "Send"
+    },
+    "SIDEBAR_LABEL": {
+      "description": "Aria label for the toggle button of the document's thumbnails list",
+      "message": "Toggle document's thumbnails list"
+    },
+    "SUMMARY": {
+      "description": "Aria label for the sidebar toolbar",
+      "message": "Document summary"
+    },
+    "ZOOM_IN_LABEL": {
+      "description": "Aria label for the zoom in button",
+      "message": "Zoom in"
+    },
+    "ZOOM_LEVEL_LABEL": {
+      "description": "Aria label for the zoom level select",
+      "message": "Zoom level"
+    },
+    "ZOOM_OUT_LABEL": {
+      "description": "Aria label for the zoom out button",
+      "message": "Zoom out"
+    }
+  },
+  "DROPZONE": {
+    "BROWSE_FILES": {
+      "a11y_one": "Browse files, {{count}} file",
+      "a11y_other": "Browse files, {{count}} files",
+      "a11y_zero": "Browse files",
+      "description": "Browse files button label ",
+      "message": "browse files"
+    },
+    "DISABLED": {
+      "description": "Label for the calendar month",
+      "message": "Disabled"
+    },
+    "DRAG_AND_DROP": {
+      "description": "Invit to drag and drop or [browse a file]",
+      "message": "Drag and drop or"
+    },
+    "DROP_FILES": {
+      "description": "Invit to drop files",
+      "message": "Drop files"
+    },
+    "FILES_ADDED": {
+      "description": "Vocalised message when several files are added",
+      "message": "{{count}} files, added."
+    },
+    "FILES_CLEARED": {
+      "description": "Vocalised message when files are cleared",
+      "message": "Files cleared"
+    },
+    "FILE_ADDED": {
+      "description": "Vocalised message when a file is added",
+      "message": "{{file}}, added."
+    },
+    "READ_ONLY": {
+      "description": "Label for the read only icon",
+      "message": "Read only"
+    }
+  },
+  "FILE_SIZE_UNITS": {
+    "BIT_UNIT": {
+      "description": "Bit unit for file size",
+      "message_one": "bit",
+      "message_other": "bits"
+    },
+    "BYTE_UNIT": {
+      "description": "Byte unit for file size",
+      "message_one": "byte",
+      "message_other": "bytes"
+    },
+    "GB_UNIT": {
+      "description": "Gigabyte unit for file size",
+      "message_abbr": "GB",
+      "message_label_one": "Gigabyte",
+      "message_label_other": "Gigabytes",
+      "message_one": "gigabyte",
+      "message_other": "gigabytes"
+    },
+    "KB_UNIT": {
+      "description": "Kilobyte unit for file size",
+      "message_abbr": "KB",
+      "message_label_one": "Kilobyte",
+      "message_label_other": "Kilobytes",
+      "message_one": "kilobyte",
+      "message_other": "kilobytes"
+    },
+    "MB_UNIT": {
+      "description": "Megabyte unit for file size",
+      "message_abbr": "MB",
+      "message_label_one": "Megabyte",
+      "message_label_other": "Megabytes",
+      "message_one": "megabyte",
+      "message_other": "megabytes"
+    }
+  },
+  "INPUT": {
+    "DONE_BUTTON_LABEL": {
+      "description": "Label for input done",
+      "message": "Done"
+    },
+    "TODAY_BUTTON_LABEL": {
+      "description": "Label for input today label",
+      "message": "Today"
+    }
+  },
+  "MENU_CONTAINER": {
+    "OPTIONS_STRING": {
+      "description": "Options string to display number of options in menu.",
+      "message_one": "{{count}} option",
+      "message_other": "{{count}} options"
+    },
+    "POPOVER_LABEL": {
+      "description": "Aria label describing the menu of options shown, after a user types in text into the autocomplete combobox",
+      "message": "Suggestions"
+    }
+  },
+  "NAVIGATION": {
+    "ALPHABETICAL_SORTING": {
+      "description": "Aria Label for alphabetical sorting in the main navigation menu options. This option will allow users to sort the items within the (main) left nav alphabetically",
+      "message": "Alphabetical sorting"
+    },
+    "ARIA_LABEL": {
+      "description": "Aria Label for main navigation drawer",
+      "message": "Side Menu"
+    },
+    "BACK_BUTTON_TEXT": {
+      "description": "Tool tip text for back button on Header",
+      "message": "Back"
+    },
+    "BUTTON_TEXT": {
+      "description": "Tool tip text for menu button",
+      "message": "Side Navigation Menu"
+    },
+    "CLOSE_BUTTON_TEXT": {
+      "description": "Tool tip text for close button on Header",
+      "message": "Close"
+    },
+    "CLOSE_NAVIGATION": {
+      "description": "Close the navigation drawer",
+      "message": "Close Menu"
+    },
+    "COLLAPSE_NAVIGATION": {
+      "description": "Collapse all accordion items in the navigation menu",
+      "message": "Collapse all"
+    },
+    "COMPACT_VIEW_NAVIGATION": {
+      "description": "layout option for the menu compact view",
+      "message": "Compact view"
+    },
+    "DEFAULT_SORTING": {
+      "description": "Aria Label for default sorting in the main navigation menu options. This option will allow users to sort the items within the (main) normally, as the domain/admin sets them.",
+      "message": "Default sorting"
+    },
+    "EXPAND_NAVIGATION": {
+      "description": "Expand all accordion items in the navigation menu",
+      "message": "Expand all"
+    },
+    "HOVER_OFF_NAVIGATION": {
+      "description": "hover option for navigation tabs (off)",
+      "message": "Hover tabs off"
+    },
+    "HOVER_ON_NAVIGATION": {
+      "description": "hover option for navigation tabs (on)",
+      "message": "Hover tabs on"
+    },
+    "NAVIGATION_ITEMS": {
+      "description": "label for the options menu to modify the navigation items",
+      "message": "Menu items"
+    },
+    "NAVIGATION_LAYOUT": {
+      "description": "label for the options menu to modify the navigation layout",
+      "message": "Menu layout"
+    },
+    "NAVIGATION_OPTIONS": {
+      "description": "the options menu for the side navigation",
+      "message": "Menu options"
+    },
+    "PIN_NAVIGATION": {
+      "description": "Pin the navigation menu",
+      "message": "Pin"
+    },
+    "STANDARD_VIEW_NAVIGATION": {
+      "description": "layout option for the menu standard view",
+      "message": "Standard view"
+    },
+    "UNPIN_NAVIGATION": {
+      "description": "UnPin the navigation menu",
+      "message": "Unpin"
+    }
+  },
+  "PAGINATOR": {
+    "ARIALABEL": {
+      "description": "paginator",
+      "message": "paginator"
+    },
+    "FIRST_PAGE": {
+      "description": "The aria label for the first page button. Clicking/tapping this button takes the user to the first page of the data set",
+      "message": "First page"
+    },
+    "LAST_PAGE": {
+      "description": "The aria label for the last page button. Clicking/tapping this button takes the user to the last page of the data set.",
+      "message": "Last page"
+    },
+    "MENU_ARIALABEL": {
+      "description": "paginator menu",
+      "message": "paginator menu"
+    },
+    "NEXT_PAGE": {
+      "description": "the aria label for the next page button",
+      "message": "Next page"
+    },
+    "OF": {
+      "description": "the text 'of' in paginator",
+      "message": "of"
+    },
+    "PAGE_MENU_ARIALABEL": {
+      "description": "Aria label for the menu allowing the user to select how many items they wish to see per page.",
+      "message": "page menu"
+    },
+    "PAGE_OF": {
+      "description": "The text 'Page {currentPage} of {totalPages}' in paginator. This help quantify which page the user is on within the data set and how many pages exist in total",
+      "message": "Page {{currentPage}} of {{totalPages}}"
+    },
+    "PER_PAGE": {
+      "description": "The text 'per page' in paginator. This helps to quantify how many items are shown on a given page within the data table",
+      "message": "per page"
+    },
+    "PREV_PAGE": {
+      "description": "The aria label for the previous page button. Clicking this button allows the user to go one page backwards within the data set",
+      "message": "Previous page"
+    },
+    "ROW_OPTIONS": {
+      "description": "the aria label for the row options button",
+      "message": "rows options"
+    },
+    "SHOWING_ALL": {
+      "description": "The text 'Showing all' in paginator. Choosing this option allows the user to see all the items within the data set on a single page. This should be user raely and only when the number of items is not large.",
+      "message": "Showing all"
+    },
+    "TOTAL_ITEMS": {
+      "description": "The text '{{totalItems}} items' in paginator. When the user has opted to see all the items on a single page, this text tells the user just how many items exist.",
+      "message": "{{totalItems}} {{itemsLabel}}"
+    }
+  },
+  "PROCESS_MENU": {
+    "OF": {
+      "description": "Preposition between focused page number input and total number of pages",
+      "message": "of"
+    },
+    "STEP_LABEL": {
+      "description": "Label indicating which step in the process a user is on",
+      "message": "Step"
+    }
+  },
+  "PROGRESS_LINEAR": {
+    "CANCEL": {
+      "description": "Label for progress linear cancel done",
+      "message": "Cancel"
+    }
+  },
+  "RADIOGROUP": {
+    "ERROR": {
+      "description": "The text 'Required Selection' in radio-group",
+      "message": "Required Selection"
+    }
+  },
+  "SEARCH": {
+    "CLEAR": {
+      "description": "Clear button and tooltip",
+      "message": "Clear"
+    },
+    "PLACEHOLDER": {
+      "description": "Placeholder for search component",
+      "message": "Search"
+    }
+  },
+  "SEARCHBAR": {
+    "SEARCH": {
+      "description": "Placeholder text for searchbar",
+      "message": "Search"
+    }
+  },
+  "SELECT": {
+    "CANCEL_STRING": {
+      "description": "Select label for cancel button",
+      "message": "Cancel"
+    },
+    "MULTI_OVERFLOW": {
+      "description": "Message to display next to the count of selected items. This is used when the select control is selecting multiple options and there is not enough room to display all of the selections",
+      "message": "selected"
+    },
+    "NO_OPTIONS_STRING": {
+      "description": "Live region string for when no options are found on select or menu",
+      "message": "No options found."
+    },
+    "OK_STRING": {
+      "description": "Select label for OK button",
+      "message": "Done"
+    },
+    "SEARCH_ARIA_LABEL": {
+      "description": "Label for search input",
+      "message": "Search in the list of options below"
+    }
+  },
+  "SKIP_TO_MAIN": {
+    "TEXT": {
+      "description": "skip to main button text",
+      "message": "Skip to main content"
+    }
+  },
+  "TASK_DRAWER": {
+    "APPLY_BUTTON_ARIA_LABEL": {
+      "description": "Aria label for task drawer apply button",
+      "message": "Apply"
+    },
+    "APPLY_BUTTON_TEXT": {
+      "description": "Label for task drawer apply button",
+      "message": "Apply"
+    },
+    "RESET_BUTTON_ARIA_LABEL": {
+      "description": "Aria label for task drawer reset button",
+      "message": "Reset"
+    },
+    "RESET_BUTTON_TEXT": {
+      "description": "Label for task drawer reset button",
+      "message": "Reset"
+    }
+  },
+  "TOOLBAR": {
+    "BUTTON_GROUP_LABEL": {
+      "description": "Button group label for toolbar",
+      "message": "Toolbar button group label"
+    },
+    "TOOLTIP_TEXT": {
+      "description": "Toolbar responsive button group overflow menu tooltip text",
+      "message": "More"
+    }
+  },
+  "TREE": {
+    "LINK_INDICATOR": {
+      "description": "Label to mark if a tree item is a link for screenreader users",
+      "message": "(link)"
+    }
+  },
+  "UPLOAD": {
+    "CLEAR": {
+      "a11y": "Clear: {{file}}",
+      "description": "Clear button label and tooltip",
+      "message": "Clear"
+    },
+    "DELETE": {
+      "a11y": "Delete: {{file}}",
+      "description": "Delete button label and tooltip",
+      "message": "Delete"
+    },
+    "FILE_PROGRESSING": {
+      "description": "Progressing message",
+      "message": "Progressing"
+    },
+    "FILE_TOO_BIG": {
+      "description": "Message to signal is bigger than the maximum limit size",
+      "message": "The selected file must be smaller than {{count}} {{- unit}}"
+    },
+    "FILE_TYPE_ERROR": {
+      "description": "Message to signal the file type is not allowed",
+      "message": "The file type {{type}} is not allowed. The selected file must be: {{accept}}."
+    },
+    "MAX_NUMBER_OF_FILES_PASSED": {
+      "description": "Error message to signal the maximum number of file have been passed",
+      "message_one": "You can only select up to {{count}} file.",
+      "message_other": "You can only select up to {{count}} files."
+    },
+    "MAX_NUMBER_OF_FILES_REACHED": {
+      "description": "Message to signal the maximum number of file is reached",
+      "message": "You have reached the maximum number of files"
+    },
+    "RETRY": {
+      "a11y": "Retry: {{file}}",
+      "description": "Retry button label and tooltip",
+      "message": "Retry"
+    },
+    "UPLOAD_FAIL": {
+      "description": "Message to signal a fail during upload",
+      "message": "The selected file could not be processed – press the retry button to try again."
+    }
+  }
+}

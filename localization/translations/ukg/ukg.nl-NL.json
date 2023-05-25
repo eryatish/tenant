@@ -1,0 +1,792 @@
+{
+  "BANNER": {
+    "IMPORTANT": {
+      "description": "Aria-label for default important icon",
+      "message": "Belangrijk"
+    },
+    "INFO": {
+      "description": "Aria-label for default info icon",
+      "message": "Informatie"
+    },
+    "SUCCESS": {
+      "description": "Aria-label for default success icon",
+      "message": "Geslaagd"
+    },
+    "WARNING": {
+      "description": "Aria-label for default warning icon",
+      "message": "Waarschuwing"
+    }
+  },
+  "CALENDAR": {
+    "CURRENT_DAY": {
+      "description": "Text for tooltip shown when a user hovers over the calendar day which is the same as 'Today'",
+      "message": "Huidige dag"
+    },
+    "END_DATE_ARIA_LABEL": {
+      "description": "Aria label details for selected end date",
+      "message": ", einddatum"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Label voor kalender voor maand",
+      "message": "Maand"
+    },
+    "MONTH_SELECTOR_TOOLTIP": {
+      "description": "Text for tooltip shown when a user hovers over the control used to select the month, within the datepicker component/control",
+      "message": "Kies een maand"
+    },
+    "NEXT_MONTH_ARIA_LABEL": {
+      "description": "Label voor kalender voor volgende maand",
+      "message": "Volgende maand"
+    },
+    "PREVIOUS_MONTH_ARIA_LABEL": {
+      "description": "Label voor kalender voor vorige maand",
+      "message": "Vorige maand"
+    },
+    "SELECTED_ARIA_LABEL": {
+      "description": "Aria label details for selected date",
+      "message": ", geselecteerd"
+    },
+    "SELECTED_DAY": {
+      "description": "Text for tooltip shown when a user hovers over the calenday which has been selected/choosen",
+      "message": "Geselecteerde dag"
+    },
+    "START_DATE_ARIA_LABEL": {
+      "description": "Aria label details for selected start date",
+      "message": ", begindatum"
+    },
+    "WEEK_NUMBER": {
+      "description": "Week number calendar header",
+      "message": "Week nummer",
+      "message_abbr": "W"
+    },
+    "WEEK_NUMBER_LABEL": {
+      "description": "Week number label",
+      "message": "Week {{number}}"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Label voor kalender voor jaar",
+      "message": "Jaar"
+    },
+    "YEAR_SELECTOR_TOOLTIP": {
+      "description": "Text for tooltip shown when a user hovers over the control used to select the year, within the datepicker component/control",
+      "message": "Kies een jaar"
+    }
+  },
+  "CAROUSEL": {
+    "FIRST_SLIDE_MESSAGE": {
+      "description": "Tekst die wordt ingevoerd in live-gebiedregio wanneer de eerste dia wordt bereikt",
+      "message": "Dit is de eerste dia"
+    },
+    "LAST_SLIDE_MESSAGE": {
+      "description": "Tekst die wordt ingevoerd in live-gebiedregio wanneer de laatste dia wordt bereikt",
+      "message": "Dit is de laatste dia"
+    },
+    "NEXT_SLIDE_MESSAGE": {
+      "description": "Gebiedslabel voor knop voor navigeren naar volgende dia",
+      "message": "Volgende dia"
+    },
+    "PAGE_CHANGE": {
+      "description": "Tekst die wordt gelezen bij het veranderen van pagina middels navigatie, {{index}} wordt vervangen door het exacte aantal dia's",
+      "message": "Momenteel op dia {{index}}"
+    },
+    "PAGINATION_BULLET_MESSAGE": {
+      "description": "Gebiedslabel van elk opsommingsteken voor paginering. {{index}} wordt vervangen door het exacte aantal dia's",
+      "message": "Ga naar dia {{index}}"
+    },
+    "PAGINATION_LABEL": {
+      "description": "Aria label used to tell users using assistive technology which slide they are on and how many slides exist in the control",
+      "message": "Er zijn {{index}} dia's",
+      "message_one": "Er is {{count}} dia.",
+      "message_other": "Er zijn {{count}} dia's"
+    },
+    "PREV_SLIDE_MESSAGE": {
+      "description": "Gebiedslabel voor knop voor navigeren naar vorige dia",
+      "message": "Vorige dia"
+    },
+    "description": "You can use a carousel in scenarios such as slideshows, galleries, onboarding flows, and presentations."
+  },
+  "CHECKBOX": {
+    "ARIA_LABEL": {
+      "description": "Gebiedslabel voor pictogram van selectievakje",
+      "message": "Pictogram van selectievakje"
+    }
+  },
+  "CHECKBOXGROUP": {
+    "ERROR": {
+      "description": "De tekst 'Selectie vereist' in groep selectievakjes",
+      "message": "Selectie vereist"
+    }
+  },
+  "DATA_TABLE": {
+    "DESELECT_ALL": {
+      "description": "Keuzemenuopties bij meerdere pagina's - deselecteren",
+      "message": "Alles deselecteren"
+    },
+    "SELECTION_LABEL": {
+      "description": "Stel de tekst in het geselecteerde label voor de koptekst in",
+      "message": "Geselecteerd"
+    },
+    "SELECT_ALL": {
+      "description": "Keuzemenuopties bij meerdere pagina's - alles",
+      "message": "Alles selecteren"
+    },
+    "SELECT_ALL_ON_PAGE": {
+      "description": "Keuzemenuopties bij meerdere pagina's - alles op pagina",
+      "message": "Alles op deze pagina selecteren"
+    }
+  },
+  "DATE_INPUT_TEXT": {
+    "DAY_ARIA_LABEL": {
+      "description": "Label voor invoertekst voor dag",
+      "message": "Dag"
+    },
+    "INPUT_ARIA_LABEL": {
+      "description": "Label voor invoertekst voor datum",
+      "message": "Datuminvoer"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Label voor invoertekst voor maand",
+      "message": "Maand"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Label voor invoertekst voor jaar",
+      "message": "Jaar"
+    }
+  },
+  "DATE_PICKER": {
+    "CLEAR_LABEL": {
+      "description": "Label for the date picker clear button",
+      "message": "Wissen"
+    },
+    "DATE_LABEL": {
+      "description": "Label voor datuminvoer in datumkiezer",
+      "message": "Datum"
+    },
+    "DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker date",
+      "message": "De datum moet een dag en een maand bevatten."
+    },
+    "DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker date",
+      "message": "De datum moet een dag en een jaar bevatten."
+    },
+    "DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker start date",
+      "message": "De datum moet een dag bevatten."
+    },
+    "DONE_DATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when a date is selected. Appends to the label for the button. Example 'Done, selected date is 01/01/2000'",
+      "message": ", geselecteerde datum is {{date}}"
+    },
+    "DONE_ENDDATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when an end date is selected. Appends to the label for the button. Example 'Done, selected start date is January 15, 2020, selected end date is January 25, 2020'",
+      "message": ", geselecteerde einddatum is {{date}}"
+    },
+    "DONE_LABEL": {
+      "description": "Label voor knop Gereed in datumkiezer",
+      "message": "Gereed"
+    },
+    "DONE_NO_DATE_LABEL": {
+      "description": "Label for the date picker's done button when no date is selected. Example 'Done, no date selected'",
+      "message": ", er is geen datum geselecteerd"
+    },
+    "DONE_STARTDATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when a start date is selected. Example 'Done, selected start date is January 15, 2020",
+      "message": ", geselecteerde begindatum is {{date}}"
+    },
+    "END_DATE_LABEL": {
+      "description": "Label voor einddatum in datumkiezer",
+      "message": "Einddatum"
+    },
+    "INVALID_DATE": {
+      "description": "Error for when date is invalid. Happens when the given date is out of range or formatted incorrectly.",
+      "message": "De datum moet een geldige datum zijn."
+    },
+    "INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker start date",
+      "message": "Het jaar van de datum moet bestaan uit 4 cijfers."
+    },
+    "MISSING_VALUE": {
+      "description": "Error for when date is missing. Appears if user attempts to submit without entering a date.",
+      "message": "De datum is vereist."
+    },
+    "MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker date",
+      "message": "De datum moet een maand en een jaar bevatten."
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Label voor datumkiezer voor datum",
+      "message": "Maand"
+    },
+    "MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker date",
+      "message": "De datum moet een maand bevatten."
+    },
+    "MONTH_NAVIGATION_ARIA_LABEL": {
+      "description": "Label for the date picker month navigation toolbar button group. This group contains the select controls allowing the user to navigate to either the previous or next month within the date picker",
+      "message": "Knoppengroep maandnavigatie"
+    },
+    "MONTH_YEAR_ARIA_LABEL": {
+      "description": "Label for the date picker month toolbar button group. This group contains the select controls allowing the user to change the month or year within the date picker",
+      "message": "Knoppengroep maand en jaar"
+    },
+    "NEXT_MONTH_ARIA_LABEL": {
+      "description": "Label voor datumkiezer voor volgende maand",
+      "message": "Volgende maand"
+    },
+    "OPEN_CALENDAR": {
+      "description": "Label for the date picker's button. This is shown as an calendar icon.",
+      "message": "Datum kiezen"
+    },
+    "PREVIOUS_MONTH_ARIA_LABEL": {
+      "description": "Label voor datumkiezer voor vorige maand",
+      "message": "Vorige maand"
+    },
+    "START_DATE_LABEL": {
+      "description": "Label voor begindatum in datumkiezer",
+      "message": "Begindatum"
+    },
+    "TODAY_LABEL": {
+      "description": "Label voor knop Vandaag in datumkiezer",
+      "message": "Vandaag"
+    },
+    "TODAY_TOOLTIP": {
+      "description": "Text for tooltip shown when the user hovers over the button, which will switch the datepicker to displaying the month with today's date in it",
+      "message": "Ga naar vandaag"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Label voor datumkiezer voor jaar",
+      "message": "Jaar"
+    },
+    "YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker date",
+      "message": "De datum moet een jaar bevatten."
+    }
+  },
+  "DATE_RANGE_PICKER": {
+    "END_DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker end date. Similar to other date picker messaging",
+      "message": "De einddatum moet een dag en een maand bevatten."
+    },
+    "END_DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker end date. Similar to other date picker messaging",
+      "message": "De einddatum moet een dag en een jaar bevatten."
+    },
+    "END_DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker end date. Similar to other date picker messaging",
+      "message": "De einddatum moet een dag bevatten."
+    },
+    "END_END_DATE_BEFORE_START_DATE": {
+      "description": "Error message for when the selected end date is before the selected start date",
+      "message": "De einddatum moet gelijk zijn aan of later zijn dan {{- start_date}}."
+    },
+    "END_INPUT_ARIA_LABEL": {
+      "description": "Label voor datumbereikkiezer voor einddatum",
+      "message": "Einddatum"
+    },
+    "END_INVALID_DATE": {
+      "description": "Error message for invalid date format on the date range picker end date. Similar to other date picker messaging",
+      "message": "De einddatum moet een echte datum zijn."
+    },
+    "END_INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker end date. Similar to other date picker messaging",
+      "message": "Het jaar van de einddatum moet 4 cijfers hebben."
+    },
+    "END_MISSING_VALUE": {
+      "description": "Error message for when the end date is missing a required value. This type of message is used for any required field.",
+      "message": "Einddatum is vereist"
+    },
+    "END_MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker end date. Similar to other date picker messaging",
+      "message": "De einddatum moet een maand en een jaar bevatten."
+    },
+    "END_MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker end date. Similar to other date picker messaging",
+      "message": "De einddatum moet een maand bevatten."
+    },
+    "END_YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker end date. Similar to other date picker messaging",
+      "message": "De einddatum moet een jaar bevatten."
+    },
+    "OPEN_CALENDAR": {
+      "description": "Label for the date range picker's button. Similar to the label for the single date picker open button.",
+      "message": "Een datumbereik kiezen"
+    },
+    "START_DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker start date. Similar to other date picker messaging",
+      "message": "De begindatum moet een dag en een maand bevatten."
+    },
+    "START_DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker start date. Similar to other date picker messaging",
+      "message": "De begindatum moet een dag en een jaar bevatten."
+    },
+    "START_DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker start date. Similar to other date picker messaging",
+      "message": "De begindatum moet een dag bevatten."
+    },
+    "START_INPUT_ARIA_LABEL": {
+      "description": "Label voor datumbereikkiezer voor begindatum",
+      "message": "Begindatum"
+    },
+    "START_INVALID_DATE": {
+      "description": "Error message for invalid date format on the date range picker start date. Similar to other date picker messaging",
+      "message": "De begindatum moet een echte datum zijn."
+    },
+    "START_INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker start date. Similar to other date picker messaging",
+      "message": "Het jaar van de begindatum moet 4 cijfers hebben."
+    },
+    "START_MISSING_VALUE": {
+      "description": "Error message for when the start date is missing a required value. Similar to other date picker messaging",
+      "message": "Begindatum is vereist"
+    },
+    "START_MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker start date. Similar to other date picker messaging",
+      "message": "De begindatum moet een maand en een jaar bevatten."
+    },
+    "START_MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker start date. Similar to other date picker messaging",
+      "message": "De begindatum moet een maand bevatten."
+    },
+    "START_YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker start date. Similar to other date picker messaging",
+      "message": "De begindatum moet een jaar bevatten."
+    }
+  },
+  "DIALOG": {
+    "CLOSE_BUTTON_TEXT": {
+      "description": "Teks petua alat untuk butang tutup pada Pengepala",
+      "message": "Tutup"
+    }
+  },
+  "DOCUMENT_VIEWER": {
+    "CONTENT": {
+      "description": "Gebiedslabel voor het inhoudsgebied",
+      "message": "Documentinhoud"
+    },
+    "DOWNLOAD_LABEL": {
+      "description": "Gebiedslabel voor de knop voor downloaden",
+      "message": "Downloaden"
+    },
+    "EXTENDED_DESCRIPTION": {
+      "description": "Label om schermlezergebruikers richting de uitgebreide omschrijving te begeleiden",
+      "message": "Uitgebreide beschrijving hieronder"
+    },
+    "FOCUSED_PAGE_NUMBER_LABEL": {
+      "description": "Gebiedslabel voor de paginanummerinvoer met focus",
+      "message": "Huidige pagina"
+    },
+    "FULL_SCREEN_LABEL": {
+      "description": "Gebiedslabel voor de knop voor volledig scherm",
+      "message": "Volledig scherm"
+    },
+    "NEXT_PAGE_LABEL": {
+      "description": "Gebiedslabel voor de knop voor volgende pagina",
+      "message": "Volgende pagina"
+    },
+    "OF": {
+      "description": "Voorzetsel tussen paginanummerinvoer met focus en totaal aantal pagina's",
+      "message": "van"
+    },
+    "PAGE": {
+      "description": "Woord voor pagina met alternatieve tekst",
+      "message": "Pagina"
+    },
+    "PREV_PAGE_LABEL": {
+      "description": "Gebiedslabel voor de knop voor vorige pagina",
+      "message": "Vorige pagina"
+    },
+    "PRINT_LABEL": {
+      "description": "Gebiedslabel voor de knop voor afdrukken",
+      "message": "Afdrukken"
+    },
+    "SEND_LABEL": {
+      "description": "Gebiedslabel voor de knop voor verzenden",
+      "message": "Verzenden"
+    },
+    "SIDEBAR_LABEL": {
+      "description": "Gebiedslabel voor de wisselknop van de miniatuurlijst van het document",
+      "message": "Miniatuurlijst van het document wisselen"
+    },
+    "SUMMARY": {
+      "description": "Gebiedslabel voor de werkbalk aan de zijkant",
+      "message": "Documentoverzicht"
+    },
+    "ZOOM_IN_LABEL": {
+      "description": "Gebiedslabel voor de knop voor inzoomen",
+      "message": "Inzoomen"
+    },
+    "ZOOM_LEVEL_LABEL": {
+      "description": "Gebiedslabel voor de selectie voor zoomniveau",
+      "message": "Zoomniveau"
+    },
+    "ZOOM_OUT_LABEL": {
+      "description": "Gebiedslabel voor de knop voor uitzoomen",
+      "message": "Uitzoomen"
+    }
+  },
+  "DROPZONE": {
+    "BROWSE_FILES": {
+      "a11y_one": "Door bestanden bladeren, {{count}} bestand",
+      "a11y_other": "Door bestanden bladeren, {{count}} bestanden",
+      "a11y_zero": "Door bestanden bladeren",
+      "description": "Label voor knop voor door bestanden bladeren ",
+      "message": "door bestanden bladeren"
+    },
+    "DISABLED": {
+      "description": "Label voor pictogram van uitgeschakeld",
+      "message": "Uitgeschakeld"
+    },
+    "DRAG_AND_DROP": {
+      "description": "Uitnodigen voor slepen en neerzetten of [een bestand zoeken]",
+      "message": "Slepen en neerzetten"
+    },
+    "DROP_FILES": {
+      "description": "Uitnodigen om bestand neer te zetten",
+      "message": "Bestanden neerzetten"
+    },
+    "FILES_ADDED": {
+      "description": "Gesproken bericht als er meerdere bestanden zijn toegevoegd",
+      "message": "{{count}} bestanden, toegevoegd."
+    },
+    "FILES_CLEARED": {
+      "description": "Gesproken bericht als er meerdere bestanden zijn gewist",
+      "message": "Bestanden gewist"
+    },
+    "FILE_ADDED": {
+      "description": "Gesproken bericht als er een bestand is toegevoegd",
+      "message": "{{file}}, toegevoegd."
+    },
+    "READ_ONLY": {
+      "description": "Label voor het pictogram voor alleen lezen",
+      "message": "Alleen lezen"
+    }
+  },
+  "FILE_SIZE_UNITS": {
+    "BIT_UNIT": {
+      "description": "Biteenheid voor bestandsgrootte",
+      "message_one": "bit",
+      "message_other": "bits"
+    },
+    "BYTE_UNIT": {
+      "description": "Byte-eenheid voor bestandsgrootte",
+      "message_one": "byte",
+      "message_other": "bytes"
+    },
+    "GB_UNIT": {
+      "description": "Gigabyte-eenheid voor bestandsgrootte",
+      "message_abbr": "GB",
+      "message_label_one": "Gigabyte",
+      "message_label_other": "Gigabytes",
+      "message_one": "gigabyte",
+      "message_other": "gigabytes"
+    },
+    "KB_UNIT": {
+      "description": "Kilobyte-eenheid voor bestandsgrootte",
+      "message_abbr": "KB",
+      "message_label_one": "Kilobyte",
+      "message_label_other": "Kilobytes",
+      "message_one": "kilobyte",
+      "message_other": "kilobytes"
+    },
+    "MB_UNIT": {
+      "description": "Megabyte-eenheid voor bestandsgrootte",
+      "message_abbr": "MB",
+      "message_label_one": "Megabyte",
+      "message_label_other": "Megabytes",
+      "message_one": "megabyte",
+      "message_other": "megabytes"
+    }
+  },
+  "INPUT": {
+    "DONE_BUTTON_LABEL": {
+      "description": "Label voor invoer voor gereed",
+      "message": "Gereed"
+    },
+    "TODAY_BUTTON_LABEL": {
+      "description": "Label voor invoer voor vandaag",
+      "message": "Vandaag"
+    }
+  },
+  "MENU_CONTAINER": {
+    "OPTIONS_STRING": {
+      "description": "Optietekenreeks om aantal opties in menu weer te geven.",
+      "message_one": "{{count}} optie",
+      "message_other": "{{count}} opties"
+    },
+    "POPOVER_LABEL": {
+      "description": "Aria label describing the menu of options shown, after a user types in text into the autocomplete combobox",
+      "message": "Suggesties"
+    }
+  },
+  "NAVIGATION": {
+    "ALPHABETICAL_SORTING": {
+      "description": "Aria Label for alphabetical sorting in the main navigation menu options. This option will allow users to sort the items within the (main) left nav alphabetically",
+      "message": "Alfabetische sortering"
+    },
+    "ARIA_LABEL": {
+      "description": "Gebiedslabel voor hoofdnavigatievak",
+      "message": "Zijmenu"
+    },
+    "BACK_BUTTON_TEXT": {
+      "description": "Knopinfo voor knop Terug in koptekst",
+      "message": "Terug"
+    },
+    "BUTTON_TEXT": {
+      "description": "Knopinfo voor knop Menu",
+      "message": "Zijnavigatiemenu"
+    },
+    "CLOSE_BUTTON_TEXT": {
+      "description": "Knopinfo voor knop Sluiten in koptekst",
+      "message": "Sluiten"
+    },
+    "CLOSE_NAVIGATION": {
+      "description": "Het navigatievak sluiten",
+      "message": "Menu sluiten"
+    },
+    "COLLAPSE_NAVIGATION": {
+      "description": "Alle accordion-items samenvouwen in het navigatiemenu",
+      "message": "Alles samenvouwen"
+    },
+    "COMPACT_VIEW_NAVIGATION": {
+      "description": "lay-outopties voor de compacte weergave van het menu",
+      "message": "Compacte weergave"
+    },
+    "DEFAULT_SORTING": {
+      "description": "Aria Label for default sorting in the main navigation menu options. This option will allow users to sort the items within the (main) normally, as the domain/admin sets them.",
+      "message": "Standaardsortering"
+    },
+    "EXPAND_NAVIGATION": {
+      "description": "Alle accordion-items uitvouwen in het navigatiemenu",
+      "message": "Alles uitvouwen"
+    },
+    "HOVER_OFF_NAVIGATION": {
+      "description": "optie aanwijzen voor navigatietabbladen (uit)",
+      "message": "Aanwijzen tabbladen uit"
+    },
+    "HOVER_ON_NAVIGATION": {
+      "description": "optie aanwijzen voor navigatietabbladen (aan)",
+      "message": "Aanwijzen tabbladen aan"
+    },
+    "NAVIGATION_ITEMS": {
+      "description": "label voor het optiemenu om de navigatie-items te wijzigen",
+      "message": "Menu-items"
+    },
+    "NAVIGATION_LAYOUT": {
+      "description": "label voor het optiemenu om de navigatielay-out te wijzigen",
+      "message": "Menulay-out"
+    },
+    "NAVIGATION_OPTIONS": {
+      "description": "het optiemenu voor zijnavigatie",
+      "message": "Menuopties"
+    },
+    "PIN_NAVIGATION": {
+      "description": "Het navigatiemenu vastmaken",
+      "message": "Vastmaken"
+    },
+    "STANDARD_VIEW_NAVIGATION": {
+      "description": "lay-outopties voor de standaardweergave van het menu",
+      "message": "Standaardweergave"
+    },
+    "UNPIN_NAVIGATION": {
+      "description": "Het navigatiemenu losmaken",
+      "message": "Losmaken"
+    }
+  },
+  "PAGINATOR": {
+    "ARIALABEL": {
+      "description": "paginator",
+      "message": "paginator"
+    },
+    "FIRST_PAGE": {
+      "description": "The aria label for the first page button. Clicking/tapping this button takes the user to the first page of the data set",
+      "message": "Eerste pagina"
+    },
+    "LAST_PAGE": {
+      "description": "The aria label for the last page button. Clicking/tapping this button takes the user to the last page of the data set.",
+      "message": "Laatste pagina"
+    },
+    "MENU_ARIALABEL": {
+      "description": "paginator menu",
+      "message": "paginatormenu"
+    },
+    "NEXT_PAGE": {
+      "description": "the aria label for the next page button",
+      "message": "Volgende pagina"
+    },
+    "OF": {
+      "description": "de tekst ’van’ in paginator",
+      "message": "van"
+    },
+    "PAGE_MENU_ARIALABEL": {
+      "description": "Aria label for the menu allowing the user to select how many items they wish to see per page.",
+      "message": "paginamenu"
+    },
+    "PAGE_OF": {
+      "description": "The text 'Page {currentPage} of {totalPages}' in paginator. This help quantify which page the user is on within the data set and how many pages exist in total",
+      "message": "Pagina {{currentPage}} van {{totalPages}}"
+    },
+    "PER_PAGE": {
+      "description": "The text 'per page' in paginator. This helps to quantify how many items are shown on a given page within the data table",
+      "message": "per pagina"
+    },
+    "PREV_PAGE": {
+      "description": "The aria label for the previous page button. Clicking this button allows the user to go one page backwards within the data set",
+      "message": "Vorige pagina"
+    },
+    "ROW_OPTIONS": {
+      "description": "het gebiedslabel voor de knop voor rij-opties",
+      "message": "rij-opties"
+    },
+    "SHOWING_ALL": {
+      "description": "The text 'Showing all' in paginator. Choosing this option allows the user to see all the items within the data set on a single page. This should be user raely and only when the number of items is not large.",
+      "message": "Alles weergeven"
+    },
+    "TOTAL_ITEMS": {
+      "description": "The text '{{totalItems}} items' in paginator. When the user has opted to see all the items on a single page, this text tells the user just how many items exist.",
+      "message": "{{totalItems}} {{itemsLabel}}"
+    }
+  },
+  "PROCESS_MENU": {
+    "OF": {
+      "description": "Preposition between focused page number input and total number of pages",
+      "message": "van"
+    },
+    "STEP_LABEL": {
+      "description": "Label indicating which step in the process a user is on",
+      "message": "Stap"
+    }
+  },
+  "PROGRESS_LINEAR": {
+    "CANCEL": {
+      "description": "Label voor voortgang lineair annuleren gereed",
+      "message": "Annuleren"
+    }
+  },
+  "RADIOGROUP": {
+    "ERROR": {
+      "description": "De tekst 'Vereiste selectie' in radiogroep",
+      "message": "Vereiste selectie"
+    }
+  },
+  "SEARCH": {
+    "CLEAR": {
+      "description": "Knop en knopinfo voor wissen",
+      "message": "Wissen"
+    },
+    "PLACEHOLDER": {
+      "description": "Tijdelijke aanduiding voor zoekonderdeel",
+      "message": "Zoeken"
+    }
+  },
+  "SEARCHBAR": {
+    "SEARCH": {
+      "description": "Tekst tijdelijke aanduiding voor zoekbalk",
+      "message": "Zoeken"
+    }
+  },
+  "SELECT": {
+    "CANCEL_STRING": {
+      "description": "Selecteer label voor knop annuleren",
+      "message": "Annuleren"
+    },
+    "MULTI_OVERFLOW": {
+      "description": "Message to display next to the count of selected items. This is used when the select control is selecting multiple options and there is not enough room to display all of the selections",
+      "message": "geselecteerd"
+    },
+    "NO_OPTIONS_STRING": {
+      "description": "Live-regiotekenreeks voor als er geen opties bij selecteren of het menu zijn gevonden",
+      "message": "Geen opties gevonden."
+    },
+    "OK_STRING": {
+      "description": "Selecteer label voor knop OK",
+      "message": "Gereed"
+    },
+    "SEARCH_ARIA_LABEL": {
+      "description": "Label voor zoekinvoer",
+      "message": "In de onderstaande lijst met opties zoeken"
+    }
+  },
+  "SKIP_TO_MAIN": {
+    "TEXT": {
+      "description": "tekst van knop voor overslaan naar hoofd",
+      "message": "Overslaan naar hoofdcontent"
+    }
+  },
+  "TASK_DRAWER": {
+    "APPLY_BUTTON_ARIA_LABEL": {
+      "description": "Gebiedslabel voor knop toepassen taakbalk",
+      "message": "Toepassen"
+    },
+    "APPLY_BUTTON_TEXT": {
+      "description": "Label voor knop toepassen taakbalk",
+      "message": "Toepassen"
+    },
+    "RESET_BUTTON_ARIA_LABEL": {
+      "description": "Gebiedslabel voor knop resetten taakbalk",
+      "message": "Resetten"
+    },
+    "RESET_BUTTON_TEXT": {
+      "description": "Label voor knop resetten taakbalk",
+      "message": "Resetten"
+    }
+  },
+  "TOOLBAR": {
+    "BUTTON_GROUP_LABEL": {
+      "description": "Label van knoppengroep op werkbalk",
+      "message": "Label van knoppengroep op werkbalk"
+    },
+    "TOOLTIP_TEXT": {
+      "description": "Knopinfo voor optiemenu in contextgebonden knoppengroep op werkbalk",
+      "message": "Meer"
+    }
+  },
+  "TREE": {
+    "LINK_INDICATOR": {
+      "description": "Label voor markeren als een structuuritem een koppeling voor schermlezergebruikers is",
+      "message": "(koppeling)"
+    }
+  },
+  "UPLOAD": {
+    "CLEAR": {
+      "a11y": "Wissen: {{file}}",
+      "description": "Knoplabel en knopinfo voor wissen",
+      "message": "Wissen"
+    },
+    "DELETE": {
+      "a11y": "Verwijderen: {{file}}",
+      "description": "Knoplabel en knopinfo voor verwijderen",
+      "message": "Verwijderen"
+    },
+    "FILE_PROGRESSING": {
+      "description": "Bericht uitvoeren",
+      "message": "Uitvoeren"
+    },
+    "FILE_TOO_BIG": {
+      "description": "Bericht dat aangeeft dat de maximale grootte overschreden is",
+      "message": "Het geselecteerde bestand moet kleiner zijn dan {{count}} {{- unit}}"
+    },
+    "FILE_TYPE_ERROR": {
+      "description": "Bericht om aan te geven dat het bestandstype niet is toegestaan",
+      "message": "Het bestandstype {{type}} is niet toegestaan. Het geselecteerde bestand moet het volgende type zijn: {{accept}}."
+    },
+    "MAX_NUMBER_OF_FILES_PASSED": {
+      "description": "Foutbericht om aan te geven dat het maximaal aantal bestanden overschreden is",
+      "message_one": "U kunt maximaal {{count}} bestand selecteren.",
+      "message_other": "U kunt maximaal {{count}} bestanden selecteren."
+    },
+    "MAX_NUMBER_OF_FILES_REACHED": {
+      "description": "Bericht om aan te geven dat het maximaal aantal bestanden bereikt is",
+      "message": "U hebt het maximum aantal bestanden bereikt"
+    },
+    "RETRY": {
+      "a11y": "Opnieuw proberen: {{file}}",
+      "description": "Knoplabel en knopinfo voor opnieuw proberen",
+      "message": "Opnieuw proberen"
+    },
+    "UPLOAD_FAIL": {
+      "description": "Bericht om een fout tijdens uploaden aan te geven",
+      "message": "Het geselecteerde bestand kon niet worden verwerkt – druk op de knop voor opnieuw proberen om het opnieuw te proberen."
+    }
+  }
+}

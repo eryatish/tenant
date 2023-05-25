@@ -1,0 +1,771 @@
+{
+  "BANNER": {
+    "IMPORTANT": {
+      "description": "Aria-label for default important icon",
+      "message": "重要"
+    },
+    "INFO": {
+      "description": "Aria-label for default info icon",
+      "message": "情報"
+    },
+    "SUCCESS": {
+      "description": "Aria-label for default success icon",
+      "message": "成功"
+    },
+    "WARNING": {
+      "description": "Aria-label for default warning icon",
+      "message": "警告"
+    }
+  },
+  "CALENDAR": {
+    "CURRENT_DAY": {
+      "description": "Text for tooltip shown when a user hovers over the calendar day which is the same as 'Today'",
+      "message": "今日"
+    },
+    "END_DATE_ARIA_LABEL": {
+      "description": "Aria label details for selected end date",
+      "message": "、終了日"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Label for the calendar month",
+      "message": "月"
+    },
+    "MONTH_SELECTOR_TOOLTIP": {
+      "description": "Text for tooltip shown when a user hovers over the control used to select the month, within the datepicker component/control",
+      "message": "月を選択"
+    },
+    "NEXT_MONTH_ARIA_LABEL": {
+      "description": "Label for the calendar next month",
+      "message": "翌月、{{monthYear}}"
+    },
+    "PREVIOUS_MONTH_ARIA_LABEL": {
+      "description": "Label for the calendar previous month",
+      "message": "前月、{{monthYear}}"
+    },
+    "SELECTED_ARIA_LABEL": {
+      "description": "Aria label details for selected date",
+      "message": "、選択済み"
+    },
+    "SELECTED_DAY": {
+      "description": "Text for tooltip shown when a user hovers over the calenday which has been selected/choosen",
+      "message": "選択した日"
+    },
+    "START_DATE_ARIA_LABEL": {
+      "description": "Aria label details for selected start date",
+      "message": "、開始日"
+    },
+    "WEEK_NUMBER": {
+      "description": "Week number calendar header",
+      "message": "週番号",
+      "message_abbr": "週"
+    },
+    "WEEK_NUMBER_LABEL": {
+      "description": "Week number label",
+      "message": "第{{number}}週"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Label for the calendar year",
+      "message": "年"
+    },
+    "YEAR_SELECTOR_TOOLTIP": {
+      "description": "Text for tooltip shown when a user hovers over the control used to select the year, within the datepicker component/control",
+      "message": "年を選択"
+    }
+  },
+  "CAROUSEL": {
+    "FIRST_SLIDE_MESSAGE": {
+      "description": "Text inserted into live aria region when reaching first slide",
+      "message": "これは最初のスライドです"
+    },
+    "LAST_SLIDE_MESSAGE": {
+      "description": "Text inserted into live aria region when reaching last slide",
+      "message": "これは最後のスライドです"
+    },
+    "NEXT_SLIDE_MESSAGE": {
+      "description": "Aria label for next slide navigation button",
+      "message": "次のスライド"
+    },
+    "PAGE_CHANGE": {
+      "description": "Text to be read when changing pages by navigation, {{index}} is replaced with exact number of slides",
+      "message": "今はスライド{{index}}"
+    },
+    "PAGINATION_BULLET_MESSAGE": {
+      "description": "Aria label of each pagination bullet element. {{index}} is replaced with exact number of slides",
+      "message": "スライド{{index}}に移動"
+    },
+    "PAGINATION_LABEL": {
+      "description": "Aria label for whole pagination element, {{count}} is replaced with exact number of slides",
+      "message_one": "スライドは{{count}}枚あります",
+      "message_other": "スライドは{{count}}枚あります"
+    },
+    "PREV_SLIDE_MESSAGE": {
+      "description": "Aria label for previous slide navigation button",
+      "message": "前のスライド"
+    }
+  },
+  "CHECKBOX": {
+    "ARIA_LABEL": {
+      "description": "Aria label for checkbox icon",
+      "message": "チェックボックスアイコン"
+    }
+  },
+  "CHECKBOXGROUP": {
+    "ERROR": {
+      "description": "The text 'Required Selection' in checkbox-group",
+      "message": "選択が必要です"
+    }
+  },
+  "DATA_TABLE": {
+    "DESELECT_ALL": {
+      "description": "Dropdown options when multiple pages - deselect",
+      "message": "すべて選択解除"
+    },
+    "SELECTION_LABEL": {
+      "description": "Set the text in the selected label at header",
+      "message": " 選択済み"
+    },
+    "SELECT_ALL": {
+      "description": "Dropdown options when multiple pages - all",
+      "message": "すべて選択"
+    },
+    "SELECT_ALL_ON_PAGE": {
+      "description": "Dropdown options when multiple pages - all on page",
+      "message": "このページのすべてを選択"
+    }
+  },
+  "DATE_INPUT_TEXT": {
+    "DAY_ARIA_LABEL": {
+      "description": "Label for the day input text",
+      "message": " 日"
+    },
+    "INPUT_ARIA_LABEL": {
+      "description": "Label for the date input text",
+      "message": "日付入力"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Label for the month input text",
+      "message": "月"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Label for the year input text",
+      "message": "年"
+    }
+  },
+  "DATE_PICKER": {
+    "CLEAR_LABEL": {
+      "description": "Label for the date picker clear button",
+      "message": "クリア"
+    },
+    "DATE_LABEL": {
+      "description": "Label for the date input in date picker",
+      "message": "日付"
+    },
+    "DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker date",
+      "message": "日付は日と月を含む必要があります。"
+    },
+    "DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker date",
+      "message": "日付は日と年を含む必要があります。"
+    },
+    "DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker start date",
+      "message": "日付は日を含む必要があります。"
+    },
+    "DONE_DATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when a date is selected",
+      "message": "、選択した日付は{{date}}です"
+    },
+    "DONE_ENDDATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when an end date is selected",
+      "message": "、選択した終了日は{{date}}です"
+    },
+    "DONE_LABEL": {
+      "description": "Label for the done button in date range picker",
+      "message": "完了"
+    },
+    "DONE_NO_DATE_LABEL": {
+      "description": "Label for the date picker's done button when no date is selected",
+      "message": "、日付が選択されていません"
+    },
+    "DONE_STARTDATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when a start date is selected",
+      "message": "、選択した開始日は{{date}}です"
+    },
+    "END_DATE_LABEL": {
+      "description": "Label for the end date in date range picker",
+      "message": "終了日"
+    },
+    "INVALID_DATE": {
+      "description": "Error for when date is invalid",
+      "message": "日付は実際の日付であることが必要です。"
+    },
+    "INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker start date",
+      "message": "日付の年は4桁であることが必要です。"
+    },
+    "MISSING_VALUE": {
+      "description": "Error for when date is msising",
+      "message": "日付は必須です。"
+    },
+    "MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker date",
+      "message": "日付は月と年を含む必要があります。"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Label for the date picker month",
+      "message": "月"
+    },
+    "MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker date",
+      "message": "日付は月を含む必要があります。"
+    },
+    "MONTH_NAVIGATION_ARIA_LABEL": {
+      "description": "Label for the date picker month navigation toolbar button group",
+      "message": "月ナビゲーションボタングループ"
+    },
+    "MONTH_YEAR_ARIA_LABEL": {
+      "description": "Label for the date picker month and year toolbar button group",
+      "message": "月と年ボタングループ"
+    },
+    "OPEN_CALENDAR": {
+      "description": "Label for the date picker's button",
+      "message": "日付を選択"
+    },
+    "START_DATE_LABEL": {
+      "description": "Label for the start date in date range picker",
+      "message": "開始日"
+    },
+    "TODAY_LABEL": {
+      "description": "Label for the Today button in date range picker",
+      "message": "今日"
+    },
+    "TODAY_TOOLTIP": {
+      "description": "Text for tooltip shown when the user hovers over the button, which will switch the datepicker to displaying the month with today's date in it",
+      "message": "今日にジャンプ"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Label for the date picker year",
+      "message": "年"
+    },
+    "YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker date",
+      "message": "日付は年を含む必要があります。"
+    }
+  },
+  "DATE_RANGE_PICKER": {
+    "END_DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker end date",
+      "message": "終了日は日と月を含む必要があります。"
+    },
+    "END_DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker end date",
+      "message": "終了日は日と年を含む必要があります。"
+    },
+    "END_DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker end date",
+      "message": "終了日は日を含む必要があります。"
+    },
+    "END_END_DATE_BEFORE_START_DATE": {
+      "description": "Error message for when the selected end date is before the selected start date",
+      "message": "終了日は、{{- start_date}}以降であることが必要です。"
+    },
+    "END_INPUT_ARIA_LABEL": {
+      "description": "Label for the date range picker end date",
+      "message": "終了日"
+    },
+    "END_INVALID_DATE": {
+      "description": "Error message for invalid date format on the date range picker end date",
+      "message": "終了日は実際の日付であることが必要です。"
+    },
+    "END_INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker end date",
+      "message": "終了日の年は4桁であることが必要です。"
+    },
+    "END_MISSING_VALUE": {
+      "description": "Error message for when the end date is missing a required value",
+      "message": "終了日は必須です"
+    },
+    "END_MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker end date",
+      "message": "終了日は月と年を含む必要があります。"
+    },
+    "END_MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker end date",
+      "message": "終了日は月を含む必要があります。"
+    },
+    "END_YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker end date",
+      "message": "終了日は年を含む必要があります。"
+    },
+    "OPEN_CALENDAR": {
+      "description": "Label for the date range picker's button",
+      "message": "日付範囲を選択"
+    },
+    "START_DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker start date",
+      "message": "開始日は日と月を含む必要があります。"
+    },
+    "START_DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker start date",
+      "message": "開始日は日と年を含む必要があります。"
+    },
+    "START_DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker start date",
+      "message": "開始日は日を含む必要があります。"
+    },
+    "START_INPUT_ARIA_LABEL": {
+      "description": "Label for the date range picker start date",
+      "message": "開始日"
+    },
+    "START_INVALID_DATE": {
+      "description": "Error message for invalid date format on the date range picker start date",
+      "message": "開始日は実際の日付であることが必要です。"
+    },
+    "START_INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker start date",
+      "message": "開始日の年は4桁であることが必要です。"
+    },
+    "START_MISSING_VALUE": {
+      "description": "Error message for when the start date is missing a required value",
+      "message": "開始日は必須です"
+    },
+    "START_MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker start date",
+      "message": "開始日は月と年を含む必要があります。"
+    },
+    "START_MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker start date",
+      "message": "開始日は月を含む必要があります。"
+    },
+    "START_YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker start date",
+      "message": "開始日は年を含む必要があります。"
+    }
+  },
+  "DIALOG": {
+    "CLOSE_BUTTON_TEXT": {
+      "description": "Tool tip text for close button on Header",
+      "message": "閉じる"
+    }
+  },
+  "DOCUMENT_VIEWER": {
+    "CONTENT": {
+      "description": "Aria label for the content area",
+      "message": "ドキュメントコンテンツ"
+    },
+    "DOWNLOAD_LABEL": {
+      "description": "Aria label for the download button",
+      "message": "ダウンロード"
+    },
+    "EXTENDED_DESCRIPTION": {
+      "description": "Label to guide screen reader users towards extended description",
+      "message": "以下は詳細な説明です"
+    },
+    "FOCUSED_PAGE_NUMBER_LABEL": {
+      "description": "Aria label for the focused page number input",
+      "message": "現在のページ"
+    },
+    "FULL_SCREEN_LABEL": {
+      "description": "Aria label for the full screen button",
+      "message": "全画面表示"
+    },
+    "NEXT_PAGE_LABEL": {
+      "description": "Aria label for the next page button",
+      "message": "次のページ"
+    },
+    "OF": {
+      "description": "Preposition between focused page number input and total number of pages",
+      "message": "/"
+    },
+    "PAGE": {
+      "description": "Word for page in alternative text",
+      "message": "ページ"
+    },
+    "PREV_PAGE_LABEL": {
+      "description": "Aria label for the previous page button",
+      "message": "前のページ"
+    },
+    "PRINT_LABEL": {
+      "description": "Aria label for the print button",
+      "message": "印刷"
+    },
+    "SEND_LABEL": {
+      "description": "Aria label for the send button",
+      "message": "送信"
+    },
+    "SIDEBAR_LABEL": {
+      "description": "Aria label for the toggle button of the document's thumbnails list",
+      "message": "ドキュメントのサムネイルリストを切り替え"
+    },
+    "SUMMARY": {
+      "description": "Aria label for the sidebar toolbar",
+      "message": "ドキュメントの要約"
+    },
+    "ZOOM_IN_LABEL": {
+      "description": "Aria label for the zoom in button",
+      "message": "拡大"
+    },
+    "ZOOM_LEVEL_LABEL": {
+      "description": "Aria label for the zoom level select",
+      "message": "ズームレベル"
+    },
+    "ZOOM_OUT_LABEL": {
+      "description": "Aria label for the zoom out button",
+      "message": "縮小"
+    }
+  },
+  "DROPZONE": {
+    "BROWSE_FILES": {
+      "a11y_one": "ファイルを参照、{{count}}件のファイル",
+      "a11y_other": "ファイルを参照、{{count}}件のファイル",
+      "a11y_zero": "ファイルを参照",
+      "description": "Browse files button label ",
+      "message": "ファイルを参照"
+    },
+    "DISABLED": {
+      "description": "Label for the disabled icon",
+      "message": "無効"
+    },
+    "DRAG_AND_DROP": {
+      "description": "Invit to drag and drop or [browse a file]",
+      "message": "ドラッグ&amp;ドロップまたは"
+    },
+    "DROP_FILES": {
+      "description": "Invit to drop files",
+      "message": "ファイルをドロップ"
+    },
+    "FILES_ADDED": {
+      "description": "Vocalised message when several files are added",
+      "message": "{{count}}件のファイルを追加しました。"
+    },
+    "FILES_CLEARED": {
+      "description": "Vocalized message when files are cleared",
+      "message": "ファイルをクリアしました"
+    },
+    "FILE_ADDED": {
+      "description": "Vocalised message when a file is added",
+      "message": "{{file}}を追加しました。"
+    },
+    "READ_ONLY": {
+      "description": "Label for the read only icon",
+      "message": "読み取り専用"
+    }
+  },
+  "FILE_SIZE_UNITS": {
+    "BIT_UNIT": {
+      "description": "Bit unit for file size",
+      "message_one": "ビット",
+      "message_other": "ビット"
+    },
+    "BYTE_UNIT": {
+      "description": "Byte unit for file size",
+      "message_one": "バイト",
+      "message_other": "バイト"
+    },
+    "GB_UNIT": {
+      "description": "Gigabyte unit for file size",
+      "message_abbr": "GB",
+      "message_label_one": "ギガバイト",
+      "message_label_other": "ギガバイト",
+      "message_one": "ギガバイト",
+      "message_other": "ギガバイト"
+    },
+    "KB_UNIT": {
+      "description": "Kilobyte unit for file size",
+      "message_abbr": "KB",
+      "message_label_one": "キロバイト",
+      "message_label_other": "キロバイト",
+      "message_one": "キロバイト",
+      "message_other": "キロバイト"
+    },
+    "MB_UNIT": {
+      "description": "Megabyte unit for file size",
+      "message_abbr": "MB",
+      "message_label_one": "メガバイト",
+      "message_label_other": "メガバイト",
+      "message_one": "メガバイト",
+      "message_other": "メガバイト"
+    }
+  },
+  "INPUT": {
+    "DONE_BUTTON_LABEL": {
+      "description": "Label for input done",
+      "message": "完了"
+    },
+    "TODAY_BUTTON_LABEL": {
+      "description": "Label for input today label",
+      "message": "今日"
+    }
+  },
+  "MENU_CONTAINER": {
+    "OPTIONS_STRING": {
+      "description": "Options string to display number of options in menu.",
+      "message_one": "{{count}}件のオプション",
+      "message_other": "{{count}}件のオプション"
+    },
+    "POPOVER_LABEL": {
+      "message": "候補"
+    }
+  },
+  "NAVIGATION": {
+    "ALPHABETICAL_SORTING": {
+      "description": "Aria Label for alphabetical sorting",
+      "message": "アルファベット順の並べ替え"
+    },
+    "ARIA_LABEL": {
+      "description": "Aria Label for main navigation drawer",
+      "message": "サイドメニュー"
+    },
+    "BACK_BUTTON_TEXT": {
+      "description": "Tool tip text for back button on Header",
+      "message": "戻る"
+    },
+    "BUTTON_TEXT": {
+      "description": "Tool tip text for menu button",
+      "message": "サイドナビゲーションメニュー"
+    },
+    "CLOSE_BUTTON_TEXT": {
+      "description": "Tool tip text for close button on Header",
+      "message": "閉じる"
+    },
+    "CLOSE_NAVIGATION": {
+      "description": "Close the navigation drawer",
+      "message": "メニューを閉じる"
+    },
+    "COLLAPSE_NAVIGATION": {
+      "description": "Collapse all accordion items in the navigation menu",
+      "message": "すべて折りたたむ"
+    },
+    "COMPACT_VIEW_NAVIGATION": {
+      "description": "layout option for the menu compact view",
+      "message": "コンパクト表示"
+    },
+    "DEFAULT_SORTING": {
+      "description": "Aria Label for default sorting",
+      "message": "デフォルトの並べ替え"
+    },
+    "EXPAND_NAVIGATION": {
+      "description": "Expand all accordion items in the navigation menu",
+      "message": "すべて展開"
+    },
+    "HOVER_OFF_NAVIGATION": {
+      "description": "hover option for navigation tabs (off)",
+      "message": "ホバータブをオフ"
+    },
+    "HOVER_ON_NAVIGATION": {
+      "description": "hover option for navigation tabs (on)",
+      "message": "ホバータブをオン"
+    },
+    "NAVIGATION_ITEMS": {
+      "description": "label for the options menu to modify the navigation items",
+      "message": "メニュー項目"
+    },
+    "NAVIGATION_LAYOUT": {
+      "description": "label for the options menu to modify the navigation layout",
+      "message": "メニューレイアウト"
+    },
+    "NAVIGATION_OPTIONS": {
+      "description": "the options menu for the side navigation",
+      "message": "メニューオプション"
+    },
+    "PIN_NAVIGATION": {
+      "description": "Pin the navigation menu",
+      "message": "ピン留め"
+    },
+    "STANDARD_VIEW_NAVIGATION": {
+      "description": "layout option for the menu standard view",
+      "message": "標準ビュー"
+    },
+    "UNPIN_NAVIGATION": {
+      "description": "UnPin the navigation menu",
+      "message": "ピン留めを外す"
+    }
+  },
+  "PAGINATOR": {
+    "ARIALABEL": {
+      "description": "paginator",
+      "message": "ページ付け"
+    },
+    "FIRST_PAGE": {
+      "description": "the aria label for the first page button",
+      "message": "最初のページ"
+    },
+    "LAST_PAGE": {
+      "description": "the aria label for the last page button",
+      "message": "最後のページ"
+    },
+    "MENU_ARIALABEL": {
+      "description": "paginator menu",
+      "message": "ページ付けメニュー"
+    },
+    "NEXT_PAGE": {
+      "description": "the aria label for the next page button",
+      "message": "次のページ"
+    },
+    "OF": {
+      "description": "the text 'of' in paginator",
+      "message": "/"
+    },
+    "PAGE_MENU_ARIALABEL": {
+      "description": "page menu",
+      "message": "ページメニュー"
+    },
+    "PAGE_OF": {
+      "description": "the text 'Page {currentPage} of {totalPages}' in paginator",
+      "message": "ページ{{currentPage}}/{{totalPages}}"
+    },
+    "PER_PAGE": {
+      "description": "the text 'per page' in paginator",
+      "message": "/ページ"
+    },
+    "PREV_PAGE": {
+      "description": "the aria label for the previous page button",
+      "message": "前のページ"
+    },
+    "ROW_OPTIONS": {
+      "description": "the aria label for the row options button",
+      "message": "行オプション"
+    },
+    "SHOWING_ALL": {
+      "description": "the text 'Showing all' in paginator",
+      "message": "すべて表示中"
+    },
+    "TOTAL_ITEMS": {
+      "description": "the text '{{totalItems}} items' in paginator",
+      "message": "{{totalItems}} {{itemsLabel}}"
+    }
+  },
+  "PROGRESS_LINEAR": {
+    "CANCEL": {
+      "description": "Label for progress linear cancel done",
+      "message": "キャンセル"
+    }
+  },
+  "RADIOGROUP": {
+    "ERROR": {
+      "description": "The text 'Required Selection' in radio-group",
+      "message": "選択が必要です"
+    }
+  },
+  "SEARCH": {
+    "CLEAR": {
+      "description": "Clear button and tooltip",
+      "message": "クリア"
+    },
+    "PLACEHOLDER": {
+      "description": "Placeholder for search component",
+      "message": "検索"
+    }
+  },
+  "SEARCHBAR": {
+    "SEARCH": {
+      "description": "Placeholder text for searchbar",
+      "message": "検索"
+    }
+  },
+  "SELECT": {
+    "CANCEL_STRING": {
+      "description": "Select label for cancel button",
+      "message": "キャンセル"
+    },
+    "MULTI_OVERFLOW": {
+      "description": "Message to display next to the count of selected items. This is used when the select control is selecting multiple options and there is not enough room to display all of the selections",
+      "message": "選択済み"
+    },
+    "NO_OPTIONS_STRING": {
+      "description": "Live region string for when no options are found on select or menu",
+      "message": "オプションが見つかりません。"
+    },
+    "OK_STRING": {
+      "description": "Select label for OK button",
+      "message": "完了"
+    },
+    "SEARCH_ARIA_LABEL": {
+      "description": "Label for search input",
+      "message": "下のオプションのリストで検索"
+    }
+  },
+  "SKIP_TO_MAIN": {
+    "TEXT": {
+      "description": "skip to main button text",
+      "message": "メインコンテンツにスキップ"
+    }
+  },
+  "TASK_DRAWER": {
+    "APPLY_BUTTON_ARIA_LABEL": {
+      "description": "Aria label for task drawer apply button",
+      "message": "適用"
+    },
+    "APPLY_BUTTON_TEXT": {
+      "description": "Label for task drawer apply button",
+      "message": "適用"
+    },
+    "RESET_BUTTON_ARIA_LABEL": {
+      "description": "Aria label for task drawer reset button",
+      "message": "リセット"
+    },
+    "RESET_BUTTON_TEXT": {
+      "description": "Label for task drawer reset button",
+      "message": "リセット"
+    }
+  },
+  "TOOLBAR": {
+    "BUTTON_GROUP_LABEL": {
+      "description": "Button group label for toolbar",
+      "message": "ツールバーボタングループ"
+    },
+    "TOOLTIP_TEXT": {
+      "description": "Toolbar responsive button group overflow menu tooltip text",
+      "message": "詳細"
+    }
+  },
+  "TREE": {
+    "LINK_INDICATOR": {
+      "description": "Label to mark if a tree item is a link for screenreader users",
+      "message": "（リンク）"
+    }
+  },
+  "UPLOAD": {
+    "CLEAR": {
+      "a11y": "クリア: {{file}}",
+      "description": "Clear button label and tooltip",
+      "message": "クリア"
+    },
+    "DELETE": {
+      "a11y": "削除: {{file}}",
+      "description": "Delete button label and tooltip",
+      "message": "削除"
+    },
+    "FILE_PROGRESSING": {
+      "description": "Progressing message",
+      "message": "進行中!"
+    },
+    "FILE_TOO_BIG": {
+      "description": "Message to signal is bigger than the maximum limit size",
+      "message": "選択したファイルは{{count}} {{- unit}}より小さいことが必要です"
+    },
+    "FILE_TYPE_ERROR": {
+      "description": "Message to signal the file type is not allowed",
+      "message": "ファイルタイプ{{type}}は許可されていません。選択したファイルは{{accept}} であることが必要です。"
+    },
+    "MAX_NUMBER_OF_FILES_PASSED": {
+      "description": "Error message to signal the maximum number of file have been passed",
+      "message_one": "最大{{count}}件のファイルを選択できます。",
+      "message_other": "最大{{count}}件のファイルを選択できます。"
+    },
+    "MAX_NUMBER_OF_FILES_REACHED": {
+      "description": "Message to signal the maximum number of file is reached",
+      "message": "最大ファイル数に達しました"
+    },
+    "RETRY": {
+      "a11y": "再試行: {{file}}",
+      "description": "Retry button label and tooltip",
+      "message": "再試行"
+    },
+    "UPLOAD_FAIL": {
+      "description": "Message to signal a fail during upload",
+      "message": "選択されたファイルは処理できませんでした – 再試行するには「再試行」ボタンを押してください。"
+    }
+  }
+}

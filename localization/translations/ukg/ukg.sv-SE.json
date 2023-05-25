@@ -1,0 +1,792 @@
+{
+  "BANNER": {
+    "IMPORTANT": {
+      "description": "Aria-label for default important icon",
+      "message": "Viktig"
+    },
+    "INFO": {
+      "description": "Aria-label for default info icon",
+      "message": "Information"
+    },
+    "SUCCESS": {
+      "description": "Aria-label for default success icon",
+      "message": "Det lyckades"
+    },
+    "WARNING": {
+      "description": "Aria-label for default warning icon",
+      "message": "Varning"
+    }
+  },
+  "CALENDAR": {
+    "CURRENT_DAY": {
+      "description": "Text for tooltip shown when a user hovers over the calendar day which is the same as 'Today'",
+      "message": "Nuvarande skatter"
+    },
+    "END_DATE_ARIA_LABEL": {
+      "description": "Aria label details for selected end date",
+      "message": ", slutdatum"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Etikett för månad i kalendern",
+      "message": "Månad"
+    },
+    "MONTH_SELECTOR_TOOLTIP": {
+      "description": "Text for tooltip shown when a user hovers over the control used to select the month, within the datepicker component/control",
+      "message": "Välj månad"
+    },
+    "NEXT_MONTH_ARIA_LABEL": {
+      "description": "Etikett för nästa månad i kalendern",
+      "message": "Nästa månad"
+    },
+    "PREVIOUS_MONTH_ARIA_LABEL": {
+      "description": "Etikett för föregående månad i kalendern",
+      "message": "Föregående månad"
+    },
+    "SELECTED_ARIA_LABEL": {
+      "description": "Aria label details for selected date",
+      "message": ", vald"
+    },
+    "SELECTED_DAY": {
+      "description": "Text for tooltip shown when a user hovers over the calenday which has been selected/choosen",
+      "message": "Vald dag"
+    },
+    "START_DATE_ARIA_LABEL": {
+      "description": "Aria label details for selected start date",
+      "message": ", startdatum"
+    },
+    "WEEK_NUMBER": {
+      "description": "Week number calendar header",
+      "message": "Vecka nummer",
+      "message_abbr": "V"
+    },
+    "WEEK_NUMBER_LABEL": {
+      "description": "Week number label",
+      "message": "Vecka {{number}}"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Etikett för år i kalendern",
+      "message": "År"
+    },
+    "YEAR_SELECTOR_TOOLTIP": {
+      "description": "Text for tooltip shown when a user hovers over the control used to select the year, within the datepicker component/control",
+      "message": "Välj år"
+    }
+  },
+  "CAROUSEL": {
+    "FIRST_SLIDE_MESSAGE": {
+      "description": "Text infogad i Aria-region när man kommer till den första bilden",
+      "message": "Det här är den första bilden"
+    },
+    "LAST_SLIDE_MESSAGE": {
+      "description": "Text infogad i Aria-region när man kommer till den sista bilden",
+      "message": "Det här är den sista bilden"
+    },
+    "NEXT_SLIDE_MESSAGE": {
+      "description": "Aria-etikett för knapp för att navigera till nästa bild",
+      "message": "Nästa bild"
+    },
+    "PAGE_CHANGE": {
+      "description": "Text som ska läsas när man byter sida genom navigering, {{index}} ersätts med exakt antal bilder",
+      "message": "För närvarande på bild {{index}}"
+    },
+    "PAGINATION_BULLET_MESSAGE": {
+      "description": "Aria-etikett för varje sidbrytning, {{index}} ersätts med exakt antal bilder",
+      "message": "Gå till bild {{index}}"
+    },
+    "PAGINATION_LABEL": {
+      "description": "Aria label used to tell users using assistive technology which slide they are on and how many slides exist in the control",
+      "message": "Det finns {{index}} bilder",
+      "message_one": "Det finns {{count}} bild",
+      "message_other": "Det finns {{count}} bilder"
+    },
+    "PREV_SLIDE_MESSAGE": {
+      "description": "Aria-etikett för knapp för att navigera till föregående bild",
+      "message": "Föregående bild"
+    },
+    "description": "You can use a carousel in scenarios such as slideshows, galleries, onboarding flows, and presentations."
+  },
+  "CHECKBOX": {
+    "ARIA_LABEL": {
+      "description": "Aria-etikett för kryssruta-ikon",
+      "message": "Kryssruta-ikon"
+    }
+  },
+  "CHECKBOXGROUP": {
+    "ERROR": {
+      "description": "Texten \"Obligatoriskt urval\" i kryssrutan",
+      "message": "Obligatoriskt urval"
+    }
+  },
+  "DATA_TABLE": {
+    "DESELECT_ALL": {
+      "description": "Nedrullningsalternativ vid flera sidor - avmarkera",
+      "message": "Avmarkera allt"
+    },
+    "SELECTION_LABEL": {
+      "description": "Ställ in texten i den valda etiketten vid rubriken",
+      "message": "Valt"
+    },
+    "SELECT_ALL": {
+      "description": "Nedrullningsalternativ vid flera sidor - allt",
+      "message": "Markera allt"
+    },
+    "SELECT_ALL_ON_PAGE": {
+      "description": "Nedrullningsalternativ vid flera sidor - allt på sidan",
+      "message": "Markera allt på den här sidan"
+    }
+  },
+  "DATE_INPUT_TEXT": {
+    "DAY_ARIA_LABEL": {
+      "description": "Text till etikett för inmatning av dag",
+      "message": "Dag"
+    },
+    "INPUT_ARIA_LABEL": {
+      "description": "Text till etikett för inmatning av datum",
+      "message": "Datuminmatning"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Text till etikett för inmatning av månad",
+      "message": "Månad"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Text till etikett för inmatning av år",
+      "message": "År"
+    }
+  },
+  "DATE_PICKER": {
+    "CLEAR_LABEL": {
+      "description": "Label for the date picker clear button",
+      "message": "Rensa"
+    },
+    "DATE_LABEL": {
+      "description": "Etikett för datuminmatningen i datumväljaren",
+      "message": "Datum"
+    },
+    "DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker date",
+      "message": "Datumet måste innehålla en dag och en månad."
+    },
+    "DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker date",
+      "message": "Datumet måste innehålla en dag och ett år."
+    },
+    "DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker start date",
+      "message": "Datumet måste innehålla en dag."
+    },
+    "DONE_DATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when a date is selected. Appends to the label for the button. Example 'Done, selected date is 01/01/2000'",
+      "message": ", det valda datumet är {{date}}"
+    },
+    "DONE_ENDDATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when an end date is selected. Appends to the label for the button. Example 'Done, selected start date is January 15, 2020, selected end date is January 25, 2020'",
+      "message": ", valt slutdatum är {{date}}"
+    },
+    "DONE_LABEL": {
+      "description": "Etikett för klarknappen i datumintervallväljaren",
+      "message": "Klar"
+    },
+    "DONE_NO_DATE_LABEL": {
+      "description": "Label for the date picker's done button when no date is selected. Example 'Done, no date selected'",
+      "message": ", inget datum valt"
+    },
+    "DONE_STARTDATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when a start date is selected. Example 'Done, selected start date is January 15, 2020",
+      "message": ", valt startdatum är {{date}}"
+    },
+    "END_DATE_LABEL": {
+      "description": "Etikett för slutdatum i datumintervallväljaren",
+      "message": "Slutdatum"
+    },
+    "INVALID_DATE": {
+      "description": "Error for when date is invalid. Happens when the given date is out of range or formatted incorrectly.",
+      "message": "Datumet måste vara ett giltigt datum."
+    },
+    "INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker start date",
+      "message": "Datumåret måste ha fyra siffror."
+    },
+    "MISSING_VALUE": {
+      "description": "Error for when date is missing. Appears if user attempts to submit without entering a date.",
+      "message": "Datum måste anges."
+    },
+    "MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker date",
+      "message": "Datumet måste innehålla en månad och ett år."
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Etikett för månad i datumväljaren",
+      "message": "Månad"
+    },
+    "MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker date",
+      "message": "Datumet måste innehålla en månad."
+    },
+    "MONTH_NAVIGATION_ARIA_LABEL": {
+      "description": "Label for the date picker month navigation toolbar button group. This group contains the select controls allowing the user to navigate to either the previous or next month within the date picker",
+      "message": "Månad navigeringsknappgrupp"
+    },
+    "MONTH_YEAR_ARIA_LABEL": {
+      "description": "Label for the date picker month toolbar button group. This group contains the select controls allowing the user to change the month or year within the date picker",
+      "message": "Månad och år knappgrupp"
+    },
+    "NEXT_MONTH_ARIA_LABEL": {
+      "description": "Etikett för nästa månad i datumväljaren",
+      "message": "Nästa månad"
+    },
+    "OPEN_CALENDAR": {
+      "description": "Label for the date picker's button. This is shown as an calendar icon.",
+      "message": "Välj datum"
+    },
+    "PREVIOUS_MONTH_ARIA_LABEL": {
+      "description": "Etikett för föregående månad i datumväljaren",
+      "message": "Föregående månad"
+    },
+    "START_DATE_LABEL": {
+      "description": "Etikett för startdatum i datumintervallväljaren",
+      "message": "Startdatum"
+    },
+    "TODAY_LABEL": {
+      "description": "Etikett för idag-knappen i datumintervallväljaren",
+      "message": "Idag"
+    },
+    "TODAY_TOOLTIP": {
+      "description": "Text for tooltip shown when the user hovers over the button, which will switch the datepicker to displaying the month with today's date in it",
+      "message": "Hoppa till idag"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Etikett för år i datumväljaren",
+      "message": "År"
+    },
+    "YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker date",
+      "message": "Datumet måste innehålla ett år."
+    }
+  },
+  "DATE_RANGE_PICKER": {
+    "END_DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker end date. Similar to other date picker messaging",
+      "message": "Slutdatumet måste innehålla en dag och en månad."
+    },
+    "END_DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker end date. Similar to other date picker messaging",
+      "message": "Slutdatumet måste innehålla en dag och ett år."
+    },
+    "END_DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker end date. Similar to other date picker messaging",
+      "message": "Slutdatumet måste innehålla en dag."
+    },
+    "END_END_DATE_BEFORE_START_DATE": {
+      "description": "Error message for when the selected end date is before the selected start date",
+      "message": "Slutdatumet måste vara detsamma som eller senare än {{- start_date}}."
+    },
+    "END_INPUT_ARIA_LABEL": {
+      "description": "Etikett för slutdatum i datumintervallväljaren",
+      "message": "Slutdatum"
+    },
+    "END_INVALID_DATE": {
+      "description": "Error message for invalid date format on the date range picker end date. Similar to other date picker messaging",
+      "message": "Slutdatumet måste vara ett riktigt datum."
+    },
+    "END_INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker end date. Similar to other date picker messaging",
+      "message": "Året för slutdatum måste ha fyra siffror."
+    },
+    "END_MISSING_VALUE": {
+      "description": "Error message for when the end date is missing a required value. This type of message is used for any required field.",
+      "message": "Slutdatum måste anges"
+    },
+    "END_MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker end date. Similar to other date picker messaging",
+      "message": "Slutdatumet måste innehålla en månad och ett år."
+    },
+    "END_MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker end date. Similar to other date picker messaging",
+      "message": "Slutdatumet måste innehålla en månad."
+    },
+    "END_YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker end date. Similar to other date picker messaging",
+      "message": "Slutdatumet måste innehålla ett år."
+    },
+    "OPEN_CALENDAR": {
+      "description": "Label for the date range picker's button. Similar to the label for the single date picker open button.",
+      "message": "Välj datumintervall"
+    },
+    "START_DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker start date. Similar to other date picker messaging",
+      "message": "Startdatumet måste innehålla en dag och en månad."
+    },
+    "START_DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker start date. Similar to other date picker messaging",
+      "message": "Startdatumet måste innehålla en dag och ett år."
+    },
+    "START_DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker start date. Similar to other date picker messaging",
+      "message": "Startdatumet måste innehålla en dag."
+    },
+    "START_INPUT_ARIA_LABEL": {
+      "description": "Etikett för startdatum i datumintervallväljaren",
+      "message": "Startdatum"
+    },
+    "START_INVALID_DATE": {
+      "description": "Error message for invalid date format on the date range picker start date. Similar to other date picker messaging",
+      "message": "Startdatumet måste vara ett riktigt datum."
+    },
+    "START_INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker start date. Similar to other date picker messaging",
+      "message": "Året för startdatum måste ha fyra siffror."
+    },
+    "START_MISSING_VALUE": {
+      "description": "Error message for when the start date is missing a required value. Similar to other date picker messaging",
+      "message": "Startdatum måste anges"
+    },
+    "START_MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker start date. Similar to other date picker messaging",
+      "message": "Startdatumet måste innehålla en månad och ett år."
+    },
+    "START_MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker start date. Similar to other date picker messaging",
+      "message": "Startdatumet måste innehålla en månad."
+    },
+    "START_YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker start date. Similar to other date picker messaging",
+      "message": "Startdatumet måste innehålla ett år."
+    }
+  },
+  "DIALOG": {
+    "CLOSE_BUTTON_TEXT": {
+      "description": "Verktygstipstext för stäng-knapp i sidhuvud",
+      "message": "Stäng"
+    }
+  },
+  "DOCUMENT_VIEWER": {
+    "CONTENT": {
+      "description": "Aria-etikett för innehållsområdet",
+      "message": "Dokumentinnehåll"
+    },
+    "DOWNLOAD_LABEL": {
+      "description": "Aria-etikett för knappen Hämta",
+      "message": "Hämta"
+    },
+    "EXTENDED_DESCRIPTION": {
+      "description": "Etikett för att vägleda användare av skärmläsare mot en längre beskrivning",
+      "message": "Längre beskrivning nedan"
+    },
+    "FOCUSED_PAGE_NUMBER_LABEL": {
+      "description": "Aria-etikett för inmatning av sidnumret för aktuell sida",
+      "message": "Aktuell sida"
+    },
+    "FULL_SCREEN_LABEL": {
+      "description": "Aria-etikett för knappen Helskärm",
+      "message": "Helskärm"
+    },
+    "NEXT_PAGE_LABEL": {
+      "description": "Aria-etikett för knappen Nästa sida",
+      "message": "Nästa sida"
+    },
+    "OF": {
+      "description": "Preposition mellan inmatning av sidnummer för aktuell sida och totalt antal sidor",
+      "message": "av"
+    },
+    "PAGE": {
+      "description": "Ord för sida i alternativ text",
+      "message": "Sida"
+    },
+    "PREV_PAGE_LABEL": {
+      "description": "Aria-etikett för knappen Föregående sida",
+      "message": "Föregående sida"
+    },
+    "PRINT_LABEL": {
+      "description": "Aria-etikett för knappen Skriv ut",
+      "message": "Skriv ut"
+    },
+    "SEND_LABEL": {
+      "description": "Aria-etikett för knappen Skicka",
+      "message": "Skicka"
+    },
+    "SIDEBAR_LABEL": {
+      "description": "Aria-etikett för växlingsknappen i dokumentets miniatyrlista",
+      "message": "Växla dokumentets miniatyrlista"
+    },
+    "SUMMARY": {
+      "description": "Aria-etikett för verktygsfältet i sidofältet",
+      "message": "Dokumentsammanfattning"
+    },
+    "ZOOM_IN_LABEL": {
+      "description": "Aria-etikett för knappen Zooma in",
+      "message": "Zooma in"
+    },
+    "ZOOM_LEVEL_LABEL": {
+      "description": "Aria-etikett för val av zoomningsnivå",
+      "message": "Zoomningsnivå"
+    },
+    "ZOOM_OUT_LABEL": {
+      "description": "Aria-etikett för knappen Zooma ut",
+      "message": "Zooma ut"
+    }
+  },
+  "DROPZONE": {
+    "BROWSE_FILES": {
+      "a11y_one": "Bläddra i filer, {{count}} fil",
+      "a11y_other": "Bläddra i filer, {{count}} filer",
+      "a11y_zero": "Bläddra i filer",
+      "description": "Etikett för knappen Bläddra i filer ",
+      "message": "bläddra i filer"
+    },
+    "DISABLED": {
+      "description": "Etikett för symbolen inaktiverad",
+      "message": "Inaktiverad"
+    },
+    "DRAG_AND_DROP": {
+      "description": "Inbjudan att dra och släppa eller [bläddra i en fil]",
+      "message": "Dra och släpp eller"
+    },
+    "DROP_FILES": {
+      "description": "Inbjudan att släppa filer",
+      "message": "Släpp filer"
+    },
+    "FILES_ADDED": {
+      "description": "Röstmeddelande när flera filer läggs till",
+      "message": "{{count}} filer lades till"
+    },
+    "FILES_CLEARED": {
+      "description": "Röstmeddelande när filer rensas",
+      "message": "Filer rensade"
+    },
+    "FILE_ADDED": {
+      "description": "Röstmeddelande när en fil läggs till",
+      "message": "{{file}} lades till"
+    },
+    "READ_ONLY": {
+      "description": "Etikett för skrivskyddad",
+      "message": "Skrivskyddad"
+    }
+  },
+  "FILE_SIZE_UNITS": {
+    "BIT_UNIT": {
+      "description": "Bit-storlek för fil",
+      "message_one": "bit",
+      "message_other": "bits"
+    },
+    "BYTE_UNIT": {
+      "description": "Byte-storlek för fil",
+      "message_one": "byte",
+      "message_other": "bytes"
+    },
+    "GB_UNIT": {
+      "description": "Gigabyte-storlek för fil",
+      "message_abbr": "GB",
+      "message_label_one": "Gigabyte",
+      "message_label_other": "Gigabytes",
+      "message_one": "gigabyte",
+      "message_other": "gigabytes"
+    },
+    "KB_UNIT": {
+      "description": "Kilobyte-storlek för fil",
+      "message_abbr": "KB",
+      "message_label_one": "Kilobyte",
+      "message_label_other": "Kilobytes",
+      "message_one": "kilobyte",
+      "message_other": "kilobytes"
+    },
+    "MB_UNIT": {
+      "description": "Megabyte-storlek för fil",
+      "message_abbr": "MB",
+      "message_label_one": "Megabyte",
+      "message_label_other": "Megabytes",
+      "message_one": "megabyte",
+      "message_other": "megabytes"
+    }
+  },
+  "INPUT": {
+    "DONE_BUTTON_LABEL": {
+      "description": "Etikett för inmatning klar",
+      "message": "Klar"
+    },
+    "TODAY_BUTTON_LABEL": {
+      "description": "Etikett för inmatning i dag",
+      "message": "Idag"
+    }
+  },
+  "MENU_CONTAINER": {
+    "OPTIONS_STRING": {
+      "description": "Alternativsträng för att visa antalet alternativ i en meny.",
+      "message_one": "{{count}} alternativ",
+      "message_other": "{{count}} alternativ"
+    },
+    "POPOVER_LABEL": {
+      "description": "Aria label describing the menu of options shown, after a user types in text into the autocomplete combobox",
+      "message": "Förslag"
+    }
+  },
+  "NAVIGATION": {
+    "ALPHABETICAL_SORTING": {
+      "description": "Aria Label for alphabetical sorting in the main navigation menu options. This option will allow users to sort the items within the (main) left nav alphabetically",
+      "message": "Alfabetisk sortering"
+    },
+    "ARIA_LABEL": {
+      "description": "Aria Label för navigeringsreglage",
+      "message": "Sidmeny"
+    },
+    "BACK_BUTTON_TEXT": {
+      "description": "Verktygstipstext för tillbaka-knapp i sidhuvud",
+      "message": "Bakåt"
+    },
+    "BUTTON_TEXT": {
+      "description": "Verktygstipstext för menyknapp",
+      "message": "Sidnavigeringsmeny"
+    },
+    "CLOSE_BUTTON_TEXT": {
+      "description": "Verktygstipstext för stäng-knapp i sidhuvud",
+      "message": "Stäng"
+    },
+    "CLOSE_NAVIGATION": {
+      "description": "Stäng navigeringsreglaget",
+      "message": "Stäng meny"
+    },
+    "COLLAPSE_NAVIGATION": {
+      "description": "Stäng alla dragspelsposter i navigeringsmenyn",
+      "message": "Stäng alla"
+    },
+    "COMPACT_VIEW_NAVIGATION": {
+      "description": "komprimerad vy som layoutalternativ för menyn",
+      "message": "Komprimerad vy"
+    },
+    "DEFAULT_SORTING": {
+      "description": "Aria Label for default sorting in the main navigation menu options. This option will allow users to sort the items within the (main) normally, as the domain/admin sets them.",
+      "message": "Standardsortering"
+    },
+    "EXPAND_NAVIGATION": {
+      "description": "Öppna alla dragspelsposter i navigeringsmenyn",
+      "message": "Öppna alla"
+    },
+    "HOVER_OFF_NAVIGATION": {
+      "description": "alternativet att hålla muspekaren över navigeringsflikar (av)",
+      "message": "Håll muspekaren över flikar, av"
+    },
+    "HOVER_ON_NAVIGATION": {
+      "description": "alternativet att hålla muspekaren över navigeringsflikar (på)",
+      "message": "Håll muspekaren över flikar, på"
+    },
+    "NAVIGATION_ITEMS": {
+      "description": "etikett för alternativmenyn att ändra navigeringsposter",
+      "message": "Menyposter"
+    },
+    "NAVIGATION_LAYOUT": {
+      "description": "etikett för alternativmenyn att ändra navigeringsutseende",
+      "message": "Menyutseende"
+    },
+    "NAVIGATION_OPTIONS": {
+      "description": "alternativmenyn för sidonavigering",
+      "message": "Menyalternativ"
+    },
+    "PIN_NAVIGATION": {
+      "description": "Fäst navigeringsmenyn",
+      "message": "Fäst"
+    },
+    "STANDARD_VIEW_NAVIGATION": {
+      "description": "standardvy som layoutalternativ för menyn",
+      "message": "Standardvy"
+    },
+    "UNPIN_NAVIGATION": {
+      "description": "Ta bort fastnålning av navigeringsmenyn",
+      "message": "Ta bort fastnålning"
+    }
+  },
+  "PAGINATOR": {
+    "ARIALABEL": {
+      "description": "paginator",
+      "message": "paginator"
+    },
+    "FIRST_PAGE": {
+      "description": "The aria label for the first page button. Clicking/tapping this button takes the user to the first page of the data set",
+      "message": "Första sidan"
+    },
+    "LAST_PAGE": {
+      "description": "The aria label for the last page button. Clicking/tapping this button takes the user to the last page of the data set.",
+      "message": "Sista sidan"
+    },
+    "MENU_ARIALABEL": {
+      "description": "paginator menu",
+      "message": "paginatormeny"
+    },
+    "NEXT_PAGE": {
+      "description": "the aria label for the next page button",
+      "message": "Nästa sida"
+    },
+    "OF": {
+      "description": "texten ’av’ i paginator",
+      "message": "av"
+    },
+    "PAGE_MENU_ARIALABEL": {
+      "description": "Aria label for the menu allowing the user to select how many items they wish to see per page.",
+      "message": "sidomeny"
+    },
+    "PAGE_OF": {
+      "description": "The text 'Page {currentPage} of {totalPages}' in paginator. This help quantify which page the user is on within the data set and how many pages exist in total",
+      "message": "Sida {{currentPage}} av {{totalPages}}"
+    },
+    "PER_PAGE": {
+      "description": "The text 'per page' in paginator. This helps to quantify how many items are shown on a given page within the data table",
+      "message": "per sida"
+    },
+    "PREV_PAGE": {
+      "description": "The aria label for the previous page button. Clicking this button allows the user to go one page backwards within the data set",
+      "message": "Föregående sida"
+    },
+    "ROW_OPTIONS": {
+      "description": "Aria-etikett för radalternativknappen",
+      "message": "radalternativ"
+    },
+    "SHOWING_ALL": {
+      "description": "The text 'Showing all' in paginator. Choosing this option allows the user to see all the items within the data set on a single page. This should be user raely and only when the number of items is not large.",
+      "message": "Visar alla"
+    },
+    "TOTAL_ITEMS": {
+      "description": "The text '{{totalItems}} items' in paginator. When the user has opted to see all the items on a single page, this text tells the user just how many items exist.",
+      "message": "{{totalItems}} {{itemsLabel}}"
+    }
+  },
+  "PROCESS_MENU": {
+    "OF": {
+      "description": "Preposition between focused page number input and total number of pages",
+      "message": "av"
+    },
+    "STEP_LABEL": {
+      "description": "Label indicating which step in the process a user is on",
+      "message": "Steg"
+    }
+  },
+  "PROGRESS_LINEAR": {
+    "CANCEL": {
+      "description": "Etikett för framsteg linjär avbryt klar",
+      "message": "Avbryt"
+    }
+  },
+  "RADIOGROUP": {
+    "ERROR": {
+      "description": "Texten 'Obligatoriskt urval' i radiogrupp",
+      "message": "Obligatoriskt urval"
+    }
+  },
+  "SEARCH": {
+    "CLEAR": {
+      "description": "Knappen Rensa och verktygstips",
+      "message": "Rensa"
+    },
+    "PLACEHOLDER": {
+      "description": "Platshållare för sökkomponent",
+      "message": "Sök"
+    }
+  },
+  "SEARCHBAR": {
+    "SEARCH": {
+      "description": "Platshållartext för sökfältet",
+      "message": "Sök"
+    }
+  },
+  "SELECT": {
+    "CANCEL_STRING": {
+      "description": "Välj etikett för Avbryt-knapp",
+      "message": "Avbryt"
+    },
+    "MULTI_OVERFLOW": {
+      "description": "Message to display next to the count of selected items. This is used when the select control is selecting multiple options and there is not enough room to display all of the selections",
+      "message": "valt"
+    },
+    "NO_OPTIONS_STRING": {
+      "description": "Regionsträng för när inga alternativ finns under välj eller i en meny",
+      "message": "Inga alternativ påträffades."
+    },
+    "OK_STRING": {
+      "description": "Välj etikett för OK-knapp",
+      "message": "Klar"
+    },
+    "SEARCH_ARIA_LABEL": {
+      "description": "Etikett för sökning",
+      "message": "Sök i listan med alternativ nedan"
+    }
+  },
+  "SKIP_TO_MAIN": {
+    "TEXT": {
+      "description": "knapptext hoppa till huvudinnehåll",
+      "message": "Hoppa till huvudinnehåll"
+    }
+  },
+  "TASK_DRAWER": {
+    "APPLY_BUTTON_ARIA_LABEL": {
+      "description": "Aria-etikett för användknapp för aktivitetslåda",
+      "message": "Använd"
+    },
+    "APPLY_BUTTON_TEXT": {
+      "description": "Etikett för användknapp för aktivitetslåda",
+      "message": "Använd"
+    },
+    "RESET_BUTTON_ARIA_LABEL": {
+      "description": "Aria-etikett för återställningsknapp för aktivitetslådan",
+      "message": "Återställ"
+    },
+    "RESET_BUTTON_TEXT": {
+      "description": "Etikett för återställningsknapp för aktivitetslåda",
+      "message": "Återställ"
+    }
+  },
+  "TOOLBAR": {
+    "BUTTON_GROUP_LABEL": {
+      "description": "Etikett för grupper av knappar i verktygsfält",
+      "message": "Verktygsfält knappgrupp etikett"
+    },
+    "TOOLTIP_TEXT": {
+      "description": "Verktygsfält responsiv knappgrupp över verktygstipstext i meny",
+      "message": "Mer"
+    }
+  },
+  "TREE": {
+    "LINK_INDICATOR": {
+      "description": "Etikett för att markera om en trädnod är en länk för användare av skärmläsare",
+      "message": "(länk)"
+    }
+  },
+  "UPLOAD": {
+    "CLEAR": {
+      "a11y": "Rensa: {{file}}",
+      "description": "Etikett för knappen Rensa och verktygstips",
+      "message": "Rensa"
+    },
+    "DELETE": {
+      "a11y": "Ta bort: {{file}}",
+      "description": "Etikett för knappen Ta bort och verktygstips",
+      "message": "Ta bort"
+    },
+    "FILE_PROGRESSING": {
+      "description": "Framstegsmeddelande",
+      "message": "Framsteg"
+    },
+    "FILE_TOO_BIG": {
+      "description": "Meddelande för att informera om att maxgränsen överskridits",
+      "message": "Den valda filen måste vara mindre än {{count}} {{- unit}}"
+    },
+    "FILE_TYPE_ERROR": {
+      "description": "Meddelande för att informera om att filtypen är inte tillåten",
+      "message": "Filtypen {{type}} är inte tillåten Den valda filen måste vara:{{accept}}"
+    },
+    "MAX_NUMBER_OF_FILES_PASSED": {
+      "description": "Felmeddelande för att informera om att det maximala antalet filer har överskridits",
+      "message_one": "Du kan bara välja upp till {{count}} fil.",
+      "message_other": "Du kan bara välja upp till {{count}} fil."
+    },
+    "MAX_NUMBER_OF_FILES_REACHED": {
+      "description": "Meddelande för att informera om att det maximala antalet filer har uppnåtts",
+      "message": "Du har uppnått det högsta antalet filer"
+    },
+    "RETRY": {
+      "a11y": "Försök igen: {{file}}",
+      "description": "Etikett för knappen Försök igen och verktygstips",
+      "message": "Försök igen"
+    },
+    "UPLOAD_FAIL": {
+      "description": "Meddelande för att informera om ett fel vid överföring",
+      "message": "Den valda filen kunde inte bearbetas - tryck på knappen Försök igen och prova igen."
+    }
+  }
+}

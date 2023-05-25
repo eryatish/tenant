@@ -1,0 +1,792 @@
+{
+  "BANNER": {
+    "IMPORTANT": {
+      "description": "Aria-label for default important icon",
+      "message": "Vigtigt"
+    },
+    "INFO": {
+      "description": "Aria-label for default info icon",
+      "message": "Oplysninger"
+    },
+    "SUCCESS": {
+      "description": "Aria-label for default success icon",
+      "message": "Fuldført"
+    },
+    "WARNING": {
+      "description": "Aria-label for default warning icon",
+      "message": "Advarsel"
+    }
+  },
+  "CALENDAR": {
+    "CURRENT_DAY": {
+      "description": "Text for tooltip shown when a user hovers over the calendar day which is the same as 'Today'",
+      "message": "Aktuel dag"
+    },
+    "END_DATE_ARIA_LABEL": {
+      "description": "Aria label details for selected end date",
+      "message": ", slutdato"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Mærkat for kalendermåneden",
+      "message": "Måned"
+    },
+    "MONTH_SELECTOR_TOOLTIP": {
+      "description": "Text for tooltip shown when a user hovers over the control used to select the month, within the datepicker component/control",
+      "message": "Vælg måned"
+    },
+    "NEXT_MONTH_ARIA_LABEL": {
+      "description": "Mærkat for næste måned i kalenderen",
+      "message": "Næste måned"
+    },
+    "PREVIOUS_MONTH_ARIA_LABEL": {
+      "description": "Mærkat for forrige måned i kalenderen",
+      "message": "Forrige måned"
+    },
+    "SELECTED_ARIA_LABEL": {
+      "description": "Aria label details for selected date",
+      "message": ", valgt"
+    },
+    "SELECTED_DAY": {
+      "description": "Text for tooltip shown when a user hovers over the calenday which has been selected/choosen",
+      "message": "Valgt dag"
+    },
+    "START_DATE_ARIA_LABEL": {
+      "description": "Aria label details for selected start date",
+      "message": ", startdato"
+    },
+    "WEEK_NUMBER": {
+      "description": "Week number calendar header",
+      "message": "Uge nummer",
+      "message_abbr": "U"
+    },
+    "WEEK_NUMBER_LABEL": {
+      "description": "Week number label",
+      "message": "Uge {{number}}"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Mærkat for kalenderåret",
+      "message": "År"
+    },
+    "YEAR_SELECTOR_TOOLTIP": {
+      "description": "Text for tooltip shown when a user hovers over the control used to select the year, within the datepicker component/control",
+      "message": "Vælg år"
+    }
+  },
+  "CAROUSEL": {
+    "FIRST_SLIDE_MESSAGE": {
+      "description": "Tekst, som indsættes i live aria-region, når første dias nås",
+      "message": "Dette er første dias"
+    },
+    "LAST_SLIDE_MESSAGE": {
+      "description": "Tekst, som indsættes i live aria-region, når sidste dias nås",
+      "message": "Dette er sidste dias"
+    },
+    "NEXT_SLIDE_MESSAGE": {
+      "description": "Aria-mærkat for navigeringsknap til næste dias",
+      "message": "Næste dias"
+    },
+    "PAGE_CHANGE": {
+      "description": "Tekst, som læses, når der skiftes side ved navigering, {{index}} erstattes med et præcist antal dias",
+      "message": "Aktuelt på dias {{index}}"
+    },
+    "PAGINATION_BULLET_MESSAGE": {
+      "description": "Aria-mærkat for hvert sideinddelingspunktelement {{index}} erstattes med et præcist antal dias",
+      "message": "Gå til dias {{index}}"
+    },
+    "PAGINATION_LABEL": {
+      "description": "Aria label used to tell users using assistive technology which slide they are on and how many slides exist in the control",
+      "message": "Der er {{index}} dias",
+      "message_one": "Der er {{count}} dias",
+      "message_other": "Der er {{count}} dias"
+    },
+    "PREV_SLIDE_MESSAGE": {
+      "description": "Aria-mærkat for navigeringsknap til forrige dias",
+      "message": "Forrige dias"
+    },
+    "description": "You can use a carousel in scenarios such as slideshows, galleries, onboarding flows, and presentations."
+  },
+  "CHECKBOX": {
+    "ARIA_LABEL": {
+      "description": "Aria-mærkat for afkrydsningsfeltikon",
+      "message": "Ikon for afkrydsningsfelt"
+    }
+  },
+  "CHECKBOXGROUP": {
+    "ERROR": {
+      "description": "Teksten \"Obligatorisk valg\" i afkrydsningsfeltgruppe",
+      "message": "Obligatorisk valg"
+    }
+  },
+  "DATA_TABLE": {
+    "DESELECT_ALL": {
+      "description": "Rullemenuindstillinger ved flere sider – fravælg",
+      "message": "Fravælg alt"
+    },
+    "SELECTION_LABEL": {
+      "description": "Angiv teksten i den valgte mærkat i sidehovedet",
+      "message": "Valgt"
+    },
+    "SELECT_ALL": {
+      "description": "Rullemenuindstillinger ved flere sider – alt",
+      "message": "Vælg alt"
+    },
+    "SELECT_ALL_ON_PAGE": {
+      "description": "Rullemenuindstillinger ved flere sider – alt på siden",
+      "message": "Vælg alt på denne side"
+    }
+  },
+  "DATE_INPUT_TEXT": {
+    "DAY_ARIA_LABEL": {
+      "description": "Mærkat til tekstinput for dag",
+      "message": "Dag"
+    },
+    "INPUT_ARIA_LABEL": {
+      "description": "Mærkat til tekstinput for dato",
+      "message": "Datoinput"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Mærkat til tekstinput for måned",
+      "message": "Måned"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Mærkat til tekstinput for år",
+      "message": "År"
+    }
+  },
+  "DATE_PICKER": {
+    "CLEAR_LABEL": {
+      "description": "Label for the date picker clear button",
+      "message": "Ryd"
+    },
+    "DATE_LABEL": {
+      "description": "Mærkat til datoinput i datovælgeren",
+      "message": "Dato"
+    },
+    "DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker date",
+      "message": "Datoen skal indeholde en dag og en måned."
+    },
+    "DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker date",
+      "message": "Datoen skal indeholde en dag og et år."
+    },
+    "DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker start date",
+      "message": "Datoen skal indeholde en dag."
+    },
+    "DONE_DATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when a date is selected. Appends to the label for the button. Example 'Done, selected date is 01/01/2000'",
+      "message": ", den valgte dato er {{date}}"
+    },
+    "DONE_ENDDATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when an end date is selected. Appends to the label for the button. Example 'Done, selected start date is January 15, 2020, selected end date is January 25, 2020'",
+      "message": ", den valgte slutdato er {{date}}"
+    },
+    "DONE_LABEL": {
+      "description": "Mærkat til knappen Udført i datoområdevælgeren",
+      "message": "Udført"
+    },
+    "DONE_NO_DATE_LABEL": {
+      "description": "Label for the date picker's done button when no date is selected. Example 'Done, no date selected'",
+      "message": ", ingen dato er valgt"
+    },
+    "DONE_STARTDATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when a start date is selected. Example 'Done, selected start date is January 15, 2020",
+      "message": ", den valgte startdato er {{date}}"
+    },
+    "END_DATE_LABEL": {
+      "description": "Mærkat til slutdatoen i datoområdevælgeren",
+      "message": "Slutdato"
+    },
+    "INVALID_DATE": {
+      "description": "Error for when date is invalid. Happens when the given date is out of range or formatted incorrectly.",
+      "message": "Datoen skal være en gyldig dato."
+    },
+    "INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker start date",
+      "message": "Året for datoen skal have 4 cifre."
+    },
+    "MISSING_VALUE": {
+      "description": "Error for when date is missing. Appears if user attempts to submit without entering a date.",
+      "message": "Datoen er påkrævet."
+    },
+    "MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker date",
+      "message": "Datoen skal indeholde en måned og et år."
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Mærkat til datovælger for måned",
+      "message": "Måned"
+    },
+    "MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker date",
+      "message": "Datoen skal indeholde en måned."
+    },
+    "MONTH_NAVIGATION_ARIA_LABEL": {
+      "description": "Label for the date picker month navigation toolbar button group. This group contains the select controls allowing the user to navigate to either the previous or next month within the date picker",
+      "message": "Knapgruppe for navigering af måned"
+    },
+    "MONTH_YEAR_ARIA_LABEL": {
+      "description": "Label for the date picker month toolbar button group. This group contains the select controls allowing the user to change the month or year within the date picker",
+      "message": "Knapgruppe for måned og år."
+    },
+    "NEXT_MONTH_ARIA_LABEL": {
+      "description": "Mærkat til datovælger for næste måned",
+      "message": "Næste måned"
+    },
+    "OPEN_CALENDAR": {
+      "description": "Label for the date picker's button. This is shown as an calendar icon.",
+      "message": "Vælg dato"
+    },
+    "PREVIOUS_MONTH_ARIA_LABEL": {
+      "description": "Mærkat til datovælger for forrige måned",
+      "message": "Forrige måned"
+    },
+    "START_DATE_LABEL": {
+      "description": "Mærkat til startdatoen i datoområdevælgeren",
+      "message": "Startdato"
+    },
+    "TODAY_LABEL": {
+      "description": "Mærkat til knappen I dag i datoområdevælgeren",
+      "message": "I dag"
+    },
+    "TODAY_TOOLTIP": {
+      "description": "Text for tooltip shown when the user hovers over the button, which will switch the datepicker to displaying the month with today's date in it",
+      "message": "Hop til i dag"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Mærkat til datovælger for år",
+      "message": "År"
+    },
+    "YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker date",
+      "message": "Datoen skal indeholde et år."
+    }
+  },
+  "DATE_RANGE_PICKER": {
+    "END_DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker end date. Similar to other date picker messaging",
+      "message": "Slutdatoen skal indeholde en dag og en måned."
+    },
+    "END_DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker end date. Similar to other date picker messaging",
+      "message": "Slutdatoen skal indeholde en dag og et år."
+    },
+    "END_DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker end date. Similar to other date picker messaging",
+      "message": "Slutdatoen skal indeholde en dag."
+    },
+    "END_END_DATE_BEFORE_START_DATE": {
+      "description": "Error message for when the selected end date is before the selected start date",
+      "message": "Slutdatoen skal være den samme som eller ligge efter {{- start_date}}."
+    },
+    "END_INPUT_ARIA_LABEL": {
+      "description": "Mærkat for slutdatoen ved valg af datointerval",
+      "message": "Slutdato"
+    },
+    "END_INVALID_DATE": {
+      "description": "Error message for invalid date format on the date range picker end date. Similar to other date picker messaging",
+      "message": "Slutdatoen skal være en rigtig dato."
+    },
+    "END_INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker end date. Similar to other date picker messaging",
+      "message": "Året for slutdatoen skal have 4 cifre."
+    },
+    "END_MISSING_VALUE": {
+      "description": "Error message for when the end date is missing a required value. This type of message is used for any required field.",
+      "message": "Slutdato er påkrævet"
+    },
+    "END_MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker end date. Similar to other date picker messaging",
+      "message": "Slutdatoen skal indeholde en måned og et år."
+    },
+    "END_MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker end date. Similar to other date picker messaging",
+      "message": "Slutdatoen skal indeholde en måned."
+    },
+    "END_YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker end date. Similar to other date picker messaging",
+      "message": "Slutdatoen skal indeholde et år."
+    },
+    "OPEN_CALENDAR": {
+      "description": "Label for the date range picker's button. Similar to the label for the single date picker open button.",
+      "message": "Vælg datointerval"
+    },
+    "START_DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker start date. Similar to other date picker messaging",
+      "message": "Startdatoen skal indeholde en dag og en måned."
+    },
+    "START_DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker start date. Similar to other date picker messaging",
+      "message": "Startdatoen skal indeholde en dag og et år."
+    },
+    "START_DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker start date. Similar to other date picker messaging",
+      "message": "Startdatoen skal indeholde en dag."
+    },
+    "START_INPUT_ARIA_LABEL": {
+      "description": "Mærkat for startdatoen ved valg af datointerval",
+      "message": "Startdato"
+    },
+    "START_INVALID_DATE": {
+      "description": "Error message for invalid date format on the date range picker start date. Similar to other date picker messaging",
+      "message": "Startdatoen skal være en rigtig dato."
+    },
+    "START_INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker start date. Similar to other date picker messaging",
+      "message": "Året for startdatoen skal have 4 cifre."
+    },
+    "START_MISSING_VALUE": {
+      "description": "Error message for when the start date is missing a required value. Similar to other date picker messaging",
+      "message": "Startdato er påkrævet"
+    },
+    "START_MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker start date. Similar to other date picker messaging",
+      "message": "Startdatoen skal indeholde en måned og et år."
+    },
+    "START_MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker start date. Similar to other date picker messaging",
+      "message": "Startdatoen skal indeholde en måned."
+    },
+    "START_YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker start date. Similar to other date picker messaging",
+      "message": "Startdatoen skal indeholde et år."
+    }
+  },
+  "DIALOG": {
+    "CLOSE_BUTTON_TEXT": {
+      "description": "Værktøjstiptekst til lukknappen på sidehovedet",
+      "message": "Luk"
+    }
+  },
+  "DOCUMENT_VIEWER": {
+    "CONTENT": {
+      "description": "Aria-mærkat for indholdsområde",
+      "message": "Dokumentindhold"
+    },
+    "DOWNLOAD_LABEL": {
+      "description": "Aria-mærkat for knappen Download",
+      "message": "Download"
+    },
+    "EXTENDED_DESCRIPTION": {
+      "description": "Mærkat, som hjælper brugere af skærmlæsere med at få en udvidet beskrivelse",
+      "message": "Udvidet beskrivelse nedenfor"
+    },
+    "FOCUSED_PAGE_NUMBER_LABEL": {
+      "description": "Aria-mærkat for input af det fokuserede sidetal",
+      "message": "Aktuel side"
+    },
+    "FULL_SCREEN_LABEL": {
+      "description": "Aria-mærkat for knappen Fuld skærm",
+      "message": "Fuld skærm"
+    },
+    "NEXT_PAGE_LABEL": {
+      "description": "Aria-mærkat for knappen Næste side",
+      "message": "Næste side"
+    },
+    "OF": {
+      "description": "Forslag mellem input af fokuseret sidetal og det samlede antal sider",
+      "message": "af"
+    },
+    "PAGE": {
+      "description": "Ord for side i alternativ tekst",
+      "message": "Side"
+    },
+    "PREV_PAGE_LABEL": {
+      "description": "Aria-mærkat for knappen Forrige side",
+      "message": "Forrige side"
+    },
+    "PRINT_LABEL": {
+      "description": "Aria-mærkat for knappen Udskriv",
+      "message": "Udskriv"
+    },
+    "SEND_LABEL": {
+      "description": "Aria-mærkat for knappen Send",
+      "message": "Send"
+    },
+    "SIDEBAR_LABEL": {
+      "description": "Aria-mærkat for skifteknappen til dokumentets liste over miniaturer.",
+      "message": "Skift mellem dokumentets liste over miniaturer."
+    },
+    "SUMMARY": {
+      "description": "Aria-mærkat for værktøjslinjen i sidepanelet",
+      "message": "Dokumentoversigt"
+    },
+    "ZOOM_IN_LABEL": {
+      "description": "Aria-mærkat for knappen Zoom ind",
+      "message": "Zoom ind"
+    },
+    "ZOOM_LEVEL_LABEL": {
+      "description": "Aria-mærkat for valg af zoomniveau",
+      "message": "Zoomniveau"
+    },
+    "ZOOM_OUT_LABEL": {
+      "description": "Aria-mærkat for knappen Zoom ud",
+      "message": "Zoom ud"
+    }
+  },
+  "DROPZONE": {
+    "BROWSE_FILES": {
+      "a11y_one": "Gennemse filer, {{count}} fil",
+      "a11y_other": "Gennemse filer, {{count}} filer",
+      "a11y_zero": "Gennemse filer",
+      "description": "Knapmærkat for Gennemse filer ",
+      "message": "gennemse filer"
+    },
+    "DISABLED": {
+      "description": "Mærkat for deaktiveret ikon",
+      "message": "Deaktiveret"
+    },
+    "DRAG_AND_DROP": {
+      "description": "Invitation til at trække og slippe eller [søg efter en fil]",
+      "message": "Træk og slip, eller"
+    },
+    "DROP_FILES": {
+      "description": "Invitation til at slippe filer",
+      "message": "Slip filer"
+    },
+    "FILES_ADDED": {
+      "description": "Stemmebesked, når flere filer tilføjes",
+      "message": "{{count}} filer, tilføjet."
+    },
+    "FILES_CLEARED": {
+      "description": "Stemmebesked, når filer ryddes",
+      "message": "Filer ryddet"
+    },
+    "FILE_ADDED": {
+      "description": "Stemmebesked, når en fil tilføjes",
+      "message": "{{file}}, tilføjet."
+    },
+    "READ_ONLY": {
+      "description": "Mærkat for skrivebeskyttet ikon",
+      "message": "Skrivebeskyttet"
+    }
+  },
+  "FILE_SIZE_UNITS": {
+    "BIT_UNIT": {
+      "description": "Bit-enhed for filstørrelse",
+      "message_one": "bit",
+      "message_other": "bits"
+    },
+    "BYTE_UNIT": {
+      "description": "Byte-enhed for filstørrelse",
+      "message_one": "byte",
+      "message_other": "bytes"
+    },
+    "GB_UNIT": {
+      "description": "Gigabyte-enhed for filstørrelse",
+      "message_abbr": "GB",
+      "message_label_one": "Gigabyte",
+      "message_label_other": "Gigabytes",
+      "message_one": "gigabyte",
+      "message_other": "gigabytes"
+    },
+    "KB_UNIT": {
+      "description": "Kilobyte-enhed for filstørrelse",
+      "message_abbr": "KB",
+      "message_label_one": "Kilobyte",
+      "message_label_other": "Kilobytes",
+      "message_one": "kilobyte",
+      "message_other": "kilobytes"
+    },
+    "MB_UNIT": {
+      "description": "Megabyte-enhed for filstørrelse",
+      "message_abbr": "MB",
+      "message_label_one": "Megabyte",
+      "message_label_other": "Megabytes",
+      "message_one": "megabyte",
+      "message_other": "megabytes"
+    }
+  },
+  "INPUT": {
+    "DONE_BUTTON_LABEL": {
+      "description": "Mærkat for indtastning udført",
+      "message": "Udført"
+    },
+    "TODAY_BUTTON_LABEL": {
+      "description": "Mærkat for indtastning af i dag",
+      "message": "I dag"
+    }
+  },
+  "MENU_CONTAINER": {
+    "OPTIONS_STRING": {
+      "description": "Indstillingsstreng til at vise antallet af punkter i menuen.",
+      "message_one": "{{count}} indstilling",
+      "message_other": "{{count}} indstillinger"
+    },
+    "POPOVER_LABEL": {
+      "description": "Aria label describing the menu of options shown, after a user types in text into the autocomplete combobox",
+      "message": "Forslag"
+    }
+  },
+  "NAVIGATION": {
+    "ALPHABETICAL_SORTING": {
+      "description": "Aria Label for alphabetical sorting in the main navigation menu options. This option will allow users to sort the items within the (main) left nav alphabetically",
+      "message": "Alfabetisk rækkefølge"
+    },
+    "ARIA_LABEL": {
+      "description": "Aria-mærkat til den primære navigationsskuffe",
+      "message": "Sidemenu"
+    },
+    "BACK_BUTTON_TEXT": {
+      "description": "Værktøjstiptekst til Tilbage-knappen på sidehovedet",
+      "message": "Tilbage"
+    },
+    "BUTTON_TEXT": {
+      "description": "Værktøjstiptekst til menuknappen",
+      "message": "Sidenavigationsmenu"
+    },
+    "CLOSE_BUTTON_TEXT": {
+      "description": "Værktøjstiptekst til lukknappen på sidehovedet",
+      "message": "Luk"
+    },
+    "CLOSE_NAVIGATION": {
+      "description": "Luk navigationsskuffen",
+      "message": "Lukmenu"
+    },
+    "COLLAPSE_NAVIGATION": {
+      "description": "Skjul alle harmonikaelementer i navigationsmenuen",
+      "message": "Skjul alle"
+    },
+    "COMPACT_VIEW_NAVIGATION": {
+      "description": "layoutindstilling for menuens kompakte visning",
+      "message": "Kompakt visning"
+    },
+    "DEFAULT_SORTING": {
+      "description": "Aria Label for default sorting in the main navigation menu options. This option will allow users to sort the items within the (main) normally, as the domain/admin sets them.",
+      "message": "Standardrækkefølge"
+    },
+    "EXPAND_NAVIGATION": {
+      "description": "Udvid alle harmonikaelementer i navigationsmenuen",
+      "message": "Udvid alle"
+    },
+    "HOVER_OFF_NAVIGATION": {
+      "description": "Musemarkør for navigationsfaner (fra)",
+      "message": "Musemarkørfaner Fra"
+    },
+    "HOVER_ON_NAVIGATION": {
+      "description": "Musemarkør for navigationsfaner (til)",
+      "message": "Musemarkørfaner Til"
+    },
+    "NAVIGATION_ITEMS": {
+      "description": "mærkat for indstillingsmenuen for at ændre navigationselementerne",
+      "message": "Menupunkter"
+    },
+    "NAVIGATION_LAYOUT": {
+      "description": "mærkat for indstillingsmenuen for at ændre navigationslayoutet",
+      "message": "Menulayout"
+    },
+    "NAVIGATION_OPTIONS": {
+      "description": "indstillingsmenuen for sidenavigation",
+      "message": "Menupunkter"
+    },
+    "PIN_NAVIGATION": {
+      "description": "Fastgør navigationsmenuen",
+      "message": "Tegnestift"
+    },
+    "STANDARD_VIEW_NAVIGATION": {
+      "description": "layoutindstilling for menuens standardvisning",
+      "message": "Standardvisning"
+    },
+    "UNPIN_NAVIGATION": {
+      "description": "Frigør navigationsmenuen",
+      "message": "Frigør"
+    }
+  },
+  "PAGINATOR": {
+    "ARIALABEL": {
+      "description": "sideinddeling",
+      "message": "sideinddeling"
+    },
+    "FIRST_PAGE": {
+      "description": "The aria label for the first page button. Clicking/tapping this button takes the user to the first page of the data set",
+      "message": "Første side"
+    },
+    "LAST_PAGE": {
+      "description": "The aria label for the last page button. Clicking/tapping this button takes the user to the last page of the data set.",
+      "message": "Sidste side"
+    },
+    "MENU_ARIALABEL": {
+      "description": "paginator menu",
+      "message": "menu for sideinddeling"
+    },
+    "NEXT_PAGE": {
+      "description": "the aria label for the next page button",
+      "message": "Næste side"
+    },
+    "OF": {
+      "description": "teksten \"af\" i sideinddelingen",
+      "message": "af"
+    },
+    "PAGE_MENU_ARIALABEL": {
+      "description": "Aria label for the menu allowing the user to select how many items they wish to see per page.",
+      "message": "sidemenu"
+    },
+    "PAGE_OF": {
+      "description": "The text 'Page {currentPage} of {totalPages}' in paginator. This help quantify which page the user is on within the data set and how many pages exist in total",
+      "message": "Side {{currentPage}} af {{totalPages}}"
+    },
+    "PER_PAGE": {
+      "description": "The text 'per page' in paginator. This helps to quantify how many items are shown on a given page within the data table",
+      "message": "pr. side"
+    },
+    "PREV_PAGE": {
+      "description": "The aria label for the previous page button. Clicking this button allows the user to go one page backwards within the data set",
+      "message": "Forrige side"
+    },
+    "ROW_OPTIONS": {
+      "description": "aria-mærkaten for rækkeindstillingsknap",
+      "message": "rækkeindstillinger"
+    },
+    "SHOWING_ALL": {
+      "description": "The text 'Showing all' in paginator. Choosing this option allows the user to see all the items within the data set on a single page. This should be user raely and only when the number of items is not large.",
+      "message": "Viser alle"
+    },
+    "TOTAL_ITEMS": {
+      "description": "The text '{{totalItems}} items' in paginator. When the user has opted to see all the items on a single page, this text tells the user just how many items exist.",
+      "message": "{{totalItems}} {{itemsLabel}}"
+    }
+  },
+  "PROCESS_MENU": {
+    "OF": {
+      "description": "Preposition between focused page number input and total number of pages",
+      "message": "af"
+    },
+    "STEP_LABEL": {
+      "description": "Label indicating which step in the process a user is on",
+      "message": "Trin"
+    }
+  },
+  "PROGRESS_LINEAR": {
+    "CANCEL": {
+      "description": "Mærkat for annullering af lineær forløbsindikator, udført",
+      "message": "Annullér"
+    }
+  },
+  "RADIOGROUP": {
+    "ERROR": {
+      "description": "Teksten 'Påkrævet valg' i radiogruppe",
+      "message": "Nødvendigt valg"
+    }
+  },
+  "SEARCH": {
+    "CLEAR": {
+      "description": "Ryd-knap og værktøjstip",
+      "message": "Ryd"
+    },
+    "PLACEHOLDER": {
+      "description": "Pladsholder for søgekomponent",
+      "message": "Søg"
+    }
+  },
+  "SEARCHBAR": {
+    "SEARCH": {
+      "description": "Pladsholdertekst til søgepanel",
+      "message": "Søg"
+    }
+  },
+  "SELECT": {
+    "CANCEL_STRING": {
+      "description": "Vælg mærkat for knappen Annullér",
+      "message": "Annullér"
+    },
+    "MULTI_OVERFLOW": {
+      "description": "Message to display next to the count of selected items. This is used when the select control is selecting multiple options and there is not enough room to display all of the selections",
+      "message": "markeret"
+    },
+    "NO_OPTIONS_STRING": {
+      "description": "Live regionsstreng til, når der ikke blev fundet indstillinger ved valg eller menu",
+      "message": "Der blev ikke fundet nogen indstillinger."
+    },
+    "OK_STRING": {
+      "description": "Vælg mærkat for knappen OK",
+      "message": "Udført"
+    },
+    "SEARCH_ARIA_LABEL": {
+      "description": "Mærkat for søgeinput",
+      "message": "Søg på listen over indstillinger nedenfor"
+    }
+  },
+  "SKIP_TO_MAIN": {
+    "TEXT": {
+      "description": "gå til hovedknaptekst",
+      "message": "Gå til hovedindhold"
+    }
+  },
+  "TASK_DRAWER": {
+    "APPLY_BUTTON_ARIA_LABEL": {
+      "description": "Aria-mærkat for knappen Anvend til opgaveskuffe",
+      "message": "Anvend"
+    },
+    "APPLY_BUTTON_TEXT": {
+      "description": "Mærkat for knappen Anvend til opgaveskuffe",
+      "message": "Anvend"
+    },
+    "RESET_BUTTON_ARIA_LABEL": {
+      "description": "Aria-mærkat for nulstillingsknap til opgaveskuffe",
+      "message": "Nulstil"
+    },
+    "RESET_BUTTON_TEXT": {
+      "description": "Mærkat for nulstillingsknap til opgaveskuffe",
+      "message": "Nulstil"
+    }
+  },
+  "TOOLBAR": {
+    "BUTTON_GROUP_LABEL": {
+      "description": "Knapgruppeetiket til værktøjslinje",
+      "message": "Værktøjslinjens knapgruppeetiket"
+    },
+    "TOOLTIP_TEXT": {
+      "description": "Værktøjslinjens dynamiske knap Gruppens overløbsmenu tooltip text",
+      "message": "Mere"
+    }
+  },
+  "TREE": {
+    "LINK_INDICATOR": {
+      "description": "Mærkat til at markere, når et træelement er et link til brugere af skærmlæsere",
+      "message": "(link)"
+    }
+  },
+  "UPLOAD": {
+    "CLEAR": {
+      "a11y": "Ryd: {{file}}",
+      "description": "Ryd-knapmærkat og værktøjstip",
+      "message": "Ryd"
+    },
+    "DELETE": {
+      "a11y": "Slet: {{file}}",
+      "description": "Slet-knapmærkat og værktøjstip",
+      "message": "Slet"
+    },
+    "FILE_PROGRESSING": {
+      "description": "Meddelelse om fremskridt",
+      "message": "Fremskridt"
+    },
+    "FILE_TOO_BIG": {
+      "description": "Meddelelse for at angive, at filen er større end den maksimale grænse",
+      "message": "Den valgte fil skal være mindre end {{count}} {{- unit}}"
+    },
+    "FILE_TYPE_ERROR": {
+      "description": "Meddelelse for at angive, at filtypen ikke er tilladt",
+      "message": "Filtypen {{type}} er ikke tilladt. Den valgte fil skal være: {{accept}}."
+    },
+    "MAX_NUMBER_OF_FILES_PASSED": {
+      "description": "Fejlmeddelelse for at angive, at maksimumsantallet for filer er overskredet",
+      "message_one": "Du kan kun vælge op til {{count}} fil.",
+      "message_other": "Du kan kun vælge op til {{count}} filer."
+    },
+    "MAX_NUMBER_OF_FILES_REACHED": {
+      "description": "Meddelelse for at angive, at maksimumsantallet for filer er overskredet",
+      "message": "Du har nået det maksimale antal filer"
+    },
+    "RETRY": {
+      "a11y": "Forsøg igen: {{file}}",
+      "description": "Forsøg igen-mærkat og værktøjstip",
+      "message": "Forsøg igen"
+    },
+    "UPLOAD_FAIL": {
+      "description": "Meddelelse for at angive en fejl under overførsel",
+      "message": "Den valgte fil kunne ikke behandles – tryk på knappen Prøv igen for at prøve igen."
+    }
+  }
+}

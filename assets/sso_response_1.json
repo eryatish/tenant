@@ -1,0 +1,92 @@
+{
+  "response": {
+    "sections": [
+      {
+        "sectionName": "Inbound_SSO",
+        "values": [
+          {
+            "radioSelect": "signUrl",
+            "requestProtocolBinding": "HTTP-POST"
+          },
+          {
+            "radioSelect": "metaUrl",
+            "requestProtocolBinding": "HTTP-REDIRECT"
+          }
+        ],
+        "components": [
+          {
+            "name": "radioSelect",
+            "value": "",
+            "label": "Meta URL or Sign In URL",
+            "type": "RADIO",
+            "displayType": "RADIO",
+            "placeHolder": "Meta URL or Sign In URL",
+            "clientValidations": [
+              {
+                "value": "",
+                "type": "REQUIRED",
+                "errorMessage": "Please select one."
+              }
+            ],
+            "componentSpecificProperties": {
+              "options": [
+                {
+                  "value": "metaUrl",
+                  "label": "Meta URL",
+                  "dependency": {
+                    "show": ["metaUrl"],
+                    "hide": [
+                      "signinUrl",
+                      "signoutUrl",
+                      "x509SigningCertificate"
+                    ]
+                  }
+                },
+                {
+                  "value": "signUrl",
+                  "label": "Sign In/Out URL",
+                  "dependency": {
+                    "show": [
+                      "signinUrl",
+                      "signoutUrl",
+                      "x509SigningCertificate"
+                    ],
+                    "hide": ["metaUrl"]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "requestProtocolBinding",
+            "value": "HTTP-REDIRECT",
+            "label": "Request Protocol Binding",
+            "type": "SELECT",
+            "displayType": "DROPDOWN",
+            "placeHolder": "Add SAML Request Binding Protocol.",
+
+            "clientValidations": [
+              {
+                "errorMessage": "Enter valid Request Protocol Binding.",
+                "type": "REQUIRED",
+                "value": ""
+              }
+            ],
+            "componentSpecificProperties": {
+              "options": [
+                {
+                  "value": "HTTP-REDIRECT",
+                  "label": "Http-Redirect"
+                },
+                {
+                  "value": "HTTP-POST",
+                  "label": "Http-Post"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

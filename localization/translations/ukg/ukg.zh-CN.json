@@ -1,0 +1,781 @@
+{
+  "BANNER": {
+    "IMPORTANT": {
+      "description": "Aria-label for default important icon",
+      "message": "重要"
+    },
+    "INFO": {
+      "description": "Aria-label for default info icon",
+      "message": "信息"
+    },
+    "SUCCESS": {
+      "description": "Aria-label for default success icon",
+      "message": "成功"
+    },
+    "WARNING": {
+      "description": "Aria-label for default warning icon",
+      "message": "警告"
+    }
+  },
+  "CALENDAR": {
+    "CURRENT_DAY": {
+      "description": "Text for tooltip shown when a user hovers over the calendar day which is the same as 'Today'",
+      "message": "当前日期"
+    },
+    "END_DATE_ARIA_LABEL": {
+      "description": "Aria label details for selected end date",
+      "message": "，截止日期"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "日历月的标签",
+      "message": "月"
+    },
+    "MONTH_SELECTOR_TOOLTIP": {
+      "description": "Text for tooltip shown when a user hovers over the control used to select the month, within the datepicker component/control",
+      "message": "选择月份"
+    },
+    "NEXT_MONTH_ARIA_LABEL": {
+      "description": "下个日历月的标签",
+      "message": "下个月"
+    },
+    "PREVIOUS_MONTH_ARIA_LABEL": {
+      "description": "上个日历月的标签",
+      "message": "上个月"
+    },
+    "SELECTED_ARIA_LABEL": {
+      "description": "Aria label details for selected date",
+      "message": "，已选择"
+    },
+    "SELECTED_DAY": {
+      "description": "Text for tooltip shown when a user hovers over the calenday which has been selected/choosen",
+      "message": "已选择日期"
+    },
+    "START_DATE_ARIA_LABEL": {
+      "description": "Aria label details for selected start date",
+      "message": "，开始日期"
+    },
+    "WEEK_NUMBER": {
+      "description": "Week number calendar header",
+      "message": "週番号",
+      "message_abbr": "星期"
+    },
+    "WEEK_NUMBER_LABEL": {
+      "description": "Week number label",
+      "message": "星期 {{number}}"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "日历年的标签",
+      "message": "年"
+    },
+    "YEAR_SELECTOR_TOOLTIP": {
+      "description": "Text for tooltip shown when a user hovers over the control used to select the year, within the datepicker component/control",
+      "message": "选择年份"
+    }
+  },
+  "CAROUSEL": {
+    "FIRST_SLIDE_MESSAGE": {
+      "description": "到达第一张幻灯片时插入到实时 Aria 区域的文本",
+      "message": "这是第一张幻灯片"
+    },
+    "LAST_SLIDE_MESSAGE": {
+      "description": "到达最后一张幻灯片时插入到实时 Aria 区域的文本",
+      "message": "这是最后一张幻灯片"
+    },
+    "NEXT_SLIDE_MESSAGE": {
+      "description": "下一张幻灯片导航按钮的 Aria 标签",
+      "message": "下一张幻灯片"
+    },
+    "PAGE_CHANGE": {
+      "description": "通过导航换页时要读取的文本，{{index}} 已被替换为幻灯片的确切数量",
+      "message": "当前位于第 {{index}} 张幻灯片"
+    },
+    "PAGINATION_BULLET_MESSAGE": {
+      "description": "每个分页项目符号元素的 Aria 标签。{{index}} 已被替换为幻灯片的确切数量",
+      "message": "前往第 {{index}} 张幻灯片"
+    },
+    "PAGINATION_LABEL": {
+      "description": "Aria label used to tell users using assistive technology which slide they are on and how many slides exist in the control",
+      "message_one": "这里有 {{count}} 张幻灯片",
+      "message_other": "这里有 {{count}} 张幻灯片"
+    },
+    "PREV_SLIDE_MESSAGE": {
+      "description": "上一张幻灯片导航按钮的 Aria 标签",
+      "message": "上一张幻灯片"
+    },
+    "description": "You can use a carousel in scenarios such as slideshows, galleries, onboarding flows, and presentations."
+  },
+  "CHECKBOX": {
+    "ARIA_LABEL": {
+      "description": "复选框图标的 Aria 标签",
+      "message": "复选框图标"
+    }
+  },
+  "CHECKBOXGROUP": {
+    "ERROR": {
+      "description": "复选框组中的文本“必选”",
+      "message": "必选"
+    }
+  },
+  "DATA_TABLE": {
+    "DESELECT_ALL": {
+      "description": "多个页面时的下拉选项 - 取消选择",
+      "message": "取消全选"
+    },
+    "SELECT_ALL": {
+      "description": "多个页面时的下拉选项 - 全部",
+      "message": "全选"
+    },
+    "SELECT_ALL_ON_PAGE": {
+      "description": "多个页面时的下拉选项 - 页面全部内容",
+      "message": "选择本页上的全部内容"
+    },
+    "SELETION_LABEL": {
+      "description": "在页眉处设置所选标签的文本",
+      "message": " 已选择"
+    }
+  },
+  "DATE_INPUT_TEXT": {
+    "DAY_ARIA_LABEL": {
+      "description": "“日”输入框文本的标签",
+      "message": " 日"
+    },
+    "INPUT_ARIA_LABEL": {
+      "description": "“日期”输入框文本的标签",
+      "message": "“日期”输入框"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "“月”输入框文本的标签",
+      "message": "月"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "“年”输入框文本的标签",
+      "message": "年"
+    }
+  },
+  "DATE_PICKER": {
+    "CLEAR_LABEL": {
+      "description": "Label for the date picker clear button",
+      "message": "清除"
+    },
+    "DATE_LABEL": {
+      "description": "日期选取器的“日期”输入框标签",
+      "message": "日期"
+    },
+    "DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker date",
+      "message": "日期必须包含月和日。"
+    },
+    "DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker date",
+      "message": "日期必须包含年和日。"
+    },
+    "DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker start date",
+      "message": "日期必须包含日。"
+    },
+    "DONE_DATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when a date is selected. Appends to the label for the button. Example 'Done, selected date is 01/01/2000'",
+      "message": "，选择的日期是 {{date}}"
+    },
+    "DONE_ENDDATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when an end date is selected. Appends to the label for the button. Example 'Done, selected start date is January 15, 2020, selected end date is January 25, 2020'",
+      "message": "，选择的截止日期是 {{date}}"
+    },
+    "DONE_LABEL": {
+      "description": "日期范围选取器的“完成”按钮标签",
+      "message": "完成"
+    },
+    "DONE_NO_DATE_LABEL": {
+      "description": "Label for the date picker's done button when no date is selected. Example 'Done, no date selected'",
+      "message": "，未选择日期"
+    },
+    "DONE_STARTDATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when a start date is selected. Example 'Done, selected start date is January 15, 2020",
+      "message": "，选择的开始日期是 {{date}}"
+    },
+    "END_DATE_LABEL": {
+      "description": "日期范围选取器的“截止日期”标签",
+      "message": "截止日期"
+    },
+    "INVALID_DATE": {
+      "description": "Error for when date is invalid. Happens when the given date is out of range or formatted incorrectly.",
+      "message": "日期必须为有效日期。"
+    },
+    "INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker start date",
+      "message": "日期年份必须为 4 位数字。"
+    },
+    "MISSING_VALUE": {
+      "description": "Error for when date is missing. Appears if user attempts to submit without entering a date.",
+      "message": "日期为必填项。"
+    },
+    "MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker date",
+      "message": "日期必须包含年和月。"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "日期选取器的“月”标签",
+      "message": "月"
+    },
+    "MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker date",
+      "message": "日期必须包含月。"
+    },
+    "MONTH_NAVIGATION_ARIA_LABEL": {
+      "description": "Label for the date picker month navigation toolbar button group. This group contains the select controls allowing the user to navigate to either the previous or next month within the date picker",
+      "message": "月份导航按钮组"
+    },
+    "MONTH_YEAR_ARIA_LABEL": {
+      "description": "Label for the date picker month toolbar button group. This group contains the select controls allowing the user to change the month or year within the date picker",
+      "message": "年份和月份按钮组"
+    },
+    "NEXT_MONTH_ARIA_LABEL": {
+      "description": "日期选取器的“下个月”标签",
+      "message": "下个月"
+    },
+    "OPEN_CALENDAR": {
+      "description": "Label for the date picker's button. This is shown as an calendar icon.",
+      "message": "选择日期"
+    },
+    "PREVIOUS_MONTH_ARIA_LABEL": {
+      "description": "日期选取器的“上个月”标签",
+      "message": "上个月"
+    },
+    "START_DATE_LABEL": {
+      "description": "日期范围选取器的“开始日期”标签",
+      "message": "开始日期"
+    },
+    "TODAY_LABEL": {
+      "description": "日期范围选取器的“今天”按钮标签",
+      "message": "今天"
+    },
+    "TODAY_TOOLTIP": {
+      "description": "Text for tooltip shown when the user hovers over the button, which will switch the datepicker to displaying the month with today's date in it",
+      "message": "跳转到今天"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "日期选取器的“年”标签",
+      "message": "年"
+    },
+    "YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker date",
+      "message": "日期必须包含年。"
+    }
+  },
+  "DATE_RANGE_PICKER": {
+    "END_DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker end date. Similar to other date picker messaging",
+      "message": "截止日期必须包含月和日。"
+    },
+    "END_DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker end date. Similar to other date picker messaging",
+      "message": "截止日期必须包含年和日。"
+    },
+    "END_DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker end date. Similar to other date picker messaging",
+      "message": "截止日期必须包含日。"
+    },
+    "END_END_DATE_BEFORE_START_DATE": {
+      "description": "Error message for when the selected end date is before the selected start date",
+      "message": "截止日期必须与 {{- start_date}} 相同或更晚。"
+    },
+    "END_INPUT_ARIA_LABEL": {
+      "description": "日期范围选择器的截止日期标签",
+      "message": "截止日期"
+    },
+    "END_INVALID_DATE": {
+      "description": "Error message for invalid date format on the date range picker end date. Similar to other date picker messaging",
+      "message": "截止日期必须为真实日期。"
+    },
+    "END_INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker end date. Similar to other date picker messaging",
+      "message": "截止日期年份必须为 4 位数字。"
+    },
+    "END_MISSING_VALUE": {
+      "description": "Error message for when the end date is missing a required value. This type of message is used for any required field.",
+      "message": "截止日期为必填项"
+    },
+    "END_MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker end date. Similar to other date picker messaging",
+      "message": "截止日期必须包含年和月。"
+    },
+    "END_MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker end date. Similar to other date picker messaging",
+      "message": "截止日期必须包含月。"
+    },
+    "END_YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker end date. Similar to other date picker messaging",
+      "message": "截止日期必须包含年。"
+    },
+    "OPEN_CALENDAR": {
+      "description": "Label for the date range picker's button. Similar to the label for the single date picker open button.",
+      "message": "选择日期范围"
+    },
+    "START_DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker start date. Similar to other date picker messaging",
+      "message": "开始日期必须包含月和日。"
+    },
+    "START_DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker start date. Similar to other date picker messaging",
+      "message": "开始日期必须包含年和日。"
+    },
+    "START_DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker start date. Similar to other date picker messaging",
+      "message": "开始日期必须包含日。"
+    },
+    "START_INPUT_ARIA_LABEL": {
+      "description": "日期范围选取器的开始日期标签",
+      "message": "开始日期"
+    },
+    "START_INVALID_DATE": {
+      "description": "Error message for invalid date format on the date range picker start date. Similar to other date picker messaging",
+      "message": "开始日期必须为真实日期。"
+    },
+    "START_INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker start date. Similar to other date picker messaging",
+      "message": "开始日期年份必须为 4 位数字。"
+    },
+    "START_MISSING_VALUE": {
+      "description": "Error message for when the start date is missing a required value. Similar to other date picker messaging",
+      "message": "开始日期为必填项"
+    },
+    "START_MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker start date. Similar to other date picker messaging",
+      "message": "开始日期必须包含年和月。"
+    },
+    "START_MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker start date. Similar to other date picker messaging",
+      "message": "开始日期必须包含月。"
+    },
+    "START_YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker start date. Similar to other date picker messaging",
+      "message": "开始日期必须包含年。"
+    }
+  },
+  "DIALOG": {
+    "CLOSE_BUTTON_TEXT": {
+      "description": "页眉关闭按钮的工具提示文本",
+      "message": "关闭"
+    }
+  },
+  "DOCUMENT_VIEWER": {
+    "CONTENT": {
+      "description": "内容区域的 Aria 标签",
+      "message": "文档内容"
+    },
+    "DOWNLOAD_LABEL": {
+      "description": "下载按钮的 Aria 标签",
+      "message": "下载"
+    },
+    "EXTENDED_DESCRIPTION": {
+      "description": "将屏幕阅读器用户引向扩展描述的标签",
+      "message": "以下是扩展描述"
+    },
+    "FOCUSED_PAGE_NUMBER_LABEL": {
+      "description": "焦点页码输入的 Aria 标签",
+      "message": "当前页面"
+    },
+    "FULL_SCREEN_LABEL": {
+      "description": "全屏按钮的 Aria 标签",
+      "message": "全屏"
+    },
+    "NEXT_PAGE_LABEL": {
+      "description": "下一页按钮的 Aria 标签",
+      "message": "下一页"
+    },
+    "OF": {
+      "description": "焦点页码输入和总页数之间的介词",
+      "message": "/"
+    },
+    "PAGE": {
+      "description": "替代文本中的页面词",
+      "message": "页面"
+    },
+    "PREV_PAGE_LABEL": {
+      "description": "上一页按钮的 Aria 标签",
+      "message": "上一页"
+    },
+    "PRINT_LABEL": {
+      "description": "打印按钮的 Aria 标签",
+      "message": "打印"
+    },
+    "SEND_LABEL": {
+      "description": "发送按钮的 Aria 标签",
+      "message": "发送"
+    },
+    "SIDEBAR_LABEL": {
+      "description": "文档缩略图列表切换按钮的 Aria 标签",
+      "message": "切换文档的缩略图列表"
+    },
+    "SUMMARY": {
+      "description": "侧边栏工具条的 Aria 标签",
+      "message": "文档摘要"
+    },
+    "ZOOM_IN_LABEL": {
+      "description": "放大按钮的 Aria 标签",
+      "message": "放大"
+    },
+    "ZOOM_LEVEL_LABEL": {
+      "description": "缩放级别选择的 Aria 标签",
+      "message": "缩放级别"
+    },
+    "ZOOM_OUT_LABEL": {
+      "description": "缩小按钮的 Aria 标签",
+      "message": "缩小"
+    }
+  },
+  "DROPZONE": {
+    "BROWSE_FILES": {
+      "a11y_one": "浏览文件，{{count}} 个文件",
+      "a11y_other": "浏览文件，{{count}} 个文件",
+      "a11y_zero": "浏览文件",
+      "description": "“浏览文件”按钮标签 ",
+      "message": "浏览文件"
+    },
+    "DISABLED": {
+      "description": "“已禁用”图标标签",
+      "message": "已禁用"
+    },
+    "DRAG_AND_DROP": {
+      "description": "请拖放或 [浏览文件]",
+      "message": "拖放或"
+    },
+    "DROP_FILES": {
+      "description": "请拖动文件",
+      "message": "拖动文件"
+    },
+    "FILES_ADDED": {
+      "description": "添加多个文件时的提示音",
+      "message": "已添加 {{count}} 个文件。"
+    },
+    "FILES_CLEARED": {
+      "description": "清除文件时的提示音",
+      "message": "文件已清除"
+    },
+    "FILE_ADDED": {
+      "description": "添加文件时的提示音",
+      "message": "已添加 {{file}}。"
+    },
+    "READ_ONLY": {
+      "description": "“只读”图标标签",
+      "message": "只读"
+    }
+  },
+  "FILE_SIZE_UNITS": {
+    "BIT_UNIT": {
+      "description": "文件大小的位单位",
+      "message": "位"
+    },
+    "BYTE_UNIT": {
+      "description": "文件大小的字节单位",
+      "message": "字节"
+    },
+    "GB_UNIT": {
+      "description": "文件大小的千兆字节单位",
+      "message": "千兆字节",
+      "message_abbr": "GB",
+      "message_label": "千兆字节"
+    },
+    "KB_UNIT": {
+      "description": "文件大小的千字节单位",
+      "message": "千字节",
+      "message_abbr": "KB",
+      "message_label": "千字节"
+    },
+    "MB_UNIT": {
+      "description": "文件大小的兆字节单位",
+      "message": "兆字节",
+      "message_abbr": "MB",
+      "message_label": "兆字节"
+    }
+  },
+  "INPUT": {
+    "DONE_BUTTON_LABEL": {
+      "description": "“完成”输入框的标签",
+      "message": "完成"
+    },
+    "TODAY_BUTTON_LABEL": {
+      "description": "“今天”输入框的标签",
+      "message": "今天"
+    }
+  },
+  "MENU_CONTAINER": {
+    "OPTIONS_STRING": {
+      "description": "显示菜单中选项数量的选项字符串。",
+      "message": "{{count}} 个选项"
+    },
+    "POPOVER_LABEL": {
+      "description": "Aria label describing the menu of options shown, after a user types in text into the autocomplete combobox",
+      "message": "建议"
+    }
+  },
+  "NAVIGATION": {
+    "ALPHABETICAL_SORTING": {
+      "description": "Aria Label for alphabetical sorting in the main navigation menu options. This option will allow users to sort the items within the (main) left nav alphabetically",
+      "message": "按字母顺序排序"
+    },
+    "ARIA_LABEL": {
+      "description": "主导航抽屉的 Aria 标签",
+      "message": "侧边菜单"
+    },
+    "BACK_BUTTON_TEXT": {
+      "description": "页眉“返回”按钮的工具提示文本",
+      "message": "返回"
+    },
+    "BUTTON_TEXT": {
+      "description": "菜单按钮的工具提示文本",
+      "message": "侧边导航菜单"
+    },
+    "CLOSE_BUTTON_TEXT": {
+      "description": "页眉关闭按钮的工具提示文本",
+      "message": "关闭"
+    },
+    "CLOSE_NAVIGATION": {
+      "description": "关闭导航抽屉",
+      "message": "关闭菜单"
+    },
+    "COLLAPSE_NAVIGATION": {
+      "description": "折叠导航菜单中的全部可折叠项",
+      "message": "折叠全部"
+    },
+    "COMPACT_VIEW_NAVIGATION": {
+      "description": "菜单“紧凑视图”的布局选项",
+      "message": "紧凑视图"
+    },
+    "DEFAULT_SORTING": {
+      "description": "Aria Label for default sorting in the main navigation menu options. This option will allow users to sort the items within the (main) normally, as the domain/admin sets them.",
+      "message": "默认排序"
+    },
+    "EXPAND_NAVIGATION": {
+      "description": "展开导航菜单中的全部可折叠项",
+      "message": "展开全部"
+    },
+    "HOVER_OFF_NAVIGATION": {
+      "description": "导航选项卡的悬停选项（关闭）",
+      "message": "关闭悬停选项卡"
+    },
+    "HOVER_ON_NAVIGATION": {
+      "description": "导航选项卡的悬停选项（开启）",
+      "message": "开启悬停选项卡"
+    },
+    "NAVIGATION_ITEMS": {
+      "description": "用于修改导航项目的选项菜单标签",
+      "message": "菜单项目"
+    },
+    "NAVIGATION_LAYOUT": {
+      "description": "用于修改导航布局的选项菜单标签",
+      "message": "菜单布局"
+    },
+    "NAVIGATION_OPTIONS": {
+      "description": "侧边导航的选项菜单",
+      "message": "菜单选项"
+    },
+    "PIN_NAVIGATION": {
+      "description": "固定导航菜单",
+      "message": "固定"
+    },
+    "STANDARD_VIEW_NAVIGATION": {
+      "description": "菜单“标准视图”的布局选项",
+      "message": "标准视图"
+    },
+    "UNPIN_NAVIGATION": {
+      "description": "取消固定导航菜单",
+      "message": "取消固定"
+    }
+  },
+  "PAGINATOR": {
+    "ARIALABEL": {
+      "description": "分页器",
+      "message": "分页器"
+    },
+    "FIRST_PAGE": {
+      "description": "The aria label for the first page button. Clicking/tapping this button takes the user to the first page of the data set",
+      "message": "第一页"
+    },
+    "LAST_PAGE": {
+      "description": "The aria label for the last page button. Clicking/tapping this button takes the user to the last page of the data set.",
+      "message": "最后一页"
+    },
+    "MENU_ARIALABEL": {
+      "description": "paginator menu",
+      "message": "分页菜单"
+    },
+    "NEXT_PAGE": {
+      "description": "the aria label for the next page button",
+      "message": "下一页"
+    },
+    "OF": {
+      "description": "分页器的文本“/”",
+      "message": "/"
+    },
+    "PAGE_MENU_ARIALABEL": {
+      "description": "Aria label for the menu allowing the user to select how many items they wish to see per page.",
+      "message": "页面菜单"
+    },
+    "PAGE_OF": {
+      "description": "The text 'Page {currentPage} of {totalPages}' in paginator. This help quantify which page the user is on within the data set and how many pages exist in total",
+      "message": "第 {{currentPage}} 页，共 {{totalPages}} 页"
+    },
+    "PER_PAGE": {
+      "description": "The text 'per page' in paginator. This helps to quantify how many items are shown on a given page within the data table",
+      "message": "/页"
+    },
+    "PREV_PAGE": {
+      "description": "The aria label for the previous page button. Clicking this button allows the user to go one page backwards within the data set",
+      "message": "上一页"
+    },
+    "ROW_OPTIONS": {
+      "description": "行数选项按钮的 Aria 标签",
+      "message": "行数选项"
+    },
+    "SHOWING_ALL": {
+      "description": "The text 'Showing all' in paginator. Choosing this option allows the user to see all the items within the data set on a single page. This should be user raely and only when the number of items is not large.",
+      "message": "显示全部"
+    },
+    "TOTAL_ITEMS": {
+      "description": "The text '{{totalItems}} items' in paginator. When the user has opted to see all the items on a single page, this text tells the user just how many items exist.",
+      "message": "{{totalItems}} {{itemsLabel}}"
+    }
+  },
+  "PROCESS_MENU": {
+    "OF": {
+      "description": "Preposition between focused page number input and total number of pages",
+      "message": "/"
+    },
+    "STEP_LABEL": {
+      "description": "Label indicating which step in the process a user is on",
+      "message": "步骤"
+    }
+  },
+  "PROGRESS_LINEAR": {
+    "CANCEL": {
+      "description": "完成进度条取消的标签",
+      "message": "取消"
+    }
+  },
+  "RADIOGROUP": {
+    "ERROR": {
+      "description": "单选组的文本“必选项”",
+      "message": "必选项"
+    }
+  },
+  "SEARCH": {
+    "CLEAR": {
+      "description": "清除按钮和工具提示",
+      "message": "清除"
+    },
+    "PLACEHOLDER": {
+      "description": "搜索组件的占位符",
+      "message": "搜索"
+    }
+  },
+  "SEARCHBAR": {
+    "SEARCH": {
+      "description": "搜索栏的占位符文本",
+      "message": "搜索"
+    }
+  },
+  "SELECT": {
+    "CANCEL_STRING": {
+      "description": "选择“取消”按钮的标签",
+      "message": "取消"
+    },
+    "MULTI_OVERFLOW": {
+      "description": "Message to display next to the count of selected items. This is used when the select control is selecting multiple options and there is not enough room to display all of the selections",
+      "message": "已选择"
+    },
+    "NO_OPTIONS_STRING": {
+      "description": "在选择或菜单上没有找到选项时的实时区域字符串",
+      "message": "找不到选项。"
+    },
+    "OK_STRING": {
+      "description": "选择“确定”按钮的标签",
+      "message": "完成"
+    },
+    "SEARCH_ARIA_LABEL": {
+      "description": "搜索输入的标签",
+      "message": "在下面的选项列表中搜索"
+    }
+  },
+  "SKIP_TO_MAIN": {
+    "TEXT": {
+      "description": "跳到“主按钮”文本",
+      "message": "跳到“主要内容”"
+    }
+  },
+  "TASK_DRAWER": {
+    "APPLY_BUTTON_ARIA_LABEL": {
+      "description": "任务抽屉应用按钮的 Aria 标签",
+      "message": "应用"
+    },
+    "APPLY_BUTTON_TEXT": {
+      "description": "任务抽屉应用按钮标签",
+      "message": "应用"
+    },
+    "RESET_BUTTON_ARIA_LABEL": {
+      "description": "任务抽屉重置按钮的 Aria 标签",
+      "message": "重置"
+    },
+    "RESET_BUTTON_TEXT": {
+      "description": "任务抽屉重置按钮的标签",
+      "message": "重置"
+    }
+  },
+  "TOOLBAR": {
+    "BUTTON_GROUP_LABEL": {
+      "description": "工具栏的按钮组标签",
+      "message": "工具栏按钮组标签"
+    },
+    "TOOLTIP_TEXT": {
+      "description": "工具栏响应式按钮组溢出菜单工具提示文本",
+      "message": "更多"
+    }
+  },
+  "TREE": {
+    "LINK_INDICATOR": {
+      "description": "用于标记树项目是否为屏幕阅读程序用户相应链接的标签",
+      "message": "（链接）"
+    }
+  },
+  "UPLOAD": {
+    "CLEAR": {
+      "a11y": "清除：{{file}}",
+      "description": "清除按钮标签和工具提示",
+      "message": "清除"
+    },
+    "DELETE": {
+      "a11y": "删除：{{file}}",
+      "description": "删除按钮标签和工具提示",
+      "message": "删除"
+    },
+    "FILE_PROGRESSING": {
+      "description": "进度消息",
+      "message": "进度"
+    },
+    "FILE_TOO_BIG": {
+      "description": "提示超出最大大小限制的消息",
+      "message": "所选文件必须小于 {{count}} {{- unit}}"
+    },
+    "FILE_TYPE_ERROR": {
+      "description": "提示不支持此文件类型的消息",
+      "message": "不支持文件类型 {{type}}。所选文件必须为：{{accept}}。"
+    },
+    "MAX_NUMBER_OF_FILES_PASSED": {
+      "description": "提示已超出文件最大数量限制的错误消息",
+      "message": "您最多只能选择 {{count}} 个文件。"
+    },
+    "MAX_NUMBER_OF_FILES_REACHED": {
+      "description": "提示已达到文件最大数量限制的消息",
+      "message": "您已达到文件最大数量限制"
+    },
+    "RETRY": {
+      "a11y": "重试：{{file}}",
+      "description": "重试按钮标签和工具提示",
+      "message": "重试"
+    },
+    "UPLOAD_FAIL": {
+      "description": "提示上传失败的消息",
+      "message": "无法处理所选文件 – 按重试按钮再试一次。"
+    }
+  }
+}

@@ -1,0 +1,771 @@
+{
+  "BANNER": {
+    "IMPORTANT": {
+      "description": "Aria-label for default important icon",
+      "message": "Důležité"
+    },
+    "INFO": {
+      "description": "Aria-label for default info icon",
+      "message": "Informace"
+    },
+    "SUCCESS": {
+      "description": "Aria-label for default success icon",
+      "message": "Úspěch"
+    },
+    "WARNING": {
+      "description": "Aria-label for default warning icon",
+      "message": "Upozornění"
+    }
+  },
+  "CALENDAR": {
+    "CURRENT_DAY": {
+      "description": "Text for tooltip shown when a user hovers over the calendar day which is the same as 'Today'",
+      "message": "Aktuální den"
+    },
+    "END_DATE_ARIA_LABEL": {
+      "description": "Aria label details for selected end date",
+      "message": ", datum konce"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Label for the calendar month",
+      "message": "Měsíc"
+    },
+    "MONTH_SELECTOR_TOOLTIP": {
+      "description": "Text for tooltip shown when a user hovers over the control used to select the month, within the datepicker component/control",
+      "message": "Zvolit měsíc"
+    },
+    "NEXT_MONTH_ARIA_LABEL": {
+      "description": "Label for the calendar next month",
+      "message": "Další měsíc, {{monthYear}}"
+    },
+    "PREVIOUS_MONTH_ARIA_LABEL": {
+      "description": "Label for the calendar previous month",
+      "message": "Předchozí měsíc, {{monthYear}}"
+    },
+    "SELECTED_ARIA_LABEL": {
+      "description": "Aria label details for selected date",
+      "message": ", vybráno"
+    },
+    "SELECTED_DAY": {
+      "description": "Text for tooltip shown when a user hovers over the calenday which has been selected/choosen",
+      "message": "Vybraný den"
+    },
+    "START_DATE_ARIA_LABEL": {
+      "description": "Aria label details for selected start date",
+      "message": ", datum začátku"
+    },
+    "WEEK_NUMBER": {
+      "description": "Week number calendar header",
+      "message": "Číslo týdne",
+      "message_abbr": "Týden"
+    },
+    "WEEK_NUMBER_LABEL": {
+      "description": "Week number label",
+      "message": "Týden {{number}}"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Label for the calendar year",
+      "message": "Rok"
+    },
+    "YEAR_SELECTOR_TOOLTIP": {
+      "description": "Text for tooltip shown when a user hovers over the control used to select the year, within the datepicker component/control",
+      "message": "Zvolit rok"
+    }
+  },
+  "CAROUSEL": {
+    "FIRST_SLIDE_MESSAGE": {
+      "description": "Text inserted into live aria region when reaching first slide",
+      "message": "Toto je první snímek"
+    },
+    "LAST_SLIDE_MESSAGE": {
+      "description": "Text inserted into live aria region when reaching last slide",
+      "message": "Toto je poslední snímek"
+    },
+    "NEXT_SLIDE_MESSAGE": {
+      "description": "Aria label for next slide navigation button",
+      "message": "Další snímek"
+    },
+    "PAGE_CHANGE": {
+      "description": "Text to be read when changing pages by navigation, {{index}} is replaced with exact number of slides",
+      "message": "Aktuálně zobrazený snímek {{index}}"
+    },
+    "PAGINATION_BULLET_MESSAGE": {
+      "description": "Aria label of each pagination bullet element. {{index}} is replaced with exact number of slides",
+      "message": "Přejít na snímek {{index}}"
+    },
+    "PAGINATION_LABEL": {
+      "description": "Aria label for whole pagination element, {{count}} is replaced with exact number of slides",
+      "message_one": "Je zde {{count}} snímek",
+      "message_other": "Je zde tento počet snímků: {{count}}"
+    },
+    "PREV_SLIDE_MESSAGE": {
+      "description": "Aria label for previous slide navigation button",
+      "message": "Předchozí snímek"
+    }
+  },
+  "CHECKBOX": {
+    "ARIA_LABEL": {
+      "description": "Aria label for checkbox icon",
+      "message": "Ikon zaškrtávacího políčka"
+    }
+  },
+  "CHECKBOXGROUP": {
+    "ERROR": {
+      "description": "The text 'Required Selection' in checkbox-group",
+      "message": "Požadovaný výběr"
+    }
+  },
+  "DATA_TABLE": {
+    "DESELECT_ALL": {
+      "description": "Dropdown options when multiple pages - deselect",
+      "message": "Zrušit volbu všech"
+    },
+    "SELECTION_LABEL": {
+      "description": "Set the text in the selected label at header",
+      "message": " Vybráno"
+    },
+    "SELECT_ALL": {
+      "description": "Dropdown options when multiple pages - all",
+      "message": "Vybrat vše"
+    },
+    "SELECT_ALL_ON_PAGE": {
+      "description": "Dropdown options when multiple pages - all on page",
+      "message": "Vybrat vše na této stránce"
+    }
+  },
+  "DATE_INPUT_TEXT": {
+    "DAY_ARIA_LABEL": {
+      "description": "Label for the day input text",
+      "message": " Den"
+    },
+    "INPUT_ARIA_LABEL": {
+      "description": "Label for the date input text",
+      "message": "Zadání dne"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Label for the month input text",
+      "message": "Měsíc"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Label for the year input text",
+      "message": "Rok"
+    }
+  },
+  "DATE_PICKER": {
+    "CLEAR_LABEL": {
+      "description": "Label for the date picker clear button",
+      "message": "Vymazat"
+    },
+    "DATE_LABEL": {
+      "description": "Label for the date input in date picker",
+      "message": "Datum"
+    },
+    "DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker date",
+      "message": "Datum musí obsahovat den a měsíc."
+    },
+    "DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker date",
+      "message": "Datum musí obsahovat den a rok."
+    },
+    "DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker start date",
+      "message": "Datum musí obsahovat den."
+    },
+    "DONE_DATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when a date is selected",
+      "message": ", je vybráno datum {{date}}"
+    },
+    "DONE_ENDDATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when an end date is selected",
+      "message": ", je vybráno datum konce {{date}}"
+    },
+    "DONE_LABEL": {
+      "description": "Label for the done button in date range picker",
+      "message": "Hotovo"
+    },
+    "DONE_NO_DATE_LABEL": {
+      "description": "Label for the date picker's done button when no date is selected",
+      "message": ", nebylo vybráno žádné datum"
+    },
+    "DONE_STARTDATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when a start date is selected",
+      "message": ", je vybráno datum začátku {{date}}"
+    },
+    "END_DATE_LABEL": {
+      "description": "Label for the end date in date range picker",
+      "message": "Datum konce"
+    },
+    "INVALID_DATE": {
+      "description": "Error for when date is invalid",
+      "message": "Datum musí být skutečné."
+    },
+    "INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker start date",
+      "message": "Rok v datu musí obsahovat 4 číslice."
+    },
+    "MISSING_VALUE": {
+      "description": "Error for when date is msising",
+      "message": "Datum je povinné."
+    },
+    "MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker date",
+      "message": "Datum musí obsahovat měsíc a rok."
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Label for the date picker month",
+      "message": "Měsíc"
+    },
+    "MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker date",
+      "message": "Datum musí obsahovat měsíc."
+    },
+    "MONTH_NAVIGATION_ARIA_LABEL": {
+      "description": "Label for the date picker month navigation toolbar button group",
+      "message": "Skupina navigačních tlačítek pro měsíc"
+    },
+    "MONTH_YEAR_ARIA_LABEL": {
+      "description": "Label for the date picker month and year toolbar button group",
+      "message": "Skupina tlačítek pro měsíc a rok"
+    },
+    "OPEN_CALENDAR": {
+      "description": "Label for the date picker's button",
+      "message": "Zvolit datum"
+    },
+    "START_DATE_LABEL": {
+      "description": "Label for the start date in date range picker",
+      "message": "Datum začátku"
+    },
+    "TODAY_LABEL": {
+      "description": "Label for the Today button in date range picker",
+      "message": "Dnes"
+    },
+    "TODAY_TOOLTIP": {
+      "description": "Text for tooltip shown when the user hovers over the button, which will switch the datepicker to displaying the month with today's date in it",
+      "message": "Přejít na dnešní den"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Label for the date picker year",
+      "message": "Rok"
+    },
+    "YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker date",
+      "message": "Datum musí obsahovat rok."
+    }
+  },
+  "DATE_RANGE_PICKER": {
+    "END_DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker end date",
+      "message": "Datum konce musí obsahovat den a měsíc."
+    },
+    "END_DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker end date",
+      "message": "Datum konce musí obsahovat den a rok."
+    },
+    "END_DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker end date",
+      "message": "Datum konce musí obsahovat den."
+    },
+    "END_END_DATE_BEFORE_START_DATE": {
+      "description": "Error message for when the selected end date is before the selected start date",
+      "message": "Datum konce musí být stejné jako datum {{- start_date}} nebo musí být pozdější."
+    },
+    "END_INPUT_ARIA_LABEL": {
+      "description": "Label for the date range picker end date",
+      "message": "Datum konce"
+    },
+    "END_INVALID_DATE": {
+      "description": "Error message for invalid date format on the date range picker end date",
+      "message": "Datum konce musí být skutečné."
+    },
+    "END_INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker end date",
+      "message": "Rok v datu konce musí obsahovat 4 číslice."
+    },
+    "END_MISSING_VALUE": {
+      "description": "Error message for when the end date is missing a required value",
+      "message": "Datum konce je povinné."
+    },
+    "END_MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker end date",
+      "message": "Datum konce musí obsahovat měsíc a rok."
+    },
+    "END_MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker end date",
+      "message": "Datum konce musí obsahovat měsíc."
+    },
+    "END_YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker end date",
+      "message": "Datum konce musí obsahovat rok."
+    },
+    "OPEN_CALENDAR": {
+      "description": "Label for the date range picker's button",
+      "message": "Zvolit rozmezí dat"
+    },
+    "START_DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker start date",
+      "message": "Datum začátku musí obsahovat den a měsíc."
+    },
+    "START_DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker start date",
+      "message": "Datum začátku musí obsahovat den a rok."
+    },
+    "START_DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker start date",
+      "message": "Datum začátku musí obsahovat den."
+    },
+    "START_INPUT_ARIA_LABEL": {
+      "description": "Label for the date range picker start date",
+      "message": "Datum začátku"
+    },
+    "START_INVALID_DATE": {
+      "description": "Error message for invalid date format on the date range picker start date",
+      "message": "Datum začátku musí být skutečné."
+    },
+    "START_INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker start date",
+      "message": "Rok v datu začátku musí obsahovat 4 číslice."
+    },
+    "START_MISSING_VALUE": {
+      "description": "Error message for when the start date is missing a required value",
+      "message": "Datum začátku je povinné."
+    },
+    "START_MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker start date",
+      "message": "Datum začátku musí obsahovat měsíc a rok."
+    },
+    "START_MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker start date",
+      "message": "Datum začátku musí obsahovat měsíc."
+    },
+    "START_YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker start date",
+      "message": "Datum začátku musí obsahovat rok."
+    }
+  },
+  "DIALOG": {
+    "CLOSE_BUTTON_TEXT": {
+      "description": "Tool tip text for close button on Header",
+      "message": "Zavřít"
+    }
+  },
+  "DOCUMENT_VIEWER": {
+    "CONTENT": {
+      "description": "Aria label for the content area",
+      "message": "Obsah dokumentu"
+    },
+    "DOWNLOAD_LABEL": {
+      "description": "Aria label for the download button",
+      "message": "Stáhnout"
+    },
+    "EXTENDED_DESCRIPTION": {
+      "description": "Label to guide screen reader users towards extended description",
+      "message": "Rozšířený popis níže"
+    },
+    "FOCUSED_PAGE_NUMBER_LABEL": {
+      "description": "Aria label for the focused page number input",
+      "message": "Aktuální stránka"
+    },
+    "FULL_SCREEN_LABEL": {
+      "description": "Aria label for the full screen button",
+      "message": "Celá obrazovka"
+    },
+    "NEXT_PAGE_LABEL": {
+      "description": "Aria label for the next page button",
+      "message": "Další stránka"
+    },
+    "OF": {
+      "description": "Preposition between focused page number input and total number of pages",
+      "message": "z"
+    },
+    "PAGE": {
+      "description": "Word for page in alternative text",
+      "message": "Stránka"
+    },
+    "PREV_PAGE_LABEL": {
+      "description": "Aria label for the previous page button",
+      "message": "Předchozí stránka"
+    },
+    "PRINT_LABEL": {
+      "description": "Aria label for the print button",
+      "message": "Vytisknout"
+    },
+    "SEND_LABEL": {
+      "description": "Aria label for the send button",
+      "message": "Odeslat"
+    },
+    "SIDEBAR_LABEL": {
+      "description": "Aria label for the toggle button of the document's thumbnails list",
+      "message": "Přepnout seznam miniatur dokumentů"
+    },
+    "SUMMARY": {
+      "description": "Aria label for the sidebar toolbar",
+      "message": "Shrnutí dokumentu"
+    },
+    "ZOOM_IN_LABEL": {
+      "description": "Aria label for the zoom in button",
+      "message": "Přiblížit"
+    },
+    "ZOOM_LEVEL_LABEL": {
+      "description": "Aria label for the zoom level select",
+      "message": "Úroveň změny měřítka"
+    },
+    "ZOOM_OUT_LABEL": {
+      "description": "Aria label for the zoom out button",
+      "message": "Oddálit"
+    }
+  },
+  "DROPZONE": {
+    "BROWSE_FILES": {
+      "a11y_one": "Procházet soubory, {{count}} soubor",
+      "a11y_other": "Procházet soubory, počet souborů: {{count}}",
+      "a11y_zero": "Procházet soubory",
+      "description": "Browse files button label ",
+      "message": "procházet soubory"
+    },
+    "DISABLED": {
+      "description": "Label for the disabled icon",
+      "message": "Zakázáno"
+    },
+    "DRAG_AND_DROP": {
+      "description": "Invit to drag and drop or [browse a file]",
+      "message": "Přetáhnout nebo"
+    },
+    "DROP_FILES": {
+      "description": "Invit to drop files",
+      "message": "Vložit soubory"
+    },
+    "FILES_ADDED": {
+      "description": "Vocalised message when several files are added",
+      "message": "Počet přidaných souborů: {{count}}"
+    },
+    "FILES_CLEARED": {
+      "description": "Vocalized message when files are cleared",
+      "message": "Soubory vymazány"
+    },
+    "FILE_ADDED": {
+      "description": "Vocalised message when a file is added",
+      "message": "{{file}}, přidáno."
+    },
+    "READ_ONLY": {
+      "description": "Label for the read only icon",
+      "message": "Pouze ke čtení"
+    }
+  },
+  "FILE_SIZE_UNITS": {
+    "BIT_UNIT": {
+      "description": "Bit unit for file size",
+      "message_one": "bit",
+      "message_other": "bitů"
+    },
+    "BYTE_UNIT": {
+      "description": "Byte unit for file size",
+      "message_one": "bajt",
+      "message_other": "bajtů"
+    },
+    "GB_UNIT": {
+      "description": "Gigabyte unit for file size",
+      "message_abbr": "GB",
+      "message_label_one": "Gigabajt",
+      "message_label_other": "Gigabajtů",
+      "message_one": "gigabajt",
+      "message_other": "gigabajtů"
+    },
+    "KB_UNIT": {
+      "description": "Kilobyte unit for file size",
+      "message_abbr": "kB",
+      "message_label_one": "Kilobajt",
+      "message_label_other": "Kilobajtů",
+      "message_one": "kilobajt",
+      "message_other": "kilobajtů"
+    },
+    "MB_UNIT": {
+      "description": "Megabyte unit for file size",
+      "message_abbr": "MB",
+      "message_label_one": "Megabajt",
+      "message_label_other": "Megabajtů",
+      "message_one": "megabajt",
+      "message_other": "megabajtů"
+    }
+  },
+  "INPUT": {
+    "DONE_BUTTON_LABEL": {
+      "description": "Label for input done",
+      "message": "Hotovo"
+    },
+    "TODAY_BUTTON_LABEL": {
+      "description": "Label for input today label",
+      "message": "Dnes"
+    }
+  },
+  "MENU_CONTAINER": {
+    "OPTIONS_STRING": {
+      "description": "Options string to display number of options in menu.",
+      "message_one": "{{count}} možnost",
+      "message_other": "Počet možností: {{count}}"
+    },
+    "POPOVER_LABEL": {
+      "message": "Návrhy"
+    }
+  },
+  "NAVIGATION": {
+    "ALPHABETICAL_SORTING": {
+      "description": "Aria Label for alphabetical sorting",
+      "message": "Řazení podle abecedy"
+    },
+    "ARIA_LABEL": {
+      "description": "Aria Label for main navigation drawer",
+      "message": "Boční nabídka"
+    },
+    "BACK_BUTTON_TEXT": {
+      "description": "Tool tip text for back button on Header",
+      "message": "Zpět"
+    },
+    "BUTTON_TEXT": {
+      "description": "Tool tip text for menu button",
+      "message": "Boční navigační nabídka"
+    },
+    "CLOSE_BUTTON_TEXT": {
+      "description": "Tool tip text for close button on Header",
+      "message": "Zavřít"
+    },
+    "CLOSE_NAVIGATION": {
+      "description": "Close the navigation drawer",
+      "message": "Zavřít nabídku"
+    },
+    "COLLAPSE_NAVIGATION": {
+      "description": "Collapse all accordion items in the navigation menu",
+      "message": "Sbalit vše"
+    },
+    "COMPACT_VIEW_NAVIGATION": {
+      "description": "layout option for the menu compact view",
+      "message": "Kompaktní zobrazení"
+    },
+    "DEFAULT_SORTING": {
+      "description": "Aria Label for default sorting",
+      "message": "Výchozí řazení"
+    },
+    "EXPAND_NAVIGATION": {
+      "description": "Expand all accordion items in the navigation menu",
+      "message": "Rozbalit vše"
+    },
+    "HOVER_OFF_NAVIGATION": {
+      "description": "hover option for navigation tabs (off)",
+      "message": "Informace o kartě při umístění kurzoru – vyp."
+    },
+    "HOVER_ON_NAVIGATION": {
+      "description": "hover option for navigation tabs (on)",
+      "message": "Informace o kartě při umístění kurzoru – zap."
+    },
+    "NAVIGATION_ITEMS": {
+      "description": "label for the options menu to modify the navigation items",
+      "message": "Položky nabídky"
+    },
+    "NAVIGATION_LAYOUT": {
+      "description": "label for the options menu to modify the navigation layout",
+      "message": "Rozložení nabídky"
+    },
+    "NAVIGATION_OPTIONS": {
+      "description": "the options menu for the side navigation",
+      "message": "Možnosti nabídky"
+    },
+    "PIN_NAVIGATION": {
+      "description": "Pin the navigation menu",
+      "message": "Připnout"
+    },
+    "STANDARD_VIEW_NAVIGATION": {
+      "description": "layout option for the menu standard view",
+      "message": "Standardní zobrazení"
+    },
+    "UNPIN_NAVIGATION": {
+      "description": "UnPin the navigation menu",
+      "message": "Odepnout"
+    }
+  },
+  "PAGINATOR": {
+    "ARIALABEL": {
+      "description": "paginator",
+      "message": "počitadlo stránek"
+    },
+    "FIRST_PAGE": {
+      "description": "the aria label for the first page button",
+      "message": "První stránka"
+    },
+    "LAST_PAGE": {
+      "description": "the aria label for the last page button",
+      "message": "Poslední stránka"
+    },
+    "MENU_ARIALABEL": {
+      "description": "paginator menu",
+      "message": "nabídka počitadla stránek"
+    },
+    "NEXT_PAGE": {
+      "description": "the aria label for the next page button",
+      "message": "Další stránka"
+    },
+    "OF": {
+      "description": "the text 'of' in paginator",
+      "message": "z"
+    },
+    "PAGE_MENU_ARIALABEL": {
+      "description": "page menu",
+      "message": "nabídka pro stránku"
+    },
+    "PAGE_OF": {
+      "description": "the text 'Page {currentPage} of {totalPages}' in paginator",
+      "message": "Str. {{currentPage}} z {{totalPages}}"
+    },
+    "PER_PAGE": {
+      "description": "the text 'per page' in paginator",
+      "message": "na stránku"
+    },
+    "PREV_PAGE": {
+      "description": "the aria label for the previous page button",
+      "message": "Předchozí stránka"
+    },
+    "ROW_OPTIONS": {
+      "description": "the aria label for the row options button",
+      "message": "možnosti pro řádky"
+    },
+    "SHOWING_ALL": {
+      "description": "the text 'Showing all' in paginator",
+      "message": "Je zobrazeno vše"
+    },
+    "TOTAL_ITEMS": {
+      "description": "the text '{{totalItems}} items' in paginator",
+      "message": "{{totalItems}} {{itemsLabel}}"
+    }
+  },
+  "PROGRESS_LINEAR": {
+    "CANCEL": {
+      "description": "Label for progress linear cancel done",
+      "message": "Zrušit"
+    }
+  },
+  "RADIOGROUP": {
+    "ERROR": {
+      "description": "The text 'Required Selection' in radio-group",
+      "message": "Požadovaný výběr"
+    }
+  },
+  "SEARCH": {
+    "CLEAR": {
+      "description": "Clear button and tooltip",
+      "message": "Vymazat"
+    },
+    "PLACEHOLDER": {
+      "description": "Placeholder for search component",
+      "message": "Hledat"
+    }
+  },
+  "SEARCHBAR": {
+    "SEARCH": {
+      "description": "Placeholder text for searchbar",
+      "message": "Hledat"
+    }
+  },
+  "SELECT": {
+    "CANCEL_STRING": {
+      "description": "Select label for cancel button",
+      "message": "Zrušit"
+    },
+    "MULTI_OVERFLOW": {
+      "description": "Message to display next to the count of selected items. This is used when the select control is selecting multiple options and there is not enough room to display all of the selections",
+      "message": "vybráno"
+    },
+    "NO_OPTIONS_STRING": {
+      "description": "Live region string for when no options are found on select or menu",
+      "message": "Nebyly nalezeny žádné možnosti."
+    },
+    "OK_STRING": {
+      "description": "Select label for OK button",
+      "message": "Hotovo"
+    },
+    "SEARCH_ARIA_LABEL": {
+      "description": "Label for search input",
+      "message": "Hledat v seznamu možností níže"
+    }
+  },
+  "SKIP_TO_MAIN": {
+    "TEXT": {
+      "description": "skip to main button text",
+      "message": "Přejít k hlavnímu obsahu"
+    }
+  },
+  "TASK_DRAWER": {
+    "APPLY_BUTTON_ARIA_LABEL": {
+      "description": "Aria label for task drawer apply button",
+      "message": "Použít"
+    },
+    "APPLY_BUTTON_TEXT": {
+      "description": "Label for task drawer apply button",
+      "message": "Použít"
+    },
+    "RESET_BUTTON_ARIA_LABEL": {
+      "description": "Aria label for task drawer reset button",
+      "message": "Resetovat"
+    },
+    "RESET_BUTTON_TEXT": {
+      "description": "Label for task drawer reset button",
+      "message": "Resetovat"
+    }
+  },
+  "TOOLBAR": {
+    "BUTTON_GROUP_LABEL": {
+      "description": "Button group label for toolbar",
+      "message": "Skupina tlačítek panelu nástrojů"
+    },
+    "TOOLTIP_TEXT": {
+      "description": "Toolbar responsive button group overflow menu tooltip text",
+      "message": "Více"
+    }
+  },
+  "TREE": {
+    "LINK_INDICATOR": {
+      "description": "Label to mark if a tree item is a link for screenreader users",
+      "message": "(odkaz)"
+    }
+  },
+  "UPLOAD": {
+    "CLEAR": {
+      "a11y": "Vymazat: {{file}}",
+      "description": "Clear button label and tooltip",
+      "message": "Vymazat"
+    },
+    "DELETE": {
+      "a11y": "Odstranit: {{file}}",
+      "description": "Delete button label and tooltip",
+      "message": "Odstranit"
+    },
+    "FILE_PROGRESSING": {
+      "description": "Progressing message",
+      "message": "Probíhá zpracování."
+    },
+    "FILE_TOO_BIG": {
+      "description": "Message to signal is bigger than the maximum limit size",
+      "message": "Vybraný soubor musí být menší než {{count}} {{- unit}}"
+    },
+    "FILE_TYPE_ERROR": {
+      "description": "Message to signal the file type is not allowed",
+      "message": "Typ souboru {{type}} není povolen. Je nutno vybrat soubor: {{accept}}."
+    },
+    "MAX_NUMBER_OF_FILES_PASSED": {
+      "description": "Error message to signal the maximum number of file have been passed",
+      "message_one": "Lze vybrat jen {{count}} soubor.",
+      "message_other": "Lze vybrat max. tento počet souborů: {{count}}."
+    },
+    "MAX_NUMBER_OF_FILES_REACHED": {
+      "description": "Message to signal the maximum number of file is reached",
+      "message": "Dosáhli jste maximálního počtu souborů"
+    },
+    "RETRY": {
+      "a11y": "Opakovat: {{file}}",
+      "description": "Retry button label and tooltip",
+      "message": "Opakovat"
+    },
+    "UPLOAD_FAIL": {
+      "description": "Message to signal a fail during upload",
+      "message": "Vybraný soubor nelze zpracovat; zkuste to znovu stisknutím tlačítka Opakovat."
+    }
+  }
+}

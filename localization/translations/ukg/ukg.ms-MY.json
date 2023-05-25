@@ -1,0 +1,782 @@
+{
+  "BANNER": {
+    "IMPORTANT": {
+      "description": "Aria-label for default important icon",
+      "message": "Penting"
+    },
+    "INFO": {
+      "description": "Aria-label for default info icon",
+      "message": "Maklumat"
+    },
+    "SUCCESS": {
+      "description": "Aria-label for default success icon",
+      "message": "Berjaya"
+    },
+    "WARNING": {
+      "description": "Aria-label for default warning icon",
+      "message": "Amaran"
+    }
+  },
+  "CALENDAR": {
+    "CURRENT_DAY": {
+      "description": "Text for tooltip shown when a user hovers over the calendar day which is the same as 'Today'",
+      "message": "Hari semasa"
+    },
+    "END_DATE_ARIA_LABEL": {
+      "description": "Aria label details for selected end date",
+      "message": ", tarikh tamat"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Label untuk bulan kalendar",
+      "message": "Bulan"
+    },
+    "MONTH_SELECTOR_TOOLTIP": {
+      "description": "Text for tooltip shown when a user hovers over the control used to select the month, within the datepicker component/control",
+      "message": "Pilih bulan"
+    },
+    "NEXT_MONTH_ARIA_LABEL": {
+      "description": "Label untuk kalendar bulan seterusnya",
+      "message": "Bulan seterusnya"
+    },
+    "PREVIOUS_MONTH_ARIA_LABEL": {
+      "description": "Label untuk kalendar bulan sebelumnya",
+      "message": "Bulan sebelumnya"
+    },
+    "SELECTED_ARIA_LABEL": {
+      "description": "Aria label details for selected date",
+      "message": ", dipilih"
+    },
+    "SELECTED_DAY": {
+      "description": "Text for tooltip shown when a user hovers over the calenday which has been selected/choosen",
+      "message": "Hari yang dipilih"
+    },
+    "START_DATE_ARIA_LABEL": {
+      "description": "Aria label details for selected start date",
+      "message": ", tarikh mula"
+    },
+    "WEEK_NUMBER": {
+      "description": "Week number calendar header",
+      "message": "Nombor minggu",
+      "message_abbr": "M"
+    },
+    "WEEK_NUMBER_LABEL": {
+      "description": "Week number label",
+      "message": "Minggu {{number}}"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Label untuk tahun kalendar",
+      "message": "Tahun"
+    },
+    "YEAR_SELECTOR_TOOLTIP": {
+      "description": "Text for tooltip shown when a user hovers over the control used to select the year, within the datepicker component/control",
+      "message": "Pilih tahun"
+    }
+  },
+  "CAROUSEL": {
+    "FIRST_SLIDE_MESSAGE": {
+      "description": "Teks yang dimasukkan ke kawasan aria langsung apabila mencapai slaid pertama",
+      "message": "Ini merupakan slaid pertama"
+    },
+    "LAST_SLIDE_MESSAGE": {
+      "description": "Teks yang dimasukkan ke kawasan aria langsung apabila mencapai slaid terakhir",
+      "message": "Ini merupakan slaid terakhir"
+    },
+    "NEXT_SLIDE_MESSAGE": {
+      "description": "Label aria untuk butang navigasi slaid seterusnya",
+      "message": "Slaid seterusnya"
+    },
+    "PAGE_CHANGE": {
+      "description": "Teks yang akan dibaca ketika menukar halaman melalui navigasi, {{index}} digantikan dengan bilangan slaid yang tepat",
+      "message": "Kini berada di slaid {{index}}"
+    },
+    "PAGINATION_BULLET_MESSAGE": {
+      "description": "Label aria setiap elemen peluru penghalamanan. {{index}} digantikan dengan bilangan slaid yang tepat",
+      "message": "Pergi ke slaid {{index}}"
+    },
+    "PAGINATION_LABEL": {
+      "description": "Aria label used to tell users using assistive technology which slide they are on and how many slides exist in the control",
+      "message": "Terdapat {{index}} bilangan slaid",
+      "message_one": "Terdapat {{count}} slaid",
+      "message_other": "Terdapat {{count}} slaid"
+    },
+    "PREV_SLIDE_MESSAGE": {
+      "description": "Label aria untuk butang navigasi slaid sebelumnya",
+      "message": "Slaid sebelumnya"
+    },
+    "description": "You can use a carousel in scenarios such as slideshows, galleries, onboarding flows, and presentations."
+  },
+  "CHECKBOX": {
+    "ARIA_LABEL": {
+      "description": "Label aria untuk ikon kotak semak",
+      "message": "Ikon Kotak Semak"
+    }
+  },
+  "CHECKBOXGROUP": {
+    "ERROR": {
+      "description": "Teks 'Pemilihan Diperlukan' dalam kumpulan kotak semak",
+      "message": "Pemilihan Diperlukan"
+    }
+  },
+  "DATA_TABLE": {
+    "DESELECT_ALL": {
+      "description": "Pilihan ke bawah semasa berbilang halaman - nyahpilih",
+      "message": "Nyahpilih semua"
+    },
+    "SELECTION_LABEL": {
+      "description": "Tetapkan teks dalam label yang dipilih pada pengepala",
+      "message": "Dipilih"
+    },
+    "SELECT_ALL": {
+      "description": "Pilihan ke bawah semasa berbilang halaman - semua",
+      "message": "Pilih semua"
+    },
+    "SELECT_ALL_ON_PAGE": {
+      "description": "Pilihan ke bawah semasa berbilang halaman - semua pada halaman",
+      "message": "Pilih semua pada halaman ini"
+    }
+  },
+  "DATE_INPUT_TEXT": {
+    "DAY_ARIA_LABEL": {
+      "description": "Label untuk teks input hari",
+      "message": "Hari"
+    },
+    "INPUT_ARIA_LABEL": {
+      "description": "Label untuk teks input tarikh",
+      "message": "Input Tarikh"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Label untuk teks input bulan",
+      "message": "Bulan"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Label untuk teks input tahun",
+      "message": "Tahun"
+    }
+  },
+  "DATE_PICKER": {
+    "CLEAR_LABEL": {
+      "description": "Label for the date picker clear button",
+      "message": "Kosongkan"
+    },
+    "DATE_LABEL": {
+      "description": "Label untuk input tarikh dalam pemilih tarikh",
+      "message": "Tarikh"
+    },
+    "DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker date",
+      "message": "Tarikh mesti termasuk hari dan bulan."
+    },
+    "DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker date",
+      "message": "Tarikh mesti termasuk hari dan tahun."
+    },
+    "DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker start date",
+      "message": "Tarikh mesti termasuk hari."
+    },
+    "DONE_DATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when a date is selected. Appends to the label for the button. Example 'Done, selected date is 01/01/2000'",
+      "message": ", tarikh yang dipilih ialah {{date}}"
+    },
+    "DONE_ENDDATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when an end date is selected. Appends to the label for the button. Example 'Done, selected start date is January 15, 2020, selected end date is January 25, 2020'",
+      "message": ", tarikh tamat yang dipilih ialah {{date}}"
+    },
+    "DONE_LABEL": {
+      "description": "Label untuk butang selesai dalam pemilih julat tarikh",
+      "message": "Selesai"
+    },
+    "DONE_NO_DATE_LABEL": {
+      "description": "Label for the date picker's done button when no date is selected. Example 'Done, no date selected'",
+      "message": ", tiada tarikh telah dipilih"
+    },
+    "DONE_STARTDATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when a start date is selected. Example 'Done, selected start date is January 15, 2020",
+      "message": ", tarikh mula yang dipilih ialah {{date}}"
+    },
+    "END_DATE_LABEL": {
+      "description": "Label untuk tarikh tamat dalam pemilih julat tarikh",
+      "message": "Tarikh Tamat"
+    },
+    "INVALID_DATE": {
+      "description": "Error for when date is invalid. Happens when the given date is out of range or formatted incorrectly.",
+      "message": "Tarikh tersebut mestilah tarikh yang sah."
+    },
+    "INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker start date",
+      "message": "Tahun tarikh mestilah mempunyai 4 digit."
+    },
+    "MISSING_VALUE": {
+      "description": "Error for when date is missing. Appears if user attempts to submit without entering a date.",
+      "message": "Tarikh diperlukan."
+    },
+    "MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker date",
+      "message": "Tarikh mesti termasuk bulan dan tahun."
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Label untuk bulan pemilih tarikh",
+      "message": "Bulan"
+    },
+    "MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker date",
+      "message": "Tarikh mesti termasuk bulan."
+    },
+    "MONTH_NAVIGATION_ARIA_LABEL": {
+      "description": "Label for the date picker month navigation toolbar button group. This group contains the select controls allowing the user to navigate to either the previous or next month within the date picker",
+      "message": "Kumpulan butang navigasi bulan"
+    },
+    "MONTH_YEAR_ARIA_LABEL": {
+      "description": "Label for the date picker month toolbar button group. This group contains the select controls allowing the user to change the month or year within the date picker",
+      "message": "Kumpulan butang bulan dan tahun"
+    },
+    "NEXT_MONTH_ARIA_LABEL": {
+      "description": "Label untuk bulan selepas pemilih tarikh",
+      "message": "Bulan seterusnya"
+    },
+    "OPEN_CALENDAR": {
+      "description": "Label for the date picker's button. This is shown as an calendar icon.",
+      "message": "Pilih tarikh"
+    },
+    "PREVIOUS_MONTH_ARIA_LABEL": {
+      "description": "Label untuk bulan sebelum pemilih tarikh",
+      "message": "Bulan sebelumnya"
+    },
+    "START_DATE_LABEL": {
+      "description": "Label untuk tarikh mula dalam pemilih julat tarikh",
+      "message": "Tarikh Mula"
+    },
+    "TODAY_LABEL": {
+      "description": "Label untuk butang Hari Ini dalam pemilih julat tarikh",
+      "message": "Hari Ini"
+    },
+    "TODAY_TOOLTIP": {
+      "description": "Text for tooltip shown when the user hovers over the button, which will switch the datepicker to displaying the month with today's date in it",
+      "message": "Lompat ke hari ini"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Label untuk tahun pemilih tarikh",
+      "message": "Tahun"
+    },
+    "YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker date",
+      "message": "Tarikh mesti termasuk tahun."
+    }
+  },
+  "DATE_RANGE_PICKER": {
+    "END_DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker end date. Similar to other date picker messaging",
+      "message": "Tarikh tamat mesti termasuk hari dan bulan."
+    },
+    "END_DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker end date. Similar to other date picker messaging",
+      "message": "Tarikh tamat mesti termasuk hari dan tahun."
+    },
+    "END_DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker end date. Similar to other date picker messaging",
+      "message": "Tarikh tamat mesti termasuk hari."
+    },
+    "END_END_DATE_BEFORE_START_DATE": {
+      "description": "Error message for when the selected end date is before the selected start date",
+      "message": "Tarikh tamat mestilah sama dengan atau lebih lewat daripada {{- start_date}}."
+    },
+    "END_INPUT_ARIA_LABEL": {
+      "description": "Label untuk tarikh tamat pemilih julat tarikh",
+      "message": "Tarikh tamat"
+    },
+    "END_INVALID_DATE": {
+      "description": "Error message for invalid date format on the date range picker end date. Similar to other date picker messaging",
+      "message": "Tarikh tamat mestilah tarikh sebenar."
+    },
+    "END_INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker end date. Similar to other date picker messaging",
+      "message": "Tahun tarikh tamat mestilah mempunyai 4 digit."
+    },
+    "END_MISSING_VALUE": {
+      "description": "Error message for when the end date is missing a required value. This type of message is used for any required field.",
+      "message": "Tarikh tamat diperlukan"
+    },
+    "END_MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker end date. Similar to other date picker messaging",
+      "message": "Tarikh tamat mesti termasuk bulan dan tahun."
+    },
+    "END_MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker end date. Similar to other date picker messaging",
+      "message": "Tarikh tamat mesti termasuk bulan."
+    },
+    "END_YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker end date. Similar to other date picker messaging",
+      "message": "Tarikh tamat mesti termasuk tahun."
+    },
+    "OPEN_CALENDAR": {
+      "description": "Label for the date range picker's button. Similar to the label for the single date picker open button.",
+      "message": "Pilih julat tarikh"
+    },
+    "START_DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker start date. Similar to other date picker messaging",
+      "message": "Tarikh mula mesti termasuk hari dan bulan."
+    },
+    "START_DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker start date. Similar to other date picker messaging",
+      "message": "Tarikh mula mesti termasuk hari dan tahun."
+    },
+    "START_DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker start date. Similar to other date picker messaging",
+      "message": "Tarikh mula mesti termasuk hari."
+    },
+    "START_INPUT_ARIA_LABEL": {
+      "description": "Label untuk tarikh mula pemilih julat tarikh",
+      "message": "Tarikh mula"
+    },
+    "START_INVALID_DATE": {
+      "description": "Error message for invalid date format on the date range picker start date. Similar to other date picker messaging",
+      "message": "Tarikh mula mestilah tarikh sebenar."
+    },
+    "START_INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker start date. Similar to other date picker messaging",
+      "message": "Tahun tarikh mula mestilah mempunyai 4 digit."
+    },
+    "START_MISSING_VALUE": {
+      "description": "Error message for when the start date is missing a required value. Similar to other date picker messaging",
+      "message": "Tarikh mula diperlukan."
+    },
+    "START_MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker start date. Similar to other date picker messaging",
+      "message": "Tarikh mula mesti termasuk bulan dan tahun."
+    },
+    "START_MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker start date. Similar to other date picker messaging",
+      "message": "Tarikh mula mesti termasuk bulan."
+    },
+    "START_YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker start date. Similar to other date picker messaging",
+      "message": "Tarikh mula mesti termasuk tahun."
+    }
+  },
+  "DIALOG": {
+    "CLOSE_BUTTON_TEXT": {
+      "description": "Teks petua alat untuk butang tutup pada Pengepala",
+      "message": "Tutup"
+    }
+  },
+  "DOCUMENT_VIEWER": {
+    "CONTENT": {
+      "description": "Label aria untuk kawasan kandungan",
+      "message": "Kandungan dokumen"
+    },
+    "DOWNLOAD_LABEL": {
+      "description": "Label aria untuk butang muat turun",
+      "message": "Muat Turun"
+    },
+    "EXTENDED_DESCRIPTION": {
+      "description": "Label untuk membimbing pengguna pembaca skrin ke arah penerangan lanjutan",
+      "message": "Penerangan lanjutan di bawah"
+    },
+    "FOCUSED_PAGE_NUMBER_LABEL": {
+      "description": "Label aria untuk input nombor halaman tumpuan",
+      "message": "Halaman semasa"
+    },
+    "FULL_SCREEN_LABEL": {
+      "description": "Label aria untuk butang skrin penuh",
+      "message": "Skrin penuh"
+    },
+    "NEXT_PAGE_LABEL": {
+      "description": "Label aria untuk butang halaman seterusnya",
+      "message": "Halaman seterusnya"
+    },
+    "OF": {
+      "description": "Kata depan antara input nombor halaman tumpuan dengan jumlah halaman",
+      "message": "daripada"
+    },
+    "PAGE": {
+      "description": "Perkataan untuk halaman dalam teks alternatif",
+      "message": "Halaman"
+    },
+    "PREV_PAGE_LABEL": {
+      "description": "Label aria untuk butang halaman sebelumnya",
+      "message": "Halaman sebelumnya"
+    },
+    "PRINT_LABEL": {
+      "description": "Label aria untuk butang cetak",
+      "message": "Cetak"
+    },
+    "SEND_LABEL": {
+      "description": "Label aria untuk butang hantar",
+      "message": "Hantar"
+    },
+    "SIDEBAR_LABEL": {
+      "description": "Label aria untuk butang togol senarai lakaran dokumen",
+      "message": "Togol senarai lakaran dokumen"
+    },
+    "SUMMARY": {
+      "description": "Label aria untuk bar alat bar sisi",
+      "message": "Ringkasan dokumen"
+    },
+    "ZOOM_IN_LABEL": {
+      "description": "Label aria untuk butang zum masuk",
+      "message": "Zum masuk"
+    },
+    "ZOOM_LEVEL_LABEL": {
+      "description": "Label aria untuk pilihan tahap zum",
+      "message": "Tahap zum"
+    },
+    "ZOOM_OUT_LABEL": {
+      "description": "Label aria untuk butang zum keluar",
+      "message": "Zum keluar"
+    }
+  },
+  "DROPZONE": {
+    "BROWSE_FILES": {
+      "a11y_one": "Semak imbas fail, {{count}} fail",
+      "a11y_other": "Semak imbas fail, {{count}} fail",
+      "a11y_zero": "Semak imbas fail",
+      "description": "Label butang semak imbas fail ",
+      "message": "semak imbas fail"
+    },
+    "DISABLED": {
+      "description": "Label untuk ikon dinyahdaya",
+      "message": "Dinyahdaya"
+    },
+    "DRAG_AND_DROP": {
+      "description": "Jemputan untuk menyeret dan melepaskan atau [menyemak imbas fail]",
+      "message": "Seret dan lepas atau"
+    },
+    "DROP_FILES": {
+      "description": "Jemputan untuk melepaskan fail",
+      "message": "Lepaskan fail"
+    },
+    "FILES_ADDED": {
+      "description": "Mesej suara apabila beberapa fail ditambahkan",
+      "message": "{{count}} fail, ditambahkan."
+    },
+    "FILES_CLEARED": {
+      "description": "Mesej suara apabila fail dikosongkan",
+      "message": "Fail dikosongkan"
+    },
+    "FILE_ADDED": {
+      "description": "Mesej suara apabila fail ditambahkan",
+      "message": "{{file}}, ditambahkan."
+    },
+    "READ_ONLY": {
+      "description": "Label untuk ikon baca sahaja",
+      "message": "Baca sahaja"
+    }
+  },
+  "FILE_SIZE_UNITS": {
+    "BIT_UNIT": {
+      "description": "Unit bit untuk saiz fail",
+      "message": "bit"
+    },
+    "BYTE_UNIT": {
+      "description": "Unit bait untuk saiz fail",
+      "message": "bait"
+    },
+    "GB_UNIT": {
+      "description": "Unit gigabait untuk saiz fail",
+      "message": "gigabait",
+      "message_abbr": "GB",
+      "message_label": "Gigabait"
+    },
+    "KB_UNIT": {
+      "description": "Unit kilobait untuk saiz fail",
+      "message": "kilobait",
+      "message_abbr": "KB",
+      "message_label": "Kilobait"
+    },
+    "MB_UNIT": {
+      "description": "Unit megabait untuk saiz fail",
+      "message": "megabait",
+      "message_abbr": "MB",
+      "message_label": "Megabait"
+    }
+  },
+  "INPUT": {
+    "DONE_BUTTON_LABEL": {
+      "description": "Label untuk input selesai",
+      "message": "Selesai"
+    },
+    "TODAY_BUTTON_LABEL": {
+      "description": "Label untuk input label hari ini",
+      "message": "Hari Ini"
+    }
+  },
+  "MENU_CONTAINER": {
+    "OPTIONS_STRING": {
+      "description": "Rentetan pilihan untuk memaparkan bilangan pilihan dalam menu.",
+      "message": "{{count}} pilihan"
+    },
+    "POPOVER_LABEL": {
+      "description": "Aria label describing the menu of options shown, after a user types in text into the autocomplete combobox",
+      "message": "Cadangan"
+    }
+  },
+  "NAVIGATION": {
+    "ALPHABETICAL_SORTING": {
+      "description": "Aria Label for alphabetical sorting in the main navigation menu options. This option will allow users to sort the items within the (main) left nav alphabetically",
+      "message": "Pengisihan Mengikut Abjad"
+    },
+    "ARIA_LABEL": {
+      "description": "Label Aria untuk laci navigasi utama",
+      "message": "Menu Sampingan"
+    },
+    "BACK_BUTTON_TEXT": {
+      "description": "Teks petua alat untuk butang kembali pada Pengepala",
+      "message": "Kembali"
+    },
+    "BUTTON_TEXT": {
+      "description": "Teks petua alat untuk butang menu",
+      "message": "Menu Navigasi Sampingan"
+    },
+    "CLOSE_BUTTON_TEXT": {
+      "description": "Teks petua alat untuk butang tutup pada Pengepala",
+      "message": "Tutup"
+    },
+    "CLOSE_NAVIGATION": {
+      "description": "Tutup laci navigasi",
+      "message": "Tutup Menu"
+    },
+    "COLLAPSE_NAVIGATION": {
+      "description": "Runtuhkan semua item akordion dalam menu navigasi",
+      "message": "Runtuhkan Semua"
+    },
+    "COMPACT_VIEW_NAVIGATION": {
+      "description": "pilihan susun atur untuk pandangan padat menu",
+      "message": "Pandangan Padat"
+    },
+    "DEFAULT_SORTING": {
+      "description": "Aria Label for default sorting in the main navigation menu options. This option will allow users to sort the items within the (main) normally, as the domain/admin sets them.",
+      "message": "Pengisihan Lalai"
+    },
+    "EXPAND_NAVIGATION": {
+      "description": "Kembangkan semua item akordion dalam menu navigasi",
+      "message": "Kembangkan Semua"
+    },
+    "HOVER_OFF_NAVIGATION": {
+      "description": "pilihan hover untuk tab navigasi (mati)",
+      "message": "Tab Hover Mati"
+    },
+    "HOVER_ON_NAVIGATION": {
+      "description": "pilihan hover untuk tab navigasi (hidup)",
+      "message": "Tab Hover Hidup"
+    },
+    "NAVIGATION_ITEMS": {
+      "description": "label bagi menu pilihan untuk mengubah suai item navigasi",
+      "message": "Item Menu"
+    },
+    "NAVIGATION_LAYOUT": {
+      "description": "label bagi menu pilihan untuk mengubah suai susun atur navigasi",
+      "message": "Susun Atur Menu"
+    },
+    "NAVIGATION_OPTIONS": {
+      "description": "menu pilihan untuk navigasi sisi",
+      "message": "Pilihan Menu"
+    },
+    "PIN_NAVIGATION": {
+      "description": "Pin menu navigasi",
+      "message": "Pin"
+    },
+    "STANDARD_VIEW_NAVIGATION": {
+      "description": "pilihan susun atur untuk pandangan standard menu",
+      "message": "Pandangan Standard"
+    },
+    "UNPIN_NAVIGATION": {
+      "description": "Nyahpin menu navigasi",
+      "message": "Nyahpin"
+    }
+  },
+  "PAGINATOR": {
+    "ARIALABEL": {
+      "description": "penghalaman",
+      "message": "penghalaman"
+    },
+    "FIRST_PAGE": {
+      "description": "The aria label for the first page button. Clicking/tapping this button takes the user to the first page of the data set",
+      "message": "Halaman pertama"
+    },
+    "LAST_PAGE": {
+      "description": "The aria label for the last page button. Clicking/tapping this button takes the user to the last page of the data set.",
+      "message": "Halaman terakhir"
+    },
+    "MENU_ARIALABEL": {
+      "description": "paginator menu",
+      "message": "menu penghalaman"
+    },
+    "NEXT_PAGE": {
+      "description": "the aria label for the next page button",
+      "message": "Halaman seterusnya"
+    },
+    "OF": {
+      "description": "teks ‘daripada’ dalam penghalaman",
+      "message": "daripada"
+    },
+    "PAGE_MENU_ARIALABEL": {
+      "description": "Aria label for the menu allowing the user to select how many items they wish to see per page.",
+      "message": "menu halaman"
+    },
+    "PAGE_OF": {
+      "description": "The text 'Page {currentPage} of {totalPages}' in paginator. This help quantify which page the user is on within the data set and how many pages exist in total",
+      "message": "Halaman {{currentPage}} daripada {{totalPages}}"
+    },
+    "PER_PAGE": {
+      "description": "The text 'per page' in paginator. This helps to quantify how many items are shown on a given page within the data table",
+      "message": "setiap halaman"
+    },
+    "PREV_PAGE": {
+      "description": "The aria label for the previous page button. Clicking this button allows the user to go one page backwards within the data set",
+      "message": "Halaman sebelumnya"
+    },
+    "ROW_OPTIONS": {
+      "description": "label aria untuk butang pilihan baris",
+      "message": "pilihan baris"
+    },
+    "SHOWING_ALL": {
+      "description": "The text 'Showing all' in paginator. Choosing this option allows the user to see all the items within the data set on a single page. This should be user raely and only when the number of items is not large.",
+      "message": "Tunjuk semua"
+    },
+    "TOTAL_ITEMS": {
+      "description": "The text '{{totalItems}} items' in paginator. When the user has opted to see all the items on a single page, this text tells the user just how many items exist.",
+      "message": "{{totalItems}} {{itemsLabel}}"
+    }
+  },
+  "PROCESS_MENU": {
+    "OF": {
+      "description": "Preposition between focused page number input and total number of pages",
+      "message": "daripada"
+    },
+    "STEP_LABEL": {
+      "description": "Label indicating which step in the process a user is on",
+      "message": "Langkah"
+    }
+  },
+  "PROGRESS_LINEAR": {
+    "CANCEL": {
+      "description": "Label untuk batal kemajuan linear selesai",
+      "message": "Batal"
+    }
+  },
+  "RADIOGROUP": {
+    "ERROR": {
+      "description": "Teks 'Pilihan yang Diperlukan' dalam kumpulan radio",
+      "message": "Pemilihan yang diperlukan"
+    }
+  },
+  "SEARCH": {
+    "CLEAR": {
+      "description": "Butang dan petua alat kosongkan",
+      "message": "Kosongkan"
+    },
+    "PLACEHOLDER": {
+      "description": "Sandaran untuk komponen carian",
+      "message": "Carian"
+    }
+  },
+  "SEARCHBAR": {
+    "SEARCH": {
+      "description": "Teks ruang letak untuk bar carian",
+      "message": "Carian"
+    }
+  },
+  "SELECT": {
+    "CANCEL_STRING": {
+      "description": "Pilih label untuk butang batal",
+      "message": "Batal"
+    },
+    "MULTI_OVERFLOW": {
+      "description": "Message to display next to the count of selected items. This is used when the select control is selecting multiple options and there is not enough room to display all of the selections",
+      "message": "sipilih"
+    },
+    "NO_OPTIONS_STRING": {
+      "description": "Rentetan kawasan langsung apabila tiada pilihan yang ditemui pada pilihan atau menu",
+      "message": "Tiada pilihan ditemui."
+    },
+    "OK_STRING": {
+      "description": "Pilih label untuk butang OK",
+      "message": "Selesai"
+    },
+    "SEARCH_ARIA_LABEL": {
+      "description": "Label untuk input carian",
+      "message": "Cari dalam senarai pilihan di bawah"
+    }
+  },
+  "SKIP_TO_MAIN": {
+    "TEXT": {
+      "description": "langkau ke teks butang utama",
+      "message": "Langkau ke Kandungan Utama"
+    }
+  },
+  "TASK_DRAWER": {
+    "APPLY_BUTTON_ARIA_LABEL": {
+      "description": "Label Aria untuk butang mohon laci tugas",
+      "message": "Mohon"
+    },
+    "APPLY_BUTTON_TEXT": {
+      "description": "Label untuk butang mohon laci tugas",
+      "message": "Mohon"
+    },
+    "RESET_BUTTON_ARIA_LABEL": {
+      "description": "Label Aria untuk butang set semula laci tugas",
+      "message": "Set semula"
+    },
+    "RESET_BUTTON_TEXT": {
+      "description": "Label untuk butang set semula laci tugas",
+      "message": "Set semula"
+    }
+  },
+  "TOOLBAR": {
+    "BUTTON_GROUP_LABEL": {
+      "description": "Label kumpulan butang untuk bar alat",
+      "message": "Label kumpulan butang bar alat"
+    },
+    "TOOLTIP_TEXT": {
+      "description": "Kumpulan butang responsif bar alat melebihi teks petua alat menu",
+      "message": "Selanjutnya"
+    }
+  },
+  "TREE": {
+    "LINK_INDICATOR": {
+      "description": "Label untuk menandakan jika item pepohon merupakan pautan untuk pengguna pembaca skrin",
+      "message": "(pautan)"
+    }
+  },
+  "UPLOAD": {
+    "CLEAR": {
+      "a11y": "Kosongkan: {{file}}",
+      "description": "Label butang dan petua alat kosongkan",
+      "message": "Kosongkan"
+    },
+    "DELETE": {
+      "a11y": "Padam: {{file}}",
+      "description": "Label butang dan petua alat padam",
+      "message": "Padam"
+    },
+    "FILE_PROGRESSING": {
+      "description": "Mesej kemajuan",
+      "message": "Kemajuan"
+    },
+    "FILE_TOO_BIG": {
+      "description": "Mesej untuk memberi isyarat lebih besar daripada saiz had maksimum",
+      "message": "Fail yang dipilih mestilah lebih kecil daripada {{count}} {{- unit}}"
+    },
+    "FILE_TYPE_ERROR": {
+      "description": "Mesej untuk memberi isyarat jenis fail tidak dibenarkan",
+      "message": "Jenis fail {{type}} tidak dibenarkan. Fail yang dipilih mestilah: {{accept}}."
+    },
+    "MAX_NUMBER_OF_FILES_PASSED": {
+      "description": "Mesej ralat untuk memberi isyarat melebihi bilangan fail maksimum",
+      "message": "Anda hanya boleh memilih hingga {{count}} fail."
+    },
+    "MAX_NUMBER_OF_FILES_REACHED": {
+      "description": "Mesej untuk memberi isyarat bilangan fail maksimum dicapai",
+      "message": "Anda telah mencapai bilangan fail maksimum"
+    },
+    "RETRY": {
+      "a11y": "Cuba Semula: {{file}}",
+      "description": "Label butang dan petua alat cuba semula",
+      "message": "Cuba Semula"
+    },
+    "UPLOAD_FAIL": {
+      "description": "Mesej untuk memberi isyarat kegagalan semasa memuat naik",
+      "message": "Fail yang dipilih tidak dapat diproses – tekan butang cuba semula untuk mencuba lagi."
+    }
+  }
+}

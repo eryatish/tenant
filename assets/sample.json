@@ -1,0 +1,120 @@
+{
+    "response": {
+        "sections": [
+            {
+                "sectionName": "Branding",
+                "components": [
+                    {
+                        "name": "uploadBrandImage",
+                        "value": "",
+                        "label": "Upload Image",
+                        "type": "FILE",
+                        "displayType": "TEXT",
+                        "placeHolder": "Upload brand image",
+                        "clientValidations": [
+                            {
+                                "type": "REQURIED",
+                                "value": null,
+                                "errorMessage": "Please upload Image."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "primaryColor",
+                        "value": "",
+                        "label": "Primary Color",
+                        "type": "COLOR",
+                        "displayType": "TEXT",
+                        "placeHolder": "Select primary color",
+                        "clientValidations": [
+                            {
+                                "type": "REQUIRED",
+                                "value": null,
+                                "errorMessage": "Please select primary color."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "secondaryColor",
+                        "value": "",
+                        "label": "Secondary Color",
+                        "type": "COLOR",
+                        "displayType": "TEXT",
+                        "placeHolder": "Select secondary color",
+                        "clientValidations": [
+                            {
+                                "type": "REQUIRED",
+                                "value": null,
+                                "errorMessage": "Please select secondary color."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "sectionName": "SAML_SSO_Config",
+                "components": []
+            },
+            {
+                "sectionName": "OIDC_SSO_Config",
+                "components": []
+            },
+            {
+                "sectionName": "Localization",
+                "components": []
+            },
+            {
+                "sectionName": "Password_Policy",
+                "components": [
+                    {
+                        "name": "passwordStrength",
+                        "value": "",
+                        "label": "Password Strength",
+                        "type": "SELECT",
+                        "displayType": "DROPDOWN",
+                        "placeHolder": "Select password strength",
+                        "componentSpecificProperties": {
+                            "options": [
+                                {
+                                    "value": "none",
+                                    "label": "None"
+                                },
+                                {
+                                    "value": "fair",
+                                    "label": "Fair"
+                                },
+                                {
+                                    "value": "good",
+                                    "label": "Good"
+                                },
+                                {
+                                    "value": "excellent",
+                                    "label": "Excellent"
+                                }
+                            ]
+                        },
+                        "clientValidations": [
+                            {
+                                "type": "REQURIED",
+                                "value": null,
+                                "errorMessage": "Please select strength."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "sectionName": "MFA_Policy",
+                "components": []
+            },
+            {
+                "sectionName": "Vanity_URLs",
+                "components": []
+            },
+            {
+                "sectionName": "Home_Realm_Discovery_Support",
+                "components": []
+            }
+        ]
+    }
+}

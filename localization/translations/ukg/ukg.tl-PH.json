@@ -1,0 +1,792 @@
+{
+  "BANNER": {
+    "IMPORTANT": {
+      "description": "Aria-label for default important icon",
+      "message": "Mahalaga"
+    },
+    "INFO": {
+      "description": "Aria-label for default info icon",
+      "message": "Impormasyon"
+    },
+    "SUCCESS": {
+      "description": "Aria-label for default success icon",
+      "message": "Tagumpay"
+    },
+    "WARNING": {
+      "description": "Aria-label for default warning icon",
+      "message": "Babala"
+    }
+  },
+  "CALENDAR": {
+    "CURRENT_DAY": {
+      "description": "Text for tooltip shown when a user hovers over the calendar day which is the same as 'Today'",
+      "message": "Kasalukuyang araw"
+    },
+    "END_DATE_ARIA_LABEL": {
+      "description": "Aria label details for selected end date",
+      "message": ", petsa ng katapusan"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Label para sa buwan sa kalendaryo",
+      "message": "Buwan"
+    },
+    "MONTH_SELECTOR_TOOLTIP": {
+      "description": "Text for tooltip shown when a user hovers over the control used to select the month, within the datepicker component/control",
+      "message": "Pumili ng buwan"
+    },
+    "NEXT_MONTH_ARIA_LABEL": {
+      "description": "Label para sa susunod na buwan sa kalendaryo",
+      "message": "Susunod na buwan"
+    },
+    "PREVIOUS_MONTH_ARIA_LABEL": {
+      "description": "Label para sa nakaraang buwan sa kalendaryo",
+      "message": "Nakaraang buwan"
+    },
+    "SELECTED_ARIA_LABEL": {
+      "description": "Aria label details for selected date",
+      "message": ", pinili"
+    },
+    "SELECTED_DAY": {
+      "description": "Text for tooltip shown when a user hovers over the calenday which has been selected/choosen",
+      "message": "Piniling araw"
+    },
+    "START_DATE_ARIA_LABEL": {
+      "description": "Aria label details for selected start date",
+      "message": ", petsa ng simula"
+    },
+    "WEEK_NUMBER": {
+      "description": "Week number calendar header",
+      "message": "Numero ng linggo",
+      "message_abbr": "L"
+    },
+    "WEEK_NUMBER_LABEL": {
+      "description": "Week number label",
+      "message": "Linggo {{number}}"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Label para sa taon sa kalendaryo",
+      "message": "Taon"
+    },
+    "YEAR_SELECTOR_TOOLTIP": {
+      "description": "Text for tooltip shown when a user hovers over the control used to select the year, within the datepicker component/control",
+      "message": "Pumili ng taon"
+    }
+  },
+  "CAROUSEL": {
+    "FIRST_SLIDE_MESSAGE": {
+      "description": "Text na inilalagay sa live aria region kapag naaabot ang unang slide",
+      "message": "Ito ang unang slide"
+    },
+    "LAST_SLIDE_MESSAGE": {
+      "description": "Text na inilalagay sa live aria region kapag naaabot ang huling slide",
+      "message": "Ito ang huling slide"
+    },
+    "NEXT_SLIDE_MESSAGE": {
+      "description": "Aria label para sa button ng navigation na susunod na slide",
+      "message": "Susunod na slide"
+    },
+    "PAGE_CHANGE": {
+      "description": "Text na babasahin kapag nagpapalit ng mga page sa pamamagitan ng navigation, ang {{index}} ay pinapalitan ng eksaktong bilang ng mga slide",
+      "message": "Kasalukuyang nasa slide {{index}}"
+    },
+    "PAGINATION_BULLET_MESSAGE": {
+      "description": "Aria label ng bawat elemento ng bullet ng pagination. Ang {{index}} ay pinapalitan ng eksaktong bilang ng mga slide",
+      "message": "Pumunta sa slide {{index}}"
+    },
+    "PAGINATION_LABEL": {
+      "description": "Aria label used to tell users using assistive technology which slide they are on and how many slides exist in the control",
+      "message": "Mayroong {{index}} (na) bilang ng mga slide",
+      "message_one": "May {{count}} slide",
+      "message_other": "May {{count}} (na) slide"
+    },
+    "PREV_SLIDE_MESSAGE": {
+      "description": "Aria label para sa button ng navigation na nakaraang slide",
+      "message": "Nakaraang slide"
+    },
+    "description": "You can use a carousel in scenarios such as slideshows, galleries, onboarding flows, and presentations."
+  },
+  "CHECKBOX": {
+    "ARIA_LABEL": {
+      "description": "Aria label para sa icon ng checkbox",
+      "message": "Icon ng Checkbox"
+    }
+  },
+  "CHECKBOXGROUP": {
+    "ERROR": {
+      "description": "Ang text na 'Kinakailangang Seleksyon' sa checkbox-group",
+      "message": "Kinakailangang Seleksyon"
+    }
+  },
+  "DATA_TABLE": {
+    "DESELECT_ALL": {
+      "description": "Mga opsyon sa dropdown kapag maramihang page - i-deselect",
+      "message": "I-deselect lahat"
+    },
+    "SELECTION_LABEL": {
+      "description": "I-set ang text sa napiling label sa header",
+      "message": "Napili"
+    },
+    "SELECT_ALL": {
+      "description": "Mga opsyon sa dropdown kapag maramihang page - lahat",
+      "message": "Piliin lahat"
+    },
+    "SELECT_ALL_ON_PAGE": {
+      "description": "Mga opsyon sa dropdown kapag maramihang page - lahat sa page",
+      "message": "Piliin lahat sa page na ito"
+    }
+  },
+  "DATE_INPUT_TEXT": {
+    "DAY_ARIA_LABEL": {
+      "description": "Label para sa text ng input ng araw",
+      "message": "Araw"
+    },
+    "INPUT_ARIA_LABEL": {
+      "description": "Label para sa text ng input ng petsa",
+      "message": "Input ng Petsa"
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Label para sa text ng input ng buwan",
+      "message": "Buwan"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Label para sa text ng input ng taon",
+      "message": "Taon"
+    }
+  },
+  "DATE_PICKER": {
+    "CLEAR_LABEL": {
+      "description": "Label for the date picker clear button",
+      "message": "I-clear"
+    },
+    "DATE_LABEL": {
+      "description": "Label para sa paglagay ng petsa sa picker ng petsa",
+      "message": "Petsa"
+    },
+    "DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker date",
+      "message": "Kailangang may araw at buwan ang petsa."
+    },
+    "DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker date",
+      "message": "Kailangang may araw at taon ang petsa."
+    },
+    "DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker start date",
+      "message": "Kailangang may araw ang petsa."
+    },
+    "DONE_DATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when a date is selected. Appends to the label for the button. Example 'Done, selected date is 01/01/2000'",
+      "message": ", ang piniling petsa ay {{date}}"
+    },
+    "DONE_ENDDATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when an end date is selected. Appends to the label for the button. Example 'Done, selected start date is January 15, 2020, selected end date is January 25, 2020'",
+      "message": ", ang piniling petsa ng katapusan ay {{date}}"
+    },
+    "DONE_LABEL": {
+      "description": "Label para sa button na nagawa na sa picker ng hanay ng petsa",
+      "message": "Nagawa Na"
+    },
+    "DONE_NO_DATE_LABEL": {
+      "description": "Label for the date picker's done button when no date is selected. Example 'Done, no date selected'",
+      "message": ", walang piniling petsa"
+    },
+    "DONE_STARTDATE_SELECTED_LABEL": {
+      "description": "Label for the date picker's done button when a start date is selected. Example 'Done, selected start date is January 15, 2020",
+      "message": ", ang piniling petsa ng simula ay {{date}}"
+    },
+    "END_DATE_LABEL": {
+      "description": "Label para sa petsa ng wakas sa picker ng hanay ng petsa",
+      "message": "Petsa ng Wakas"
+    },
+    "INVALID_DATE": {
+      "description": "Error for when date is invalid. Happens when the given date is out of range or formatted incorrectly.",
+      "message": "Ang petsa ay dapat isang wastong petsa."
+    },
+    "INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker start date",
+      "message": "Kailangang may 4 na digit ang taon sa petsa."
+    },
+    "MISSING_VALUE": {
+      "description": "Error for when date is missing. Appears if user attempts to submit without entering a date.",
+      "message": "Kinakailangan ang petsa."
+    },
+    "MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker date",
+      "message": "Kailangang may buwan at taon ang petsa."
+    },
+    "MONTH_ARIA_LABEL": {
+      "description": "Label para sa buwan sa picker ng petsa",
+      "message": "Buwan"
+    },
+    "MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker date",
+      "message": "Kailangang may buwan ang petsa."
+    },
+    "MONTH_NAVIGATION_ARIA_LABEL": {
+      "description": "Label for the date picker month navigation toolbar button group. This group contains the select controls allowing the user to navigate to either the previous or next month within the date picker",
+      "message": "Grupo ng button sa pag-navigate para sa buwan"
+    },
+    "MONTH_YEAR_ARIA_LABEL": {
+      "description": "Label for the date picker month toolbar button group. This group contains the select controls allowing the user to change the month or year within the date picker",
+      "message": "Grupo ng button para sa buwan at taon"
+    },
+    "NEXT_MONTH_ARIA_LABEL": {
+      "description": "Label para sa susunod na buwan sa picker ng petsa",
+      "message": "Susunod na buwan"
+    },
+    "OPEN_CALENDAR": {
+      "description": "Label for the date picker's button. This is shown as an calendar icon.",
+      "message": "Pumili ng petsa"
+    },
+    "PREVIOUS_MONTH_ARIA_LABEL": {
+      "description": "Label para sa nakaraang buwan sa picker ng petsa",
+      "message": "Nakaraang buwan"
+    },
+    "START_DATE_LABEL": {
+      "description": "Label para sa petsa ng simula sa picker ng hanay ng petsa",
+      "message": "Petsa ng Simula"
+    },
+    "TODAY_LABEL": {
+      "description": "Label para sa button na Ngayon sa picker ng hanay ng petsa",
+      "message": "Ngayon"
+    },
+    "TODAY_TOOLTIP": {
+      "description": "Text for tooltip shown when the user hovers over the button, which will switch the datepicker to displaying the month with today's date in it",
+      "message": "Pumunta sa araw ngayon"
+    },
+    "YEAR_ARIA_LABEL": {
+      "description": "Label para sa taon sa picker ng petsa",
+      "message": "Taon"
+    },
+    "YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker date",
+      "message": "Kailangang may taon ang petsa."
+    }
+  },
+  "DATE_RANGE_PICKER": {
+    "END_DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker end date. Similar to other date picker messaging",
+      "message": "Kailangang may araw at buwan ang petsa ng katapusan."
+    },
+    "END_DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker end date. Similar to other date picker messaging",
+      "message": "Kailangang may araw at taon ang petsa ng katapusan."
+    },
+    "END_DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker end date. Similar to other date picker messaging",
+      "message": "Kailangang may araw ang petsa ng katapusan."
+    },
+    "END_END_DATE_BEFORE_START_DATE": {
+      "description": "Error message for when the selected end date is before the selected start date",
+      "message": "Ang petsa ng katapusan ay dapat na katulad ng o hindi lalampas sa {{- start_date}}."
+    },
+    "END_INPUT_ARIA_LABEL": {
+      "description": "Label para sa petsa ng pagwawakas sa picker ng hanay ng petsa",
+      "message": "Petsa ng pagwawakas"
+    },
+    "END_INVALID_DATE": {
+      "description": "Error message for invalid date format on the date range picker end date. Similar to other date picker messaging",
+      "message": "Kailangang tunay na petsa ang petsa ng katapusan."
+    },
+    "END_INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker end date. Similar to other date picker messaging",
+      "message": "Kailangang may 4 na digit ang taon sa petsa ng katapusan."
+    },
+    "END_MISSING_VALUE": {
+      "description": "Error message for when the end date is missing a required value. This type of message is used for any required field.",
+      "message": "Kinakailangan ang petsa ng katapusan"
+    },
+    "END_MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker end date. Similar to other date picker messaging",
+      "message": "Kailangang may buwan at taon ang petsa ng katapusan."
+    },
+    "END_MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker end date. Similar to other date picker messaging",
+      "message": "Kailangang may buwan ang petsa ng katapusan."
+    },
+    "END_YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker end date. Similar to other date picker messaging",
+      "message": "Kailangang may taon ang petsa ng katapusan."
+    },
+    "OPEN_CALENDAR": {
+      "description": "Label for the date range picker's button. Similar to the label for the single date picker open button.",
+      "message": "Pumili ng hanay ng petsa"
+    },
+    "START_DAY_AND_MONTH_MISSING": {
+      "description": "Error message for missing day and month on the date range picker start date. Similar to other date picker messaging",
+      "message": "Kailangang may araw at buwan ang petsa ng simula."
+    },
+    "START_DAY_AND_YEAR_MISSING": {
+      "description": "Error message for missing day and year on the date range picker start date. Similar to other date picker messaging",
+      "message": "Kailangang may araw at taon ang petsa ng simula."
+    },
+    "START_DAY_MISSING": {
+      "description": "Error message for missing day on the date range picker start date. Similar to other date picker messaging",
+      "message": "Kailangang may araw ang petsa ng simula."
+    },
+    "START_INPUT_ARIA_LABEL": {
+      "description": "Label para sa petsa ng simula sa picker ng hanay ng petsa",
+      "message": "Petsa ng simula"
+    },
+    "START_INVALID_DATE": {
+      "description": "Error message for invalid date format on the date range picker start date. Similar to other date picker messaging",
+      "message": "Kailangang tunay na petsa ang petsa ng simula."
+    },
+    "START_INVALID_YEAR_LENGTH": {
+      "description": "Error message for invalid year length on the date range picker start date. Similar to other date picker messaging",
+      "message": "Kailangang may 4 na digit ang taon ng petsa ng simula."
+    },
+    "START_MISSING_VALUE": {
+      "description": "Error message for when the start date is missing a required value. Similar to other date picker messaging",
+      "message": "Kailangan ang petsa ng simula."
+    },
+    "START_MONTH_AND_YEAR_MISSING": {
+      "description": "Error message for missing month and year on the date range picker start date. Similar to other date picker messaging",
+      "message": "Kailangang may buwan at taon ang petsa ng simula."
+    },
+    "START_MONTH_MISSING": {
+      "description": "Error message for missing month on the date range picker start date. Similar to other date picker messaging",
+      "message": "Kailangang may buwan ang petsa ng simula."
+    },
+    "START_YEAR_MISSING": {
+      "description": "Error message for missing year on the date range picker start date. Similar to other date picker messaging",
+      "message": "Kailangang may taon ang petsa ng simula."
+    }
+  },
+  "DIALOG": {
+    "CLOSE_BUTTON_TEXT": {
+      "description": "Text ng tool tip para sa button na isara sa Header",
+      "message": "Isara"
+    }
+  },
+  "DOCUMENT_VIEWER": {
+    "CONTENT": {
+      "description": "Aria label para sa bahagi ng nilalaman",
+      "message": "Nilalaman ng dokumento"
+    },
+    "DOWNLOAD_LABEL": {
+      "description": "Aria label para sa button na i-download",
+      "message": "I-download"
+    },
+    "EXTENDED_DESCRIPTION": {
+      "description": "Label para gabayan ang mga gumagamit ng screen reader patungo sa pinahabang paglalarawan",
+      "message": "May pinahabang paglalarawan sa ibaba"
+    },
+    "FOCUSED_PAGE_NUMBER_LABEL": {
+      "description": "Aria label para sa input ng bilang ng naka-focus na page",
+      "message": "Kasalukuyang page"
+    },
+    "FULL_SCREEN_LABEL": {
+      "description": "Aria label para sa button na full screen",
+      "message": "Full screen"
+    },
+    "NEXT_PAGE_LABEL": {
+      "description": "Aria label para sa button na susunod na page",
+      "message": "Susunod na page"
+    },
+    "OF": {
+      "description": "Pang-ukol sa pagitan ng input ng bilang ng naka-focus na page at kabuuang bilang ng mga page",
+      "message": "ng"
+    },
+    "PAGE": {
+      "description": "Salita para sa page sa alternatibong text",
+      "message": "Page"
+    },
+    "PREV_PAGE_LABEL": {
+      "description": "Aria label para sa button na nakaraang page",
+      "message": "Nakaraang page"
+    },
+    "PRINT_LABEL": {
+      "description": "Aria label para sa button na i-print",
+      "message": "I-print"
+    },
+    "SEND_LABEL": {
+      "description": "Aria label para sa button na ipadala",
+      "message": "Ipadala"
+    },
+    "SIDEBAR_LABEL": {
+      "description": "Aria label para sa button na i-toggle ng listahan ng mga thumbnail ng dokumento",
+      "message": "I-toggle ang listahan ng mga thumbnail ng dokumento"
+    },
+    "SUMMARY": {
+      "description": "Aria label para sa toolbar sa sidebar",
+      "message": "Buod ng dokumento"
+    },
+    "ZOOM_IN_LABEL": {
+      "description": "Aria label para sa button na mag-zoom in",
+      "message": "Mag-zoom in"
+    },
+    "ZOOM_LEVEL_LABEL": {
+      "description": "Aria label para sa pagpili ng antas ng pag-zoom",
+      "message": "Antas ng pag-zoom"
+    },
+    "ZOOM_OUT_LABEL": {
+      "description": "Aria label para sa button na mag-zoom out",
+      "message": "Mag-zoom out"
+    }
+  },
+  "DROPZONE": {
+    "BROWSE_FILES": {
+      "a11y_one": "Mag-browse ng mga file, {{count}} file",
+      "a11y_other": "Mag-browse ng mga file, {{count}} (na) file",
+      "a11y_zero": "Mag-browse ng mga file",
+      "description": "Label ng button para sa mag-browse ng mga file ",
+      "message": "mag-browse ng mga file"
+    },
+    "DISABLED": {
+      "description": "Label para sa icon na naka-disable",
+      "message": "Naka-disable"
+    },
+    "DRAG_AND_DROP": {
+      "description": "Imbitahan para i-drag at i-drop o [mag-browse ng file]",
+      "message": "I-drag at i-drop o"
+    },
+    "DROP_FILES": {
+      "description": "Imbitahan para mag-drop ng mga file",
+      "message": "I-drop ang mga file"
+    },
+    "FILES_ADDED": {
+      "description": "Isinasalitang mensahe kapag maraming idinagdag na file",
+      "message": "Idinagdag ang {{count}} (na) file."
+    },
+    "FILES_CLEARED": {
+      "description": "Isinasalitang mensahe kapag na-clear ang mga file",
+      "message": "Na-clear ang mga file"
+    },
+    "FILE_ADDED": {
+      "description": "Isinasalitang mensahe kapag may idinagdag na file",
+      "message": "Idinagdag ang {{file}} ."
+    },
+    "READ_ONLY": {
+      "description": "Label para sa icon na read only",
+      "message": "Read only"
+    }
+  },
+  "FILE_SIZE_UNITS": {
+    "BIT_UNIT": {
+      "description": "Bit na unit para sa laki ng file",
+      "message_one": "bit",
+      "message_other": "bits"
+    },
+    "BYTE_UNIT": {
+      "description": "Byte na unit para sa laki ng file",
+      "message_one": "byte",
+      "message_other": "bytes"
+    },
+    "GB_UNIT": {
+      "description": "Gigabyte na unit para sa laki ng file",
+      "message_abbr": "GB",
+      "message_label_one": "Gigabyte",
+      "message_label_other": "Gigabytes",
+      "message_one": "gigabyte",
+      "message_other": "gigabytes"
+    },
+    "KB_UNIT": {
+      "description": "Kilobyte na unit para sa laki ng file",
+      "message_abbr": "KB",
+      "message_label_one": "Kilobyte",
+      "message_label_other": "Kilobytes",
+      "message_one": "kilobyte",
+      "message_other": "kilobytes"
+    },
+    "MB_UNIT": {
+      "description": "Megabyte na unit para sa laki ng file",
+      "message_abbr": "MB",
+      "message_label_one": "Megabyte",
+      "message_label_other": "Megabytes",
+      "message_one": "megabyte",
+      "message_other": "megabytes"
+    }
+  },
+  "INPUT": {
+    "DONE_BUTTON_LABEL": {
+      "description": "Nagawa na ang label para sa input",
+      "message": "Nagawa Na"
+    },
+    "TODAY_BUTTON_LABEL": {
+      "description": "Label para sa input ngayon",
+      "message": "Ngayon"
+    }
+  },
+  "MENU_CONTAINER": {
+    "OPTIONS_STRING": {
+      "description": "String ng mga opsyon para ipakita ang bilang ng mga opsyon sa menu.",
+      "message_one": "{{count}} opsyon",
+      "message_other": "{{count}} (na) opsyon"
+    },
+    "POPOVER_LABEL": {
+      "description": "Aria label describing the menu of options shown, after a user types in text into the autocomplete combobox",
+      "message": "Mga Mungkahi"
+    }
+  },
+  "NAVIGATION": {
+    "ALPHABETICAL_SORTING": {
+      "description": "Aria Label for alphabetical sorting in the main navigation menu options. This option will allow users to sort the items within the (main) left nav alphabetically",
+      "message": "Pagsasaayos Ayon sa Alpabeto"
+    },
+    "ARIA_LABEL": {
+      "description": "Aria Label para sa pangunahing navigation drawer",
+      "message": "Side Menu"
+    },
+    "BACK_BUTTON_TEXT": {
+      "description": "Text ng tool tip para sa button na bumalik sa Header",
+      "message": "Bumalik"
+    },
+    "BUTTON_TEXT": {
+      "description": "Text ng tool tip para sa button ng menu",
+      "message": "Side Menu para sa Navigation"
+    },
+    "CLOSE_BUTTON_TEXT": {
+      "description": "Text ng tool tip para sa button na isara sa Header",
+      "message": "Isara"
+    },
+    "CLOSE_NAVIGATION": {
+      "description": "Isara ang navigation drawer",
+      "message": "Isara ang Menu"
+    },
+    "COLLAPSE_NAVIGATION": {
+      "description": "I-collapse lahat ng item ng accordion sa menu ng navigation",
+      "message": "I-collapse Lahat"
+    },
+    "COMPACT_VIEW_NAVIGATION": {
+      "description": "opsyon ng layout para sa compact na view ng menu",
+      "message": "Compact na View"
+    },
+    "DEFAULT_SORTING": {
+      "description": "Aria Label for default sorting in the main navigation menu options. This option will allow users to sort the items within the (main) normally, as the domain/admin sets them.",
+      "message": "Default na Pagsasaayos"
+    },
+    "EXPAND_NAVIGATION": {
+      "description": "I-expand lahat ng item ng accordion sa menu ng navigation",
+      "message": "I-expand Lahat"
+    },
+    "HOVER_OFF_NAVIGATION": {
+      "description": "mag-hover sa opsyon para sa mga navigation tab (off)",
+      "message": "Naka-off ang Pag-hover sa Mga Tab"
+    },
+    "HOVER_ON_NAVIGATION": {
+      "description": "mag-hover sa opsyon para sa mga navigation tab (on)",
+      "message": "Naka-on ang Pag-hover sa Mga Tab"
+    },
+    "NAVIGATION_ITEMS": {
+      "description": "label para sa menu ng mga opsyon para baguhin ang mga item sa navigation",
+      "message": "Mga Item ng Menu"
+    },
+    "NAVIGATION_LAYOUT": {
+      "description": "label para sa menu ng mga opsyon para baguhin ang layout ng navigation",
+      "message": "Layout ng Menu"
+    },
+    "NAVIGATION_OPTIONS": {
+      "description": "ang mga menu ng opsyon para sa side navigation",
+      "message": "Mga Opsyon sa Menu"
+    },
+    "PIN_NAVIGATION": {
+      "description": "I-pin ang menu ng navigation",
+      "message": "I-pin"
+    },
+    "STANDARD_VIEW_NAVIGATION": {
+      "description": "opsyon ng layout para sa standard na view ng menu",
+      "message": "Standard na View"
+    },
+    "UNPIN_NAVIGATION": {
+      "description": "I-unpin ang menu ng navigation",
+      "message": "I-unpin"
+    }
+  },
+  "PAGINATOR": {
+    "ARIALABEL": {
+      "description": "paginator",
+      "message": "paginator"
+    },
+    "FIRST_PAGE": {
+      "description": "The aria label for the first page button. Clicking/tapping this button takes the user to the first page of the data set",
+      "message": "Unang page"
+    },
+    "LAST_PAGE": {
+      "description": "The aria label for the last page button. Clicking/tapping this button takes the user to the last page of the data set.",
+      "message": "Huling page"
+    },
+    "MENU_ARIALABEL": {
+      "description": "paginator menu",
+      "message": "menu ng paginator"
+    },
+    "NEXT_PAGE": {
+      "description": "the aria label for the next page button",
+      "message": "Susunod na page"
+    },
+    "OF": {
+      "description": "ang text na ‘ng’ sa paginator",
+      "message": "ng"
+    },
+    "PAGE_MENU_ARIALABEL": {
+      "description": "Aria label for the menu allowing the user to select how many items they wish to see per page.",
+      "message": "menu ng page"
+    },
+    "PAGE_OF": {
+      "description": "The text 'Page {currentPage} of {totalPages}' in paginator. This help quantify which page the user is on within the data set and how many pages exist in total",
+      "message": "Page {{currentPage}} ng {{totalPages}}"
+    },
+    "PER_PAGE": {
+      "description": "The text 'per page' in paginator. This helps to quantify how many items are shown on a given page within the data table",
+      "message": "bawat page"
+    },
+    "PREV_PAGE": {
+      "description": "The aria label for the previous page button. Clicking this button allows the user to go one page backwards within the data set",
+      "message": "Nakaraang page"
+    },
+    "ROW_OPTIONS": {
+      "description": "ang aria label para sa button ng mga opsyon sa row",
+      "message": "mga opsyon sa row"
+    },
+    "SHOWING_ALL": {
+      "description": "The text 'Showing all' in paginator. Choosing this option allows the user to see all the items within the data set on a single page. This should be user raely and only when the number of items is not large.",
+      "message": "Ipinapakita lahat"
+    },
+    "TOTAL_ITEMS": {
+      "description": "The text '{{totalItems}} items' in paginator. When the user has opted to see all the items on a single page, this text tells the user just how many items exist.",
+      "message": "{{totalItems}} {{itemsLabel}}"
+    }
+  },
+  "PROCESS_MENU": {
+    "OF": {
+      "description": "Preposition between focused page number input and total number of pages",
+      "message": "ng"
+    },
+    "STEP_LABEL": {
+      "description": "Label indicating which step in the process a user is on",
+      "message": "Hakbang"
+    }
+  },
+  "PROGRESS_LINEAR": {
+    "CANCEL": {
+      "description": "Nagawa na ang label para sa kanselahin sa progress linear",
+      "message": "Kanselahin"
+    }
+  },
+  "RADIOGROUP": {
+    "ERROR": {
+      "description": "Ang teksto na 'Kinakailangan na Pagpili' sa pangkat ng radyo",
+      "message": "Kinakailangang Seleksyon"
+    }
+  },
+  "SEARCH": {
+    "CLEAR": {
+      "description": "Button na i-clear at tooltip",
+      "message": "I-clear"
+    },
+    "PLACEHOLDER": {
+      "description": "Placeholder para sa component na maghanap",
+      "message": "Maghanap"
+    }
+  },
+  "SEARCHBAR": {
+    "SEARCH": {
+      "description": "Placeholder na text para sa search bar",
+      "message": "Maghanap"
+    }
+  },
+  "SELECT": {
+    "CANCEL_STRING": {
+      "description": "Piliin ang label para sa button na kanselahin",
+      "message": "Kanselahin"
+    },
+    "MULTI_OVERFLOW": {
+      "description": "Message to display next to the count of selected items. This is used when the select control is selecting multiple options and there is not enough room to display all of the selections",
+      "message": "pinili ang"
+    },
+    "NO_OPTIONS_STRING": {
+      "description": "Live region string kapag walang makitang opsyon kapag pumili o sa menu",
+      "message": "Walang nakitang opsyon."
+    },
+    "OK_STRING": {
+      "description": "Piliin ang label para sa button na OK",
+      "message": "Nagawa Na"
+    },
+    "SEARCH_ARIA_LABEL": {
+      "description": "Label para sa input sa paghahanap",
+      "message": "Maghanap sa listahan ng mga opsyon sa ibaba"
+    }
+  },
+  "SKIP_TO_MAIN": {
+    "TEXT": {
+      "description": "Lumaktaw sa text ng pangunahing button",
+      "message": "Lumaktaw sa Pangunahing Nilalaman"
+    }
+  },
+  "TASK_DRAWER": {
+    "APPLY_BUTTON_ARIA_LABEL": {
+      "description": "Aria label para sa button na ilapat ng task drawer",
+      "message": "Ilapat"
+    },
+    "APPLY_BUTTON_TEXT": {
+      "description": "Label para sa button na ilapat ng task drawer",
+      "message": "Ilapat"
+    },
+    "RESET_BUTTON_ARIA_LABEL": {
+      "description": "Aria label para sa button na i-reset ng task drawer",
+      "message": "I-reset"
+    },
+    "RESET_BUTTON_TEXT": {
+      "description": "Label para sa button na i-reset ng task drawer",
+      "message": "I-reset"
+    }
+  },
+  "TOOLBAR": {
+    "BUTTON_GROUP_LABEL": {
+      "description": "Label ng grupo ng button para sa toolbar",
+      "message": "Button ng toolbarlabel ng grupo"
+    },
+    "TOOLTIP_TEXT": {
+      "description": "Tumutugong button sa toolbar grupong overflow menu text ng tooltip",
+      "message": "Marami Pa"
+    }
+  },
+  "TREE": {
+    "LINK_INDICATOR": {
+      "description": "Lagyan ng label para markahan kung ang tree item ay isang link para sa mga user ng screenreader",
+      "message": "(link)"
+    }
+  },
+  "UPLOAD": {
+    "CLEAR": {
+      "a11y": "I-clear: {{file}}",
+      "description": "Label ng button na i-clear at tooltip",
+      "message": "I-clear"
+    },
+    "DELETE": {
+      "a11y": "I-delete: {{file}}",
+      "description": "Label ng button na i-delete at tooltip",
+      "message": "I-delete"
+    },
+    "FILE_PROGRESSING": {
+      "description": "Umuusad na mensahe",
+      "message": "Umuusad"
+    },
+    "FILE_TOO_BIG": {
+      "description": "Mensahe para ipahiwatig na mas malaki ito sa maximum na laki",
+      "message": "Mas maliit dapat sa {{count}} {{- unit}} ang file"
+    },
+    "FILE_TYPE_ERROR": {
+      "description": "Mensahe para ipahiwatig na hindi pinapahintulutan ang uri ng file.",
+      "message": "Hindi pinapahintulutan ang uri ng file na {{type}}. Ang napiling file ay dapat na: {{accept}}."
+    },
+    "MAX_NUMBER_OF_FILES_PASSED": {
+      "description": "Mensahe ng error para ipahiwatig na lumagpas na sa maximum na bilang ng file",
+      "message_one": "Pwede ka lang pumili ng hanggang {{count}} file.",
+      "message_other": "Pwede ka lang pumili ng hanggang {{count}} (na) file."
+    },
+    "MAX_NUMBER_OF_FILES_REACHED": {
+      "description": "Mensahe para ipahiwatig na naabot na ang maximum na bilang ng file",
+      "message": "Naabot mo na ang maximum na bilang ng mga file "
+    },
+    "RETRY": {
+      "a11y": "Subukan muli: {{file}}",
+      "description": "Label ng button na subukan muli at tooltip",
+      "message": "Subukan muli"
+    },
+    "UPLOAD_FAIL": {
+      "description": "Mensahe para ipahiwatig ang pagkabigo sa oras ng pag-upload",
+      "message": "Hindi maproseso ang napiling file – pindutin ang button na subukan muli para subukan muli."
+    }
+  }
+}

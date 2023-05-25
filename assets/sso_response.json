@@ -1,0 +1,391 @@
+{
+  "response": {
+    "sections": [
+      {
+        "sectionName": "Inbound_SSO",
+        "values": [
+          {
+            "name": "63tiW9TJgt3Oqzcw-SSO-amtrustak-0",
+            "displayName": "amtrustak-0",
+            "radioSelect": "signUrl",
+            "metaUrl": "http://abc.com",
+            "signinUrl": "https://welcome-dev-team6-instance5.ukg-dev.auth0app.com/samlp/fucFNX8zqhhWr10Tp4wo5RDAE9jA8lsr-0",
+            "signoutUrl": "https://welcome-dev-team6-instance5.ukg-dev.auth0app.com/samlp/fucFNX8zqhhWr10Tp4wo5RDAE9jA8lsr/logout/0",
+            "x509SigningCertificate": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURPekNDQWlPZ0F3SUJBZ0lKY1h-0",
+            "enableSignOut": true,
+            "signRequest": true,
+            "requestProtocolBinding": "HTTP-REDIRECT",
+            "userMappingAttribute": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress/0",
+            "spEntityId": "urn:welcome.ukg.net:amtrustak-0",
+            "enabled": false
+          },
+          {
+            "name": "1-63tiW9TJgt3Oqzcw-SSO-amtrustak-1",
+            "displayName": "amtrustak-1",
+            "radioSelect": "metaUrl",
+            "metaUrl": "1-http://abc.com",
+            "signinUrl": "1-https://welcome-dev-team6-instance5.ukg-dev.auth0app.com/samlp/fucFNX8zqhhWr10Tp4wo5RDAE9jA8lsr-1",
+            "signoutUrl": "1-https://welcome-dev-team6-instance5.ukg-dev.auth0app.com/samlp/fucFNX8zqhhWr10Tp4wo5RDAE9jA8lsr/logout/1",
+            "x509SigningCertificate": "1-LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURPekNDQWlPZ0F3SUJBZ0lKY1h-1",
+            "enableSignOut": false,
+            "signRequest": false,
+            "requestProtocolBinding": "HTTP-POST",
+            "userMappingAttribute": "1-http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress/1",
+            "spEntityId": "1-urn:welcome.ukg.net:amtrustak-1",
+            "enabled": true
+          },
+          {
+            "name": "2-63tiW9TJgt3Oqzcw-SSO-amtrustak-2",
+            "displayName": "amtrustak-2",
+            "radioSelect": "signUrl",
+            "metaUrl": "2-http://abc.com",
+            "signinUrl": "2-https://welcome-dev-team6-instance5.ukg-dev.auth0app.com/samlp/fucFNX8zqhhWr10Tp4wo5RDAE9jA8lsr-2",
+            "signoutUrl": "2-https://welcome-dev-team6-instance5.ukg-dev.auth0app.com/samlp/fucFNX8zqhhWr10Tp4wo5RDAE9jA8lsr/logout/2",
+            "x509SigningCertificate": "2-LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURPekNDQWlPZ0F3SUJBZ0lKY1h-2",
+            "enableSignOut": true,
+            "signRequest": false,
+            "requestProtocolBinding": "HTTP-POST",
+            "userMappingAttribute": "2-http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress/2",
+            "spEntityId": "2-urn:welcome.ukg.net:amtrustak-2",
+            "enabled": true
+          }
+        ],
+        "sectionSpecificProp": {
+          "isAddMore": true,
+          "addMoreLabel": "Add SSO",
+          "deleteKey": "displayName"
+        },
+        "components": [
+          {
+            "name": "name",
+            "label": "SAML Connection Name",
+            "type": "STRING",
+            "displayType": "TEXT",
+            "placeHolder": "Add SAML Connection Name.",
+            "clientValidations": [
+              {
+                "value": "",
+                "type": "REQUIRED",
+                "errorMessage": "Please add SAML Connection name."
+              }
+            ],
+            "componentSpecificProperties": { "disabled": true }
+          },
+          {
+            "name": "displayName",
+            "label": "SAML Connection Display Name",
+            "type": "STRING",
+            "displayType": "TEXT",
+            "placeHolder": "Add SAML Connection Display Name.",
+            "clientValidations": [
+              {
+                "value": "",
+                "type": "REQUIRED",
+                "errorMessage": "Please add SAML Connection Display name."
+              }
+            ],
+            "componentSpecificProperties": { "disabled": true }
+          },
+          {
+            "name": "radioSelect",
+            "label": "Meta URL or Sign In URL",
+            "type": "RADIO",
+            "displayType": "RADIO",
+            "placeHolder": "Meta URL or Sign In URL",
+            "clientValidations": [
+              {
+                "value": "",
+                "type": "REQUIRED",
+                "errorMessage": "Please select one."
+              }
+            ],
+            "componentSpecificProperties": {
+              "options": [
+                {
+                  "value": "metaUrl",
+                  "label": "Meta URL",
+                  "dependency": {
+                    "show": ["metaUrl"],
+                    "hide": [
+                      "signinUrl",
+                      "signoutUrl",
+                      "x509SigningCertificate"
+                    ]
+                  }
+                },
+                {
+                  "value": "signUrl",
+                  "label": "Sign In/Out URL",
+                  "dependency": {
+                    "show": [
+                      "signinUrl",
+                      "signoutUrl",
+                      "x509SigningCertificate"
+                    ],
+                    "hide": ["metaUrl"]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "metaUrl",
+            "label": "Meta URL",
+            "type": "STRING",
+            "displayType": "TEXT",
+            "placeHolder": "Add Meta URL.",
+            "clientValidations": [
+              {
+                "value": "",
+                "type": "REQUIRED",
+                "errorMessage": "Please add Meta URL."
+              }
+            ]
+          },
+          {
+            "name": "signinUrl",
+            "label": "Sign In URL",
+            "type": "STRING",
+            "displayType": "TEXT",
+            "placeHolder": "Add Sign In URL.",
+            "clientValidations": [
+              {
+                "value": "",
+                "type": "REQUIRED",
+                "errorMessage": "Please add Sign in URL."
+              }
+            ]
+          },
+          {
+            "name": "signoutUrl",
+            "label": "Sign Out URL",
+            "type": "STRING",
+            "displayType": "TEXT",
+            "placeHolder": "Add Sign Out URL.",
+            "clientValidations": [
+              {
+                "value": "",
+                "type": "REQUIRED",
+                "errorMessage": "Please add Sign out URL."
+              }
+            ]
+          },
+          {
+            "name": "x509SigningCertificate",
+            "label": "X509 Signing Certificate",
+            "type": "TEXTAREA",
+            "displayType": "TEXTAREA",
+            "placeHolder": "Add Scopes.",
+            "clientValidations": [
+              {
+                "value": "",
+                "type": "REQUIRED",
+                "errorMessage": "Please add signin Certificate."
+              }
+            ]
+          },
+          {
+            "name": "enableSignOut",
+            "label": "Enable Sign Out",
+            "type": "CHECKBOX",
+            "displayType": "CHECKBOX",
+            "placeHolder": "Enable Sign Out.",
+            "clientValidations": []
+          },
+          {
+            "name": "signRequest",
+            "label": "Sign Request",
+            "type": "CHECKBOX",
+            "displayType": "CHECKBOX",
+            "placeHolder": "When enabled, the SAML authentication request will be signed.",
+            "clientValidations": []
+          },
+
+          {
+            "name": "requestProtocolBinding",
+            "label": "Request Protocol Binding",
+            "type": "SELECT",
+            "displayType": "DROPDOWN",
+            "placeHolder": "Add SAML Request Binding Protocol.",
+
+            "clientValidations": [
+              {
+                "errorMessage": "Enter valid Request Protocol Binding.",
+                "type": "REQUIRED",
+                "value": ""
+              }
+            ],
+            "componentSpecificProperties": {
+              "options": [
+                {
+                  "value": "HTTP-REDIRECT",
+                  "label": "Http-Redirect"
+                },
+                {
+                  "value": "HTTP-POST",
+                  "label": "Http-Post"
+                }
+              ]
+            }
+          },
+
+          {
+            "name": "userMappingAttribute",
+            "label": "User Mapping Attribute",
+            "type": "STRING",
+            "displayType": "TEXT",
+            "placeHolder": "This is the attribute in the SAML token that will be mapped to the user_id property.",
+            "clientValidations": [
+              {
+                "value": "",
+                "type": "REQUIRED",
+                "errorMessage": "Please add user mapping attribute."
+              }
+            ]
+          },
+          {
+            "name": "spEntityId",
+            "label": "Service Provider Entity Id",
+            "type": "STRING",
+            "displayType": "TEXT",
+            "placeHolder": "Service Provider Entity Id",
+            "clientValidations": [
+              {
+                "value": "",
+                "type": "REQUIRED",
+                "errorMessage": "Please add sp entity id."
+              }
+            ]
+          },
+          {
+            "name": "enabled",
+            "label": "Enable SAML Connection",
+            "type": "CHECKBOX",
+            "displayType": "CHECKBOX",
+            "placeHolder": "Enable SAML Connection",
+            "clientValidations": []
+          }
+        ]
+      },
+      {
+        "sectionName": "OIDC_SSO",
+        "values": [],
+        "sectionSpecificProp": {
+          "isAddMore": true,
+          "addMoreLabel": "Add OIDC",
+          "deleteKey": "displayName"
+        },
+        "components": [
+          {
+            "name": "openidConfigurationUrl",
+            "label": "Open ID Configuration URL",
+            "type": "STRING",
+            "displayType": "TEXT",
+            "placeHolder": "Add Open ID Configuration URL.",
+            "clientValidations": [
+              {
+                "value": "",
+                "type": "REQUIRED",
+                "errorMessage": "Please add Open ID Configuration URL."
+              }
+            ]
+          },
+          {
+            "name": "clientId",
+            "label": "Client ID",
+            "type": "STRING",
+            "displayType": "TEXT",
+            "placeHolder": "Add Client ID.",
+            "clientValidations": [
+              {
+                "value": "",
+                "type": "REQUIRED",
+                "errorMessage": "Please add Client ID."
+              }
+            ]
+          },
+          {
+            "name": "secret",
+            "label": "Secret Key",
+            "type": "STRING",
+            "displayType": "TEXT",
+            "placeHolder": "Add Secret Key.",
+            "clientValidations": [
+              {
+                "value": "",
+                "type": "REQUIRED",
+                "errorMessage": "Please add Secret Key."
+              }
+            ]
+          },
+          {
+            "name": "responseType",
+            "label": "Response Type",
+            "type": "STRING",
+            "displayType": "TEXT",
+            "placeHolder": "Add Response Type.",
+            "clientValidations": [
+              {
+                "value": "",
+                "type": "REQUIRED",
+                "errorMessage": "Please add Response Type."
+              }
+            ]
+          },
+          {
+            "name": "scopes",
+            "label": "Scopes",
+            "type": "STRING",
+            "displayType": "TEXT",
+            "placeHolder": "Add Scopes.",
+            "clientValidations": [
+              {
+                "value": "",
+                "type": "REQUIRED",
+                "errorMessage": "Please add Scopes."
+              }
+            ]
+          },
+          {
+            "name": "enabled",
+            "label": "Enabled",
+            "type": "CHECKBOX",
+            "displayType": "CHECKBOX",
+            "placeHolder": "Enabled.",
+            "clientValidations": []
+          },
+          {
+            "name": "displayName",
+            "label": "Display Name",
+            "type": "STRING",
+            "displayType": "TEXT",
+            "placeHolder": "Add Display Name",
+            "componentSpecificProperties": { "disabled": true },
+            "clientValidations": [
+              {
+                "value": "",
+                "type": "REQUIRED",
+                "errorMessage": "Please add display name."
+              }
+            ]
+          },
+          {
+            "name": "name",
+            "label": "Name",
+            "type": "STRING",
+            "displayType": "TEXT",
+            "placeHolder": "Add Name",
+            "componentSpecificProperties": { "disabled": true },
+            "clientValidations": [
+              {
+                "value": "",
+                "type": "REQUIRED",
+                "errorMessage": "Please add name."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
