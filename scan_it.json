@@ -1,0 +1,41 @@
+
+{
+  "manifest_version": "0.6",
+  "app_name": "iam-authn-tenant-ui",
+  "app_id": "",
+  "phase": "",
+  "version": "",
+  "description": "",
+  "operational": false,
+  "customer_facing": false,
+  "production_deployment": false,
+  "ci_pipeline": "",
+  "platforms": [],
+  "requirements": [],
+  "related_repositories": [],
+  "security_functions": [],
+  "security_libraries": [],
+  "notes": "",
+  "scan": {
+      "frequency": "",
+      "exclude_dirs": [],
+      "exclude_files": []
+  },
+  "contacts": {
+      "security_champion": "",
+      "security_champion_email": "",
+      "director": "",
+      "director_email": "",
+      "other": "",
+      "other_email": "",
+      "notify_threshold": ""
+  },
+  "jira": {
+      "project": "",
+      "component": "",
+      "product": "",
+      "region": "",
+      "platform": ""
+  }
+}
+    
